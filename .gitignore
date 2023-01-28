@@ -1,5 +1,2 @@
-# Ignore any pycache files
-*.py
-
 # Ignore UpdPrc file
 /UpdPrc.txt
