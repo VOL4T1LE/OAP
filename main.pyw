@@ -27,6 +27,7 @@ class rootWindow():
         master.resizable(False, False)
         master.attributes("-topmost", 1)
         master.configure(background = "Black", highlightthickness = 0)
+        master.iconbitmap("./assets/logo.ico")
         master.focus
 
         #* Declaration of string variables
