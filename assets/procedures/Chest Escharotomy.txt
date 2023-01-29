@@ -1,0 +1,34 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral IV line
+
+ANAESTHESIA/ANALGESIA
+ I'd push 300mcg ketam via IV*
+ I'd clean the site with a 2% chlorhexidine wipe*
+ I'd drape the site with sterile drapes*
+ I'd apply 5 tubes of tetracaine to the site topically*
+
+THORACIC INCISION
+ I'd grab a #11 scalpel*
+ I'd incise the chest wall*
+ I'd incise from the clavicle bilaterally*
+ I'd continue the incision to the costal margin of the anterior axillary line*
+ I'd make sure to avoid any vital structures*
+ I'd make a transverse incison to join the bilateral incisions*
+ I'd assess the incision and ensure it was subcostal*
+ I'd ensure the skin was separated from subcutaneous fat and the diaphragm*
+ I'd auscultate the PT's chest for bilateral air entry*
+
+OXYGEN THERAPY
+ I'd put the PT on a BFM*
+ I'd attach a connector to the BFM*
+ I'd connect a CO2 sensor to the BFM*
+ I'd connect the CO2 sensor to the LIFEPAK*
+ I'd assess the ETCO2 waveform*
+ I'd lightly pack the site with gauze*
+
+END OF PROCEDURE
+################

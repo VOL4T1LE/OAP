@@ -1,0 +1,17 @@
+
+START OF PROCEDURE
+##################
+
+AIRWAY SUCTION
+ *I'd get a yankauer suction catheter*
+ *I'd expose the device's connection port from the packaging*
+ *I'd ensure the catheter is connected to the suction tubing*
+ *I'd adjust suction pressure to 90mmHg*
+ *I'd test for adequate suction by occluding the catheter's side port*
+ *I'd remove the catheter from the packaging*
+ *I'd keep the side port open and insert the catheter's tip into the PT's oral cavity*
+ *I'd suction the airway*
+ *I'd slowly withdraw the catheter*
+
+END OF PROCEDURE
+################

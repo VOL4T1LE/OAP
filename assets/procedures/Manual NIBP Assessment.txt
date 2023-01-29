@@ -1,0 +1,19 @@
+
+START OF PROCEDURE
+##################
+
+NIBP ASSESSMENT
+ *I'd get a manual NIBP cuff and a stethoscope*
+ *I'd wrap the NIBP cuff 2cm superior to the antecubital fossa*
+ *I'd manually inflate the cuff*
+ *I'd locate and palpate the brachial artery*
+ *I'd place the bell of the stethoscope superficial to the antecubital fossa*
+ *I'd deflate the NIBP cuff*
+ *I'd listen to the phase I korotkoff sounds*
+ *I'd note down the pressure on the gauge, systole*
+ *I'd listen to the phase V korotkoff sounds*
+ *I'd note down the pressure on the gauge, diastole*
+ *I'd remove the NIBP cuff*
+
+END OF PROCEDURE
+################
