@@ -6,7 +6,7 @@
 4. Any tampering with the file structure or the files themselves may likely result in undesired behaviour
 
 # Aim
-The aim of the Operational Aid Program (OAP) is to provide ambulance service staff with a quick and easy way of accessing various procedural aids by way of a graphical user interface.
+The aim of the Operational Aid Program (OAP) is to provide pre-hospital emergency medicine practitioners with a quick and easy way of accessing various procedural aids by way of a graphical user interface.
 
 # Method
 The OAP consists of a a directory of procedural aids cotnaiend in text files, a python dictionary that may be accessed by the main python file as a custom module, and finally the main python file, which codes for a graphical user interface using the Tkinter module.
