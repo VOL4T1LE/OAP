@@ -10,7 +10,7 @@ import procDictionary as pCD
 import os
 
 #* Declaration of global variables
-appVersion = "V1.0.4a"
+appVersion = "V1.0.5a"
 appTitle = "Operational Aid Program"
 serviceName = "London Ambulance Service"
 
