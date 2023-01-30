@@ -56,3 +56,6 @@ MONITOR SETUP
  *I'd turn the compression cap clockwise to secure the monitor*
  *I'd place a Tegaderm*
  *I'd assess the ICP waveform*
+
+END OF PROCEDURE
+################
