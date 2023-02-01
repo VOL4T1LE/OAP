@@ -4,9 +4,9 @@ START OF PROCEDURE
 
 PATIENT PREPARATION
  *I'd locate the incision site*
- *I'd sterilise the site with a 2% chlorhexidine wipe*
+ *I'd sterilise the site with a 2% Chlorhexidine wipe*
  *I'd allow the site to dry*
- *I'd get 5mL of 1% Lidocaine Solution in a 5mL Syr.*
+ *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
  *I'd infiltrate the local anaesthetic at the insertion site*
  *I'd ensure that the patient is supine*
  *I'd put on a clean pair of nitrile gloves*
@@ -25,22 +25,19 @@ SURGICAL INCISION AND DILATIOM
  *I'd extend the incision to a length and depth of 3cm*
  > A midline vertical incision may lead to some venous bleeding
  > This type of incision however, avoids the laterally located vascalature of the neck
-
  *I'd palpate the cricothyroid membrane through the incision using my non-dominant index finger*
  *I'd make a horizontal incision through the membrane*
  > A distinct pop will be heard as you pierce the membrane and enter the trachea
-
  *I'd keep the scalpel in place until the tracheal hook is inserted*
  *I'd insert a tracheal hook at the superior end of the incision*
  *I'd retract the skin and membrane cephalad*
  > If patient is apnoeic, apply pressure to anterior chest wall to simulate exhalation and thereby produce air bubbles
-
  *I'd get the trousseau dilator*
  *I'd hold it in my non-dominant hand*
  *I'd dilate the incision vertically*
 
 INTUBATION AND VENTILATION
- *I'd insert the tracheaostomy tube between the two blades of the dilator*
+ *I'd insert the tracheostomy tube between the two blades of the dilator*
  *I'd direct the tube to one side of the patient*
  *I'd advance until the tube is through the membrane*
  *I'd rotate the tube 90 degrees*
@@ -48,7 +45,7 @@ INTUBATION AND VENTILATION
  *I'd remove the tracheostomy tube obturator*
  *I'd insert the inner cannula into the tracheostomy tube*
  *I'd lock the inner cannula in place*
- *I'd inflate the balloon with a 5mL Syr. of air*
+ *I'd inflate the balloon with a 5mL syringe of air*
  *I'd connect the tube to a BVM*
  *I'd begin manually ventilating via the BVM*
 

@@ -3,14 +3,14 @@ START OF PROCEDURE
 ##################
 
 PREPARATION
- *I'd get a TQ from the cannulation pack*
- *I'd grab a 2% chlorhexidine wipe*
+ *I'd get a tourniquet from the cannulation pack*
+ *I'd grab a 2% Chlorhexidine wipe*
  *I'd get a 18g cannula*
  *I'd put on a clean pair of nitrile gloves*
- *I'd apply a proximal TQ around the PT's arm to promote venous distention*
+ *I'd apply a proximal tourniquet around the patient's arm to promote venous distention*
  *I'd look for a prominent vessel in the antecubital fossa*
  *I'd palpate the vessel, to ensure its not an artery*
- *I'd sterilise the IJ site with a 2% chlorhexidine wipe*
+ *I'd sterilise the injection site with a 2% Chlorhexidine wipe*
  *I'd allow the site to dry*
  *I'd remove the needle safety cap and discard it*
  *I'd ensure the catheter is seated back in the notch*
@@ -27,10 +27,10 @@ CANNULATION
  *I'd retract the needle, disposing of it in a sharps container*
  *I'd attach a needle-free valve*
  *I'd connect a line to the connector*
- *I'd flush the line with 10cc's 0.9% NaCl*
+ *I'd flush the line with 10cc's Normal Saline Solution*
 
 EXAMINING PATENCY
- *I'd examine the IV line*
+ *I'd examine the pIV line*
  *I'd get some Tegaderm*
  *I'd apply the Tegaderm over the catheter*
  *I'd secure the line with some tape*

@@ -4,8 +4,8 @@ START OF PROCEDURE
 
 PREREQUISITES
  > Ensure that the skin of the patient's chest is exposed
- > Shave excess hair follicles in a 2cm diamter around the desired electrode site(s)
- > Using a 2% chlorhexidine wipe, abrade desired electrode sites to remove loose skin, body oil, sweat, etc
+ > Shave excess hair follicles in a 2cm diameter around the desired electrode site(s)
+ > Using a 2% Chlorhexidine wipe, abrade desired electrode sites to remove loose skin, body oil, sweat, etc
  > Allow sites to dry before placing electrodes
 
 LEAD PLACEMENT

@@ -32,7 +32,6 @@ EQUIPMENT PREPARATION
 	> Add 4 to get the size of an uncuffed ETT
 	> Minus 1 half to get the size of a cuffed ETT
 	> Multiply final ETT size by 3 to get the depth
-
  *I'd ensure that the ETT cuff doesn't leak*
  *I'd deflate the ETT's cuff*
 
@@ -49,13 +48,13 @@ PREOXYGENATION
 INDUCTION & PARALYSIS (IA + NMBA)
  *I'd draw up 200mg of 2% Propofol Solution*
  *I'd ensure no impurities were present*
- *I'd connect the Syr. to the IV line*
- *I'd push the 200mg*
+ *I'd connect the syringe to the pIV line*
+ *I'd push the 200mg of 2% Propofol Solution*
  *I'd draw up 60mg of Rocuronium Bromide*
  *I'd ensure no impurities were present*
- *I'd connect the Syr. to the IV line*
- *I'd push the 60mg*
- > During administration of induction agent, if time permits it, you can:
+ *I'd connect the syringe to the pIV line*
+ *I'd push the 60mg of Rocuronium Bromide*
+ > During the administration of the induction agent, if time permits it, you can:
 	> Ask the conscious patient to count backwards from 10 to gauge when they are unconscious
 
 ENDOTRACHEAL INTUBATION
@@ -63,7 +62,6 @@ ENDOTRACHEAL INTUBATION
  > This is known as the "Sellick Maneuver"
  > Maintain this pressure constantly until after the position of the ETT is verified
  > This manoeuvre is alleged to prevent regurgitation of gastric contents into the lungs
-
  *I'd remove the NRBM from the patient, setting oxygen flow to zero*
  *I'd insert the laryngoscope into the right side of the patient's oral cavity*
  *I'd sweep the patient's tongue to the left*
@@ -76,12 +74,10 @@ ENDOTRACHEAL INTUBATION
  *I'd advance the ETT over the bougie, into the trachea*
  *I'd retract the laryngoscope*
  *I'd carefully retract the bougie*
- *I'd inflate the ETT's cuff with a 5mL Syr. of air*
+ *I'd inflate the ETT's cuff with a 5mL syringe of air*
 
 ETT VERIFICATION
  *I'd assess the patient's end tidal CO2*
- > Normally between 35mmHg to 45mmHg
-
  *I'd auscultate the patient's chest to verify placement*
  > Auscultation locations include:
 	> Each lateral lung field

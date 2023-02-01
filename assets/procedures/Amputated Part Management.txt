@@ -4,14 +4,14 @@ START OF PROCEDURE
 
 HAEMORRHAGE CONTROL
  > Consider the application of one or two tourniquets
- > Consider the use of haemostatic gauze and/or cellox clotting agent
- > Consider the use of an antifibrinolytic agent
- > Consider the need for a simple blood transfusion
+ > Consider the use of haemostatic gauze and/or Cellox clotting agent
+ > Consider the use of an Antifibrinolytic Agent
+ > Consider the need for a Simple Blood Transfusion
 
 PART MANAGEMENT
- *I'd gently rinse the amputated part with 0.9% NaCl*
+ *I'd gently rinse the amputated part with Normal Saline Solution*
  *I'd get some sterile gauze*
- *I'd irrigate the sterile gauze with 0.9% NaCl*
+ *I'd irrigate the sterile gauze with Normal Saline Solution*
  *I'd wrap the part in the moistened gauze*
  *I'd place the part in an air-tight plastic bag*
  *I'd prepare a 1-parts ice, 3-parts water container*

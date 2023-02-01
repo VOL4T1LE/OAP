@@ -4,17 +4,20 @@ START OF PROCEDURE
 
 TRAUMA MANAGEMENT
  *I'd rinse the eviscerated site
- *I'd irrigate some gazue with warm 0.9% NaCl*
- *I'd place the moistened gauze over any exposed intestines*
+ *I'd irrigate some gauze with warm saline solution*
+ *I'd place the moistened gauze over the exposed intestines*
  *I'd pack the abdomen with abdominal gauze pads*
- *I'd secure the gauze pads with cotton bandages*
- *I'd tie the bandages and cut off any excess*
+ *I'd secure the abdo pads with cotton bandages*
+ *I'd tie the bandages and then cut off any excess*
 
 HAEMORRHAGE CONTROL
- > Consider the adminsitration of an antifibrinolytic agent
- > Consider the use of cellox clotting agent
- > Consider the need for volume replacement via NaCl
+ > Consider the administration of an Antifibrinolytic Agent
+ > Consider the use of Cellox clotting agent
+ > Consider the need for Volume Replacement via Normal Saline Solution
  > Consider the necessity of a Simple Blood Transfusion
+
+ADDITIONAL CONSIDERATIONS
+ > Consider the administration of an antimicrobial
 
 END OF PROCEDURE
 ################

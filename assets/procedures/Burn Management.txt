@@ -4,11 +4,11 @@ START OF PROCEDURE
 
 BURN MANAGEMENT
  > Assess and note the TBSA percentage covered in burns
- > Irrigate the burns with NaCl
+ > Irrigate the burns with Normal Saline Solution
  > Dress the burns with polyvinyl chloride dressings
- > Consider the necessity of administering morphine sulphate
- > Consider the necessity of oxygen therapy
- > Consider the necessity of a chest escharotomy
+ > Consider the necessity of administering Morphine Sulphate
+ > Consider the necessity of Oxygen Therapy in dyspnoea
+ > Consider the necessity of a Chest Escharotomy in cases of dyspnoea or apnoea
 
 END OF PROCEDURE
 ################

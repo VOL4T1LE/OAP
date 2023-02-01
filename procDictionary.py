@@ -2,6 +2,13 @@
 ## Python Dictionary
 
 procedures = {
+    "12 lead" : {
+        "file" : "12-Lead Electrocardiogram Acquisition.txt",
+        "type" : "Cardiac Arrhythmia Management",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "1"
+    },
     "12 Lead" : {
         "file" : "12-Lead Electrocardiogram Acquisition.txt",
         "type" : "Cardiac Arrhythmia Management",
@@ -57,6 +64,13 @@ procedures = {
         "skill" : "Paramedic +",
         "length" : "X number of lines",
         "procID" : "1"
+    },
+    "3 lead" : {
+        "file" : "3-Lead Electrocardiogram Acquisition.txt",
+        "type" : "Cardiac Arrhythmia Management",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "2"
     },
     "3 Lead" : {
         "file" : "3-Lead Electrocardiogram Acquisition.txt",
@@ -191,6 +205,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "4"
     },
+    "ballistics" : {
+        "file" : "Ambulance Intervention Team PPE.txt",
+        "type" : "Scene Safety",
+        "skill" : "Specialist Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "4"
+    },
     "Ballistic PPE" : {
         "file" : "Ambulance Intervention Team PPE.txt",
         "type" : "Scene Safety",
@@ -282,6 +303,20 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "6"
     },
+    "Blood Gas" : {
+        "file" : "Arterial Blood Gas Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "6"
+    },
+    "Blood Gases" : {
+        "file" : "Arterial Blood Gas Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "6"
+    },
     "Arterial Blood Gas" : {
         "file" : "Arterial Blood Gas Assessment.txt",
         "type" : "Patient Assessment",
@@ -295,6 +330,20 @@ procedures = {
         "skill" : "Advanced Practitioner +",
         "length" : "X number of lines",
         "procID" : "6"
+    },
+    "BP Auto" : {
+        "file" : "Automatic Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "7"
+    },
+    "Auto BP" : {
+        "file" : "Automatic Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "7"
     },
     "Auto NIBP" : {
         "file" : "Automatic Assessment.txt",
@@ -429,6 +478,20 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "9"
     },
+    "Blood Carboxy" : {
+        "file" : "Blood Carboxyhaemoglobin Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "9"
+    },
+    "Blood Carboxyhaemo" : {
+        "file" : "Blood Carboxyhaemoglobin Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "9"
+    },
     "Blood COHb" : {
         "file" : "Blood Carboxyhaemoglobin Assessment.txt",
         "type" : "Patient Assessment",
@@ -463,6 +526,27 @@ procedures = {
         "skill" : "Paramedic +",
         "length" : "X number of lines",
         "procID" : "9"
+    },
+    "MetHb" : {
+        "file" : "Blood Methaemoglobin Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "10"
+    },
+    "METHb" : {
+        "file" : "Blood Methaemoglobin Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "10"
+    },
+    "Methaemoglobin" : {
+        "file" : "Blood Methaemoglobin Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "10"
     },
     "SpMet" : {
         "file" : "Blood Methaemoglobin Assessment.txt",
@@ -611,6 +695,48 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "12"
     },
+    "Capillary BGL" : {
+        "file" : "Capillary BGL Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "12"
+    },
+    "Capillary Blood Sugar" : {
+        "file" : "Capillary BGL Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "12"
+    },
+    "Capillary Blood Glucose" : {
+        "file" : "Capillary BGL Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "12"
+    },
+    "Capillary Blood Sugar Level" : {
+        "file" : "Capillary BGL Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "12"
+    },
+    "Capillary Blood Glucose Level" : {
+        "file" : "Capillary BGL Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "12"
+    },
+    "Capillary Glucose Level" : {
+        "file" : "Capillary BGL Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "12"
+    },
     "Capillary BGL Assessment" : {
         "file" : "Capillary BGL Assessment.txt",
         "type" : "Patient Assessment",
@@ -632,6 +758,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "13"
     },
+    "DCRT" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
     "CRT Assessment" : {
         "file" : "Capillary Refill Time Assessment.txt",
         "type" : "Patient Assessment",
@@ -639,7 +772,21 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "13"
     },
+    "DCRT Assessment" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
     "CRT Measurement" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "DCRT Measurement" : {
         "file" : "Capillary Refill Time Assessment.txt",
         "type" : "Patient Assessment",
         "skill" : "Paramedic +",
@@ -654,6 +801,20 @@ procedures = {
         "procID" : "13"
     },
     "Cap Refill Time" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Digit CRT" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Digit Cap Refill Time" : {
         "file" : "Capillary Refill Time Assessment.txt",
         "type" : "Patient Assessment",
         "skill" : "Paramedic +",
@@ -681,7 +842,77 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "13"
     },
+    "Digit Capillary Refill Time" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
     "Capillary Refill Time Assessment" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Digit Capillary Refill Time Assessment" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Nail Blanch" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Nail Blanching Test" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "DBFT" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Digit Blood Flow Test" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Digit Perfusion Test" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Digit Perfusion Assessment" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Capillary Nail Refill Test" : {
+        "file" : "Capillary Refill Time Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "13"
+    },
+    "Nail Capillary Refill Test" : {
         "file" : "Capillary Refill Time Assessment.txt",
         "type" : "Patient Assessment",
         "skill" : "Paramedic +",
@@ -912,6 +1143,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "21"
     },
+    "Impaling Object" : {
+        "file" : "Emergency Removal of Embedded Objects.txt",
+        "type" : "Trauma Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "21"
+    },
     "Impaling Objects" : {
         "file" : "Emergency Removal of Embedded Objects.txt",
         "type" : "Trauma Management",
@@ -954,6 +1192,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "21"
     },
+    "Emergency Removal of Impaling Objects" : {
+        "file" : "Emergency Removal of Embedded Objects.txt",
+        "type" : "Trauma Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "21"
+    },
     "EtCO2" : {
         "file" : "End Tidal Carbon Dioxide Assessment.txt",
         "type" : "Patient Assessment",
@@ -983,6 +1228,13 @@ procedures = {
         "procID" : "22"
     },
     "End Tidal CO2" : {
+        "file" : "End Tidal Carbon Dioxide Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "22"
+    },
+    "End Tidal Carbon Dioxide" : {
         "file" : "End Tidal Carbon Dioxide Assessment.txt",
         "type" : "Patient Assessment",
         "skill" : "Paramedic +",
@@ -1087,6 +1339,27 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "25"
     },
+    "EJIV Line" : {
+        "file" : "External Jugular Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "25"
+    },
+    "EJIV Catheterisation" : {
+        "file" : "External Jugular Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "25"
+    },
+    "EJIV Cannulation" : {
+        "file" : "External Jugular Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "25"
+    },
     "EJIV Access" : {
         "file" : "External Jugular Intravenous Access.txt",
         "type" : "Pharmacotherapy Procedure",
@@ -1101,6 +1374,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "25"
     },
+    "External Jugular IV Line" : {
+        "file" : "External Jugular Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "25"
+    },
     "External Jugular IV Access" : {
         "file" : "External Jugular Intravenous Access.txt",
         "type" : "Pharmacotherapy Procedure",
@@ -1109,6 +1389,13 @@ procedures = {
         "procID" : "25"
     },
     "External Jugular Intravenous Access" : {
+        "file" : "External Jugular Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "25"
+    },
+    "External Jugular Intravenous Line" : {
         "file" : "External Jugular Intravenous Access.txt",
         "type" : "Pharmacotherapy Procedure",
         "skill" : "Advanced Practitioner +",
@@ -1178,7 +1465,21 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "27"
     },
+    "Fx Neurovascular Assessment" : {
+        "file" : "Extremity Neurovascular Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "27"
+    },
     "CFx Neurovascular Assessment" : {
+        "file" : "Extremity Neurovascular Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "27"
+    },
+    "Fracture Neurovascular Assessment" : {
         "file" : "Extremity Neurovascular Assessment.txt",
         "type" : "Patient Assessment",
         "skill" : "Paramedic +",
@@ -1409,6 +1710,34 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "34"
     },
+    "IJIV Line" : {
+        "file" : "Internal Jugular Intravenous Access (POCUS Guided).txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced PRactitioner +",
+        "length" : "X number of lines",
+        "procID" : "34"
+    },
+    "IJIV Access" : {
+        "file" : "Internal Jugular Intravenous Access (POCUS Guided).txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced PRactitioner +",
+        "length" : "X number of lines",
+        "procID" : "34"
+    },
+    "IJIV Catheterisation" : {
+        "file" : "Internal Jugular Intravenous Access (POCUS Guided).txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced PRactitioner +",
+        "length" : "X number of lines",
+        "procID" : "34"
+    },
+    "IJIV Cannulation" : {
+        "file" : "Internal Jugular Intravenous Access (POCUS Guided).txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced PRactitioner +",
+        "length" : "X number of lines",
+        "procID" : "34"
+    },
     "POCUS IJIV" : {
         "file" : "Internal Jugular Intravenous Access (POCUS Guided).txt",
         "type" : "Pharmacotherapy Procedure",
@@ -1479,6 +1808,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "35"
     },
+    "Int-Art" : {
+        "file" : "Intraarterial Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "35"
+    },
     "Int Art" : {
         "file" : "Intraarterial Access.txt",
         "type" : "Pharmacotherapy Procedure",
@@ -1515,6 +1851,13 @@ procedures = {
         "procID" : "35"
     },
     "Intraarterial Access" : {
+        "file" : "Intraarterial Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "35"
+    },
+    "Intraarterial Line" : {
         "file" : "Intraarterial Access.txt",
         "type" : "Pharmacotherapy Procedure",
         "skill" : "Advanced Practitioner +",
@@ -1577,6 +1920,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "37"
     },
+    "IM Injection" : {
+        "file" : "Intramuscular Administration.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "37"
+    },
     "IM Administration" : {
         "file" : "Intramuscular Administration.txt",
         "type" : "Pharmacotherapy Procedure",
@@ -1598,6 +1948,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "37"
     },
+    "Intramuscular Injection" : {
+        "file" : "Intramuscular Administration.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "37"
+    },
     "Intramuscular Administration" : {
         "file" : "Intramuscular Administration.txt",
         "type" : "Pharmacotherapy Procedure",
@@ -1606,6 +1963,13 @@ procedures = {
         "procID" : "37"
     },
     "IO" : {
+        "file" : "Intraosseous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "38"
+    },
+    "IO Line" : {
         "file" : "Intraosseous Access.txt",
         "type" : "Pharmacotherapy Procedure",
         "skill" : "Paramedic +",
@@ -1627,6 +1991,13 @@ procedures = {
         "procID" : "38"
     },
     "Intraosseous" : {
+        "file" : "Intraosseous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "38"
+    },
+    "Intraosseous Line" : {
         "file" : "Intraosseous Access.txt",
         "type" : "Pharmacotherapy Procedure",
         "skill" : "Paramedic +",
@@ -1829,6 +2200,27 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "44"
     },
+    "Blood Pressure Monitoring" : {
+        "file" : "Manual NIBP Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "44"
+    },
+    "Blood Pressure" : {
+        "file" : "Manual NIBP Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "44"
+    },
+    "BP" : {
+        "file" : "Manual NIBP Assessment.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "44"
+    },
     "MCCD" : {
         "file" : "Mechanical Chest Compression Device.txt",
         "type" : "Cardiac Arrhythmia Management",
@@ -1837,6 +2229,13 @@ procedures = {
         "procID" : "45"
     },
     "LUCAS" : {
+        "file" : "Mechanical Chest Compression Device.txt",
+        "type" : "Cardiac Arrhythmia Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "45"
+    },
+    "LUCAS Device" : {
         "file" : "Mechanical Chest Compression Device.txt",
         "type" : "Cardiac Arrhythmia Management",
         "skill" : "Advanced Practitioner +",
@@ -1886,6 +2285,20 @@ procedures = {
         "procID" : "46"
     },
     "Metered Dose Inhaler" : {
+        "file" : "Metered Dose Inhaler.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "46"
+    },
+    "Metered-Dose Inhaler" : {
+        "file" : "Metered Dose Inhaler.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "46"
+    },
+    "Metered-Dose Inhalor" : {
         "file" : "Metered Dose Inhaler.txt",
         "type" : "Pharmacotherapy Procedure",
         "skill" : "Paramedic +",
@@ -2305,6 +2718,41 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "60"
     },
+    "IV Catheterisation" : {
+        "file" : "Peripheral Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "60"
+    },
+    "IV Cannulation" : {
+        "file" : "Peripheral Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "60"
+    },
+    "pIV Catheterisation" : {
+        "file" : "Peripheral Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "60"
+    },
+    "pIV Cannulation" : {
+        "file" : "Peripheral Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "60"
+    },
+    "Peripheral IV Line" : {
+        "file" : "Peripheral Intravenous Access.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "60"
+    },
     "Peripheral Intravenous Access" : {
         "file" : "Peripheral Intravenous Access.txt",
         "type" : "Pharmacotherapy Procedure",
@@ -2348,6 +2796,27 @@ procedures = {
         "procID" : "61"
     },
     "Point Of Care Ultrasound" : {
+        "file" : "Point Of Care Ultrasound.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "61"
+    },
+    "Mobile Ultrasound" : {
+        "file" : "Point Of Care Ultrasound.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "61"
+    },
+    "Pre-Hosp Ultrasound" : {
+        "file" : "Point Of Care Ultrasound.txt",
+        "type" : "Patient Assessment",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "61"
+    },
+    "Pre-Hospital Ultrasound" : {
         "file" : "Point Of Care Ultrasound.txt",
         "type" : "Patient Assessment",
         "skill" : "Advanced Practitioner +",
@@ -2480,7 +2949,7 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "66"
     },
-    "Safe Workign at Height PPE" : {
+    "Safe Working at Height PPE" : {
         "file" : "Safe Working at Heights PPE.txt",
         "type" : "Scene Safety",
         "skill" : "Specialist Paramedic +",
@@ -2613,7 +3082,21 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "69"
     },
+    "SC Injection" : {
+        "file" : "Subcutaneous Administration.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "69"
+    },
     "Subcutaneous Administration" : {
+        "file" : "Subcutaneous Administration.txt",
+        "type" : "Pharmacotherapy Procedure",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "69"
+    },
+    "Subcutaneous Injection" : {
         "file" : "Subcutaneous Administration.txt",
         "type" : "Pharmacotherapy Procedure",
         "skill" : "Paramedic +",
@@ -2725,6 +3208,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "72"
     },
+    "Cardioversion" : {
+        "file" : "Synchronised Cardioversion.txt",
+        "type" : "Cardiac Arrhythmia Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "72"
+    },
     "Synchronised Cardioversion" : {
         "file" : "Synchronised Cardioversion.txt",
         "type" : "Cardiac Arrhythmia Management",
@@ -2740,6 +3230,20 @@ procedures = {
         "procID" : "73"
     },
     "TCP" : {
+        "file" : "Transcutaneous Pacing.txt",
+        "type" : "Cardiac Arrhythmia Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "73"
+    },
+    "Pacing" : {
+        "file" : "Transcutaneous Pacing.txt",
+        "type" : "Cardiac Arrhythmia Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "73"
+    },
+    "Cardiac Pacing" : {
         "file" : "Transcutaneous Pacing.txt",
         "type" : "Cardiac Arrhythmia Management",
         "skill" : "Advanced Practitioner +",
@@ -2767,7 +3271,7 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "74"
     },
-    "Temeprature Assessment" : {
+    "Temperature Assessment" : {
         "file" : "Tympanic Thermometry.txt",
         "type" : "Patient Assessment",
         "skill" : "Paramedic +",
@@ -3103,6 +3607,13 @@ procedures = {
         "length" : "X number of lines",
         "procID" : "82"
     },
+    "Volume Replacement" : {
+        "file" : "Volume Resuscitation.txt",
+        "type" : "Trauma Management",
+        "skill" : "Advanced Practitioner +",
+        "length" : "X number of lines",
+        "procID" : "82"
+    },
     "YSD" : {
         "file" : "Yankauer Suction Device.txt",
         "type" : "Basic Airway Management",
@@ -3111,6 +3622,13 @@ procedures = {
         "procID" : "83"
     },
     "YSC" : {
+        "file" : "Yankauer Suction Device.txt",
+        "type" : "Basic Airway Management",
+        "skill" : "Paramedic +",
+        "length" : "X number of lines",
+        "procID" : "83"
+    },
+    "Yankauer" : {
         "file" : "Yankauer Suction Device.txt",
         "type" : "Basic Airway Management",
         "skill" : "Paramedic +",

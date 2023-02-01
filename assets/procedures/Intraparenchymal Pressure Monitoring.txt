@@ -3,7 +3,7 @@ START OF PROCEDURE
 ##################
 
 PREREQUISITES
- > At least one Peripheral IV line
+ > At least one Peripheral Intravenous Line
  > Adequate oxygenation
 
 SITE ACQUISITION & PREPARATION
@@ -12,9 +12,8 @@ SITE ACQUISITION & PREPARATION
  *I'd select the appropriate hemisphere for the ICP probe*
  *I'd mark 2-3cm anterior to the coronal suture in a plane with the midpupillary line behind the hairline*
  *I'd shave around the designated incision site*
- *I'd sterilise the site with 2% chlorhexidine*
+ *I'd sterilise the site with 2% Chlorhexidine*
  *I'd measure and mark the incision site*
-
  *I'd get a #10 scalpel*
  *I'd get a cranial perforator*
  *I'd attach a 2.71mm drill bit to the perforator and ensure it is secure*
@@ -26,8 +25,8 @@ PRE-TREATMENT
  *I'd connect it to the set and push the 500mg of Amoxicillin*
 
 LOCAL INFILTRATION
- *I'd get a 3mL Syr. with a 25 gauge needle*
- *I'd prep 3mL of 1% Xylocaine*
+ *I'd get a 3mL syringe with a 25 gauge needle*
+ *I'd prep 3mL of 1% Lidocaine Hydrochloride*
  *I'd locally infiltrate the anaesthetic around the marked site in a radial fashion*
  *I'd continue until a wheal is visible*
 

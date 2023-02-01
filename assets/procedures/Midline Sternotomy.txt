@@ -3,8 +3,8 @@ START OF PROCEDURE
 ##################
 
 SITE PREPARATION
- *I'd get a 2% chlorhexidine wipe*
- *I'd sterilise the chest area*
+ *I'd get some 2% Chlorhexidine wipes*
+ *I'd sterilise the chest area with the wipes*
  *I'd detect the lateral margin of the sternum*
  *I'd thus identify the midline of the sternum*
  *I'd extend the patient's neck to expose the sternal notch*
@@ -23,12 +23,12 @@ PREPARATION
 INDUCTION OF GENERAL ANAESTHESIA
  *I'd measure up 320mg of Sodium Thiopental*
  *I'd ensure no impurities were present*
- *I'd connect the syring- to the set*
- *I'd push the 320mg via IV*
- *I'd measure up 15mg of Rocuronium HCl*
+ *I'd connect the syringe to the extension set*
+ *I'd push the 320mg of Sodium Thiopental via pIV*
+ *I'd measure up 15mg of Rocuronium Hydrochloride*
  *I'd ensure no impurities were present*
- *I'd connect the syring- to the set*
- *I'd push the 15mg via IV*
+ *I'd connect the syringe to the extension set*
+ *I'd push the 15mg of Rocuronium Hydrochloride via pIV*
 
 MIDLINE STERNOTOMY
  *I'd get a #22 scalpel*
