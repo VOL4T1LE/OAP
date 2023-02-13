@@ -3,7 +3,7 @@ START OF PROCEDURE
 ##################
 
 PREREQUISITES
- > At least one Peripheral IV line
+ > At least one Peripheral Intravenous Line
  > Preoxygenation via NRBM, outlined later on
 
 RSI INDICATIONS

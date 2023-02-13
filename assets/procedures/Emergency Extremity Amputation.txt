@@ -1,0 +1,76 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+ > Necessary staff and equipment to perform a simple blood transfusion
+
+PREREQUISITE CRITERIA
+ > Ensure that most if not all the necessary criteria for emergency amputation are met:
+    > The patient consents to emergency amputation (if conscious and possessing capacity)
+    > All other primary rescue methods have been considered
+    > Other means of extrication would exceed a reasonable time frame, resulting in the death of the patient
+    > The patient presents with a mutilated, unsalvageable extremity prolonging extrication and/or evacuation
+    > The extremities of a deceased patient are obstructing access to (potentially) living patients
+
+SITE IDENTIFICATION
+ *I'd assess the extremity*
+ > Remove any clothing covering the extremity via regular means or via trauma shears
+ *I'd identify the most distal site possible*
+ *I'd mark the site for surgical transection*
+
+PREPARATION
+ *I'd ensure the patient was supine*
+ *I'd prepare some cotton bandages, haemostatic gauze, and a laparotomy pad*
+ *I'd prepare some Cellox clotting agent*
+ *I'd prepare some kelly clamps and some haemostats*
+ *I'd apply a proximal tourniquet*
+ > Do not place tourniquets over joints or bony prominances
+ > Consider the application of two tourniquets
+ *I'd don a sterile pair of gloves, a gown, a facemask, and some eye protection*
+
+STERILISATION
+ *I'd sterilise the site with 2% chlorhexidine solution*
+ *I'd allow the site to dry*
+
+INDUCTION OF GENERAL ANAESTHESIA
+ *I'd draw up 200mg of Ketamine Hydrochloride*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd infuse the 200mg of Ketamine Hydrochloride over 60 seconds*
+ > Consider asking the patient to count backwards from ten
+ > Maintenance of anaesthesia/analgesia with 2mg via pIV infusion every minute
+
+ANTIMICROBIAL PROPHYLAXIS
+ *I'd draw up 1g of Amoxicillin*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd inject the 1g of Amoxicillin*
+
+GUILLOTINE AMPUTATION
+ *I'd get the gigli saw*
+ *I'd position the saw at the posterior aspect of the marked extremity*
+ > Ask another healthcare professional to stabilise the limb above and below the transection site*
+ > The same, or another, should also apply manual pressure to the sites of any major arteries
+ *I'd horizontally transect the marked site with the gigli saw*
+ *I'd transect towards the anterior aspect of the marked extremity*
+ *I'd continue to transect the bone and remaining soft tissue*
+
+HAEMORRHAGE CONTROL
+ *I'd identify the exposed blood vessels*
+ *I'd clamp each haemorrhaging vessel with a haemostat*
+ > If not already performed, consider the application of a second tourniquet
+ *I'd get some silk sutures*
+ *I'd tie some off each blood vessel with a square knot*
+ *I'd unclamp each haemostat*
+ > If there is residual bleeding, reclamp the haemostat and tie a stronger knot
+ *I'd complete the second throw of each square knot*
+ > The procedure of tying off these vessels is known as blood vessel "Ligation"
+ *I'd apply a sterile 4x4 gauze pad to the site*
+ *I'd wrap the site with a sterile Kerlix gauze bandage roll*
+ > Consider the necessity of applying a clotting agent
+ > Consider the need for a Simple Blood Transfusion
+
+END OF PROCEDURE
+################

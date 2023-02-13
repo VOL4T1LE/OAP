@@ -20,7 +20,7 @@ ANAESTHESIA/ANALGESIA
  *I'd ensure no impurities were present*
  *I'd connect the syringe to the pIV line*
  *I'd infuse the 200mg of Ketamine Hydrochloride over 60 seconds*
- > Maintenance of anaesthesia/analgesia with 2mg via IV infusion every minute
+ > Maintenance of anaesthesia/analgesia with 2mg via pIV infusion every minute
 
 ELECTRODE POSITIONING
  *I'd position the anterior electrode over the cardiac apex*

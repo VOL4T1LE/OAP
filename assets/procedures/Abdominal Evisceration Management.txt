@@ -4,7 +4,7 @@ START OF PROCEDURE
 
 TRAUMA MANAGEMENT
  *I'd rinse the eviscerated site
- *I'd irrigate some gauze with warm saline solution*
+ *I'd irrigate some gauze with Warm Saline Solution*
  *I'd place the moistened gauze over the exposed intestines*
  *I'd pack the abdomen with abdominal gauze pads*
  *I'd secure the abdo pads with cotton bandages*
@@ -17,7 +17,7 @@ HAEMORRHAGE CONTROL
  > Consider the necessity of a Simple Blood Transfusion
 
 ADDITIONAL CONSIDERATIONS
- > Consider the administration of an antimicrobial
+ > Consider the administration of an Antimicrobial
 
 END OF PROCEDURE
 ################

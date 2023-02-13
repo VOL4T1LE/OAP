@@ -3,7 +3,7 @@ START OF PROCEDURE
 ##################
 
 PREREQUISITES
- > At least one peripheral IV line
+ > At least one Peripheral Intravenous Line
 
 PATIENT PREPARATION
  *I'd ensure the patient is supine*
@@ -28,12 +28,13 @@ PLEURAL EFFUSION IDENTIFICATION
 
 ADMINISTRATION OF OPIOID ANALGESIC
  *I'd draw up 20mg of Morphine Sulphate*
- *I'd ensure no impurities were present*
+ *I'd ensure no impurities were present in the solution*
  *I'd connect the syringe to the pIV line*
  *I'd push the 20mg of Morphine Sulphate*
 
 LOCAL INFILTRATION
  *I'd get 20mL of 1% Lidocaine Hydrochloride in a 20mL syringe*
+ *I'd ensure no impurities were present in the solution*
  *I'd infiltrate 5mL into the skin overlying the insertion site*
  *I'd infiltrate 5mL into the subcutaneous fat superior to the insertion site*
  *I'd inject 10mL into the periosteum, intercostal muscles, and pleura*
@@ -50,6 +51,7 @@ CREATION OF INCISION
 
 FURTHER LOCAL INFILTRATION
  *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
+ *I'd ensure no impurities were present in the solution*
  *I'd infiltrate 5mL into the intercostal muscles and pleura*
 
 KELLY CLAMP INSERTION

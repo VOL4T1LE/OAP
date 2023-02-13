@@ -1,0 +1,17 @@
+
+START OF PROCEDURE
+##################
+
+SpO2, SpCO, SpMet ASSESSMENT
+ *I'd get a suitably-sized reusable rainbow sensor*
+ *I'd connect the rainbow sensor's cable to the sensor cable port on the LIFEPAK 15*
+ *I'd identify the index finger with the best perfusion*
+ *I'd orient the sensor so that the cable is on the back of the patient's hand*
+ *I'd place the sensor on the patient's index finger*
+ > The non-dominant index finger is preferred
+ > Ensure that the patient's fingertip reaches the raised digit stop in the sensor
+ *I'd wait for the sensor to get a reading*
+ *I'd assess the patient's blood methaemoglobin levels on the LIFEPAK 15*
+
+END OF PROCEDURE
+################

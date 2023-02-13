@@ -27,6 +27,7 @@ PRE-TREATMENT
 LOCAL INFILTRATION
  *I'd get a 3mL syringe with a 25 gauge needle*
  *I'd prep 3mL of 1% Lidocaine Hydrochloride*
+ *I'd ensure no impurities were present in the solution*
  *I'd locally infiltrate the anaesthetic around the marked site in a radial fashion*
  *I'd continue until a wheal is visible*
 
@@ -40,7 +41,7 @@ INCISION
 BONE DRILLING
  *I'd position the perforator 10 degrees from perpendicular to the incision site*
  *I'd carefully perforate the skull and retract then device*
- *I'd irrigate the site with normal saline solution*
+ *I'd irrigate the site with Normal Saline Solution*
 
 MONITOR SETUP
  *I'd get a #18 Spinal Needle*

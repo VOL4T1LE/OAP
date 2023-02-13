@@ -27,6 +27,7 @@ PROCEDURE PREPARATION
  *I'd align the injection to the centre of the ultrasound's screen*
  *I'd get a 5mL syringe with a 25g needle*
  *I'd draw up 5mL of 1% Lidocaine Hydrochloride with the syringe*
+ *I'd ensure no impurities were present in the solution*
  *I'd anaesthetise the site with the 1% Lidocaine Hydrochloride*
 
 GUIDEWIRE INTRODUCTION

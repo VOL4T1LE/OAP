@@ -16,6 +16,7 @@ PREPARATION
  *I'd pre-fill a syringe with Heparin*
  *I'd connect the pre-Heparinised syringe to an ABG needle*
  *I'd get a 3mL syringe of 1% Lidocaine Hydrochloride*
+ *I'd ensure no impurities were present in the solution*
  *I'd anaesthetise the site via local infiltration*
 
 ABG SAMPLE COLLECTION
