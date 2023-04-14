@@ -17,9 +17,6 @@ from tkinter import *
 # Import the 'os' module to handle file-pathing
 import os
 
-# Import the 'dotenv' module to handle environmental variables
-from dotenv import load_dotenv
-
 
 
 
