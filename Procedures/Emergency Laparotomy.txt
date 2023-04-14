@@ -1,0 +1,47 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+
+PATIENT PREPARATION
+ *I'd push 300mcg of Ketamine Hydrochloride via pIV*
+ *I'd sterilise the patient's chest and abdomen with a 2% Chlorhexidine wipe*
+ *I'd allows the sites to dry*
+ *I'd apply 5 tubes of tetracaine to the site topically*
+
+LAPAROTOMY
+ *I'd get a #10 scalpel*
+ *I'd make a 15cm long midline incision*
+ *I'd make another 15cm long incision through the subcutaneous fat*
+ *I'd divide the linea alba with retractors, avoiding the xiphoid process*
+ *I'd suction any bleeding*
+ *I'd place surgical sponges along the abdominal wall*
+ *I'd examine the infracolic and supracolic compartments of the abdomen for any haemorrhaging*
+ *I'd examine the retroperitoneal compartment for any haemorrhaging*
+ *I'd pack the source of the bleed with sponges and hemostatic gauze*
+ *I'd flush the area with Normal Saline Solution*
+ *I'd remove all surgical sponges and hemostatic agents*
+ *I'd remove the retractors*
+
+SUTURING THE INCISION
+ *I'd get a needle driver, needle, and some thread*
+ *I'd use a needle driver to grab the needle and clamp it into the driver*
+ *I'd straighten and line up both edges of the incision*
+ *I'd push the needle through the skin at a 90 degree angle*
+ *I'd twist the driver so the needle comes up at other side at straight line*
+ *I'd unlock the driver and reattach it at the top of the needle*
+ *I'd attach the thread until there's 1 inch left to tie the driver and needle*
+ *I'd knot the thread into the needle, around the driver and release the needle*
+ *I'd tie the thread around the site, create a knot and flatten to surface of skin*
+ *I'd insert the needle and keep threading it until the whole site is stitched*
+ *I'd remove the needle and the driver, holding excess thread*
+ *I'd use the driver to cut off the excess thread*
+
+ADDITIONAL CONSIDERATIONS
+ > Consider applying some dressings around the sutured site
+ > Consider pre-treatment with an Antimicrobial
+
+END OF PROCEDURE
+################

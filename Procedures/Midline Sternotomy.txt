@@ -1,0 +1,50 @@
+
+START OF PROCEDURE
+##################
+
+SITE PREPARATION
+ *I'd get some 2% Chlorhexidine wipes*
+ *I'd sterilise the chest area with the wipes*
+ *I'd detect the lateral margin of the sternum*
+ *I'd thus identify the midline of the sternum*
+ *I'd extend the patient's neck to expose the sternal notch*
+ *I'd mark at the sternal notch*
+ *I'd mark a few centimetres below the xiphoid process*
+ *I'd connect both points with a marker*
+
+PREPARATION
+ *I'd prepare a pneumatic sternal saw*
+ *I'd prepare a pair of sternal retractors*
+ *I'd prepare internal defibrillator paddles*
+ *I'd prepare a set of scalpels*
+ *I'd don a clean pair of nitrile gloves*
+ *I'd ensure the patient was supine*
+
+INDUCTION OF GENERAL ANAESTHESIA
+ *I'd measure up 320mg of Sodium Thiopental*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the extension set*
+ *I'd push the 320mg of Sodium Thiopental via pIV*
+ *I'd measure up 15mg of Rocuronium Hydrochloride*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the extension set*
+ *I'd push the 15mg of Rocuronium Hydrochloride via pIV*
+
+MIDLINE STERNOTOMY
+ *I'd get a #22 scalpel*
+ *I'd make an incision between the sternal notch and angle of Louis*
+ *I'd extend the incision up to and below the xiphoid process*
+ *I'd get a #10 scalpel*
+ *I'd make another incision through the subcutaneous tissue*
+ *I'd incise down to the sternum*
+ *I'd separate the sternal periosteum, being careful not to strip the periosteum*
+ *I'd get an electro cauterizer*
+ *I'd cauterize any sites of significant haemorrhaging*
+ *I'd divide the interclavicular ligament at the sternal notch*
+ *I'd get the pneumatic sternal saw*
+ *I'd divide the sternum from top to bottom*
+ *I'd identify the brachial plexus*
+ *I'd insert sternal retractors inferiorly*
+
+END OF PROCEDURE
+################

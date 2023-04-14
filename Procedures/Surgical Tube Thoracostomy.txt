@@ -1,0 +1,95 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+
+PATIENT PREPARATION
+ *I'd ensure the patient is supine*
+ > Elevating the patient lessens the risk of diaphragm elevation
+ > This decreases the risk of consequently misplacing the chest tube into the abdominal space
+ *I'd abduct the arm on the affected side*
+ *I'd elevate the arm and rotate it externally*
+ *I'd simulate a position in which the palm is behind the patient's head*
+
+PREPARATION OF THE DRAINAGE SYSTEM
+ *I'd cut clothes at the site with trauma shears*
+ *I'd get a thoracostomy tube with connectors*
+ *I'd get a laerdal suction unit*
+ *I'd connect a water seal to the LSU*
+
+PLEURAL EFFUSION IDENTIFICATION
+ *I'd auscultate the patient's lungs*
+ *I'd identify the affected hemithorax*
+ *I'd identify the 5th intercostal space*
+ *I'd identify the mid-axillary line*
+ *I'd mark two intersecting lines at both sites*
+
+ADMINISTRATION OF OPIOID ANALGESIC
+ *I'd draw up 20mg of Morphine Sulphate*
+ *I'd ensure no impurities were present in the solution*
+ *I'd connect the syringe to the pIV line*
+ *I'd push the 20mg of Morphine Sulphate*
+
+LOCAL INFILTRATION
+ *I'd get 20mL of 1% Lidocaine Hydrochloride in a 20mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd infiltrate 5mL into the skin overlying the insertion site*
+ *I'd infiltrate 5mL into the subcutaneous fat superior to the insertion site*
+ *I'd inject 10mL into the periosteum, intercostal muscles, and pleura*
+ > Aspiration of air, blood, and/or pus into the syringe confirms that the needle has entered the pleural cavity
+
+CREATION OF INCISION
+ *I'd get a #11 blade scalpel*
+ *I'd locate the rib below the desired intercostal level of entry*
+ *I'd make a 4cm long incision into the skin overlying the rib*
+ *I'd get a haemostat*
+ *I'd bluntly dissect a tract in the subcutaneous fat*
+ *I'd palpate the tract with my finger*
+ *I'd ensure the tract ends at the upper border of the rib above the incision*
+
+FURTHER LOCAL INFILTRATION
+ *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd infiltrate 5mL into the intercostal muscles and pleura*
+
+KELLY CLAMP INSERTION
+ *I'd get a closed large kelly clamp*
+ *I'd pass through the intercostal muscles and parietal pleura*
+ *I'd enter the pleural cavity*
+ *I'd open the kelly clamp*
+ *I'd retract the opened kelly clamp, enlarging the dissected tract*
+ *I'd measure the length between the incision and the apex of the lung*
+
+CHEST TUBE INSERTION
+ *I'd get a large kelly clamp*
+ *I'd grasp the proximal (fenestrated) end of the chest tube*
+ *I'd introduce the tube through the tract and into the thoracic cavity*
+ *I'd release the kelly clamp*
+ *I'd advance the tube posteriorly and superiorly*
+ *I'd ensure that all of the fenestrated holes in the tube are inside the thoracic cavity*
+ *I'd connect the chest tube to the LSU*
+ *I'd release the cross clamp on the chest tube*
+
+SUTURING THE INCISION SITE
+ *I'd grab some suturing equipment*
+ *I'd use a needle driver to grab a needle and clamp it into the driver*
+ *I'd straighten and line up both edges of the incision*
+ *I'd push the needle through the skin at a 90 degree angle*
+ *I'd create a central vertical mattress suture*
+ *I'd cut excess thread with the driver*
+
+POST-INSERTION TREATMENT
+ *I'd place petroleum gauze over the incision site*
+ *I'd cut 4x4 gauze pads into Y-shaped fenestrated gauze*
+ *I'd secure the gauzes to the chest wall with adhesive tape*
+ *I'd secure the chest tube with adhesive tape*
+
+CONFIRMATION OF PLACEMENT
+ *I'd observe the patient's thorax*
+ *I'd see if the chest rises upon inspiration*
+ *I'd auscultate the affected hemithorax*
+
+END OF PROCEDURE
+################

@@ -1,0 +1,96 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+ > Preoxygenation via NRBM, outlined later on
+
+RSI INDICATIONS
+ > One of these five criteria must be met:
+	> Inability to maintain airway patency
+	> Inability to protect airway from aspiration
+	> Failure to ventilate
+	> Failure to oxygenate
+	> Anticipation of a deteriorating course, eventually leading to respiratory failure
+ > RSIs are not indicated in patients who are unconscious and apneic (This is called a "Crash" airway)
+	> A crash airway indicates the following interventions:
+		> Endotracheal intubation without induction or paralysis
+		> Immediate BVM ventilation
+
+PRE-RSI CHECKS
+ *I'd ensure the light bulb on the laryngoscope blade is working*
+ *I'd ensure that the patient is connected to all necessary monitoring equipment*
+	> Blood Oxygen Saturation by Pulse Oximetry
+	> Continuous End-Tidal CO2 Monitor
+
+EQUIPMENT PREPARATION
+ *I'd connect a laryngscope handle to an appropriately sized blade*
+ *I'd get a 7.5mm endotracheal tube*
+ > ET Tube size may be calculated as follows:
+	> Age of patient, divided by 4
+	> Add 4 to get the size of an uncuffed ETT
+	> Minus 1 half to get the size of a cuffed ETT
+	> Multiply final ETT size by 3 to get the depth
+ *I'd ensure that the ETT cuff doesn't leak*
+ *I'd deflate the ETT's cuff*
+
+PREOXYGENATION
+ *I'd preoxygenate patient with an NRBM*
+ *I'd connect the NRBM to an oxygen tank*
+ *I'd open the valve and set oxygen flow to 12LPM*
+ *I'd preoxygenate for 3-5 minutes whilst drawing up medications*
+ > Preoxygenation via 100% oxygen NRBM is to be done without positive pressure ventilation
+	> Positive pressure ventilation = Air pushed into the lungs [E.g the squeezing of a BVM]
+	> Negative pressure ventilation = Air pulled into the lungs [E.g natural inspiration]
+ > Only preoxygenate via BVM if an SpO2 of >90% cannot be achieved normally
+
+INDUCTION & PARALYSIS (IA + NMBA)
+ *I'd draw up 200mg of 2% Propofol Solution*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd push the 200mg of 2% Propofol Solution*
+ *I'd draw up 60mg of Rocuronium Bromide*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd push the 60mg of Rocuronium Bromide*
+ > During the administration of the induction agent, if time permits it, you can:
+	> Ask the conscious patient to count backwards from 10 to gauge when they are unconscious
+
+ENDOTRACHEAL INTUBATION
+ *I'd apply firm pressure over the cricoid cartillage to compress the proximal oesophagus*
+ > This is known as the "Sellick Maneuver"
+ > Maintain this pressure constantly until after the position of the ETT is verified
+ > This manoeuvre is alleged to prevent regurgitation of gastric contents into the lungs
+ *I'd remove the NRBM from the patient, setting oxygen flow to zero*
+ *I'd insert the laryngoscope into the right side of the patient's oral cavity*
+ *I'd sweep the patient's tongue to the left*
+ *I'd visualise the epiglottis and rotate 45 degrees up*
+ *I'd visualise the vocal cords*
+ *I'd grab a bougie*
+ *I'd insert the bougie and advance it past the vocal cords*
+ *I'd advance the bougie into the trachea*
+ *I'd place the ETT over the bougie*
+ *I'd advance the ETT over the bougie, into the trachea*
+ *I'd retract the laryngoscope*
+ *I'd carefully retract the bougie*
+ *I'd inflate the ETT's cuff with a 5mL syringe of air*
+
+ETT VERIFICATION
+ *I'd assess the patient's end tidal CO2*
+ *I'd auscultate the patient's chest to verify placement*
+ > Auscultation locations include:
+	> Each lateral lung field
+	> The left axilla
+	> The left supraclavicular region
+
+POSTINTUBATION MANAGEMENT
+ *I'd secure the ETT*
+ *I'd initiate mechanical ventilation*
+ > Administer appropriate analgesics and sedatives to:
+	> Ensure patient comfort
+	> Decrease O2 demand
+	> Decrease ICP
+
+END OF PROCEDURE
+################

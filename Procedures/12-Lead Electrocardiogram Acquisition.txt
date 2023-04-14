@@ -1,0 +1,31 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > Ensure that the skin of the patient's chest is exposed
+ > Shave excess hair follicles in a 2cm diameter around the desired electrode site(s)
+ > Using a 2% Chlorhexidine wipe, abrade desired electrode sites to remove loose skin, body oil, sweat, etc
+ > Allow sites to dry before placing electrodes
+
+LEAD PLACEMENT
+ *I'd remove 12 electrodes connected to an ECG Leadwire from the pack*
+ *I'd ensure all electrodes were still conductive*
+ *I'd position all the limb electrodes equidistantly*
+ *I'd get the precordial electrodes V1 and V2*
+ *I'd place both electrodes equidistantly proximal to the sternum and superficial to the 4th ICS*
+ *I'd place precordial electrode V4 at the mid-clavicular line, superficial to the 5th ICS*
+ *I'd place precordial electrode V3 between V2 and V4*
+ *I'd place precordial electrode V6 at the mid-axillary line, superficial to the 5th ICS*
+ *I'd place precordial electrode V5 between V4 and V6*
+ *I'd ensure all electrodes make full contact with the skin*
+
+ECG ACQUISITION & INTERPRETATION
+ *I'd assess bipolar Leads I to III*
+ *I'd assess the unipolar augmented vector leads R, L, and F*
+ *I'd assess the unipolar precordial leads V1 to V6*
+ *I'd assess the morphology of the rhythm displayed*
+ *I'd interpret the ECG measurement*
+
+END OF PROCEDURE
+################

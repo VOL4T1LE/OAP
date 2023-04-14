@@ -1,0 +1,47 @@
+
+START OF PROCEDURE
+##################
+
+PATIENT PREPARATION
+ *I'd locate the incision site*
+ *I'd sterilise the site with a 2% Chlorhexidine wipe*
+ *I'd allow the site to dry*
+ *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd infiltrate the local anaesthetic at the insertion site*
+ *I'd ensure that the patient is supine*
+ *I'd put on a clean pair of nitrile gloves*
+
+SITE IDENTIFICATION
+ *I'd identify relevant anatomical sites*
+ *I'd palpate the thyroid cartilage*
+ *I'd palpate the cricoid cartilage*
+ *I'd palpate the cricothyroid membrane*
+ *I'd stabilise the site with my first and third non-dominant digits*
+ *I'd palpate the membrane with my non-dominant index finger*
+
+SURGICAL INCISION AND DILATIOM
+ *I'd get a syringe full of Normal Saline Solution*
+ *I'd connect the syringe to an angiographic catheter*
+ *I'd hold the angiographic catheter with my dominant hand*
+ *I'd insert the angiographic catheter into the cricothyroid membrane*
+ *I'd direct it caudally at a 45 degree angle*
+ *I'd apply negative pressure to the syringe as the needle advances*
+ > A distinct pop can be felt as the needle traverses the membrane and enters the trachea
+ > In addition, air bubbles will appear in the fluid-filled syringe
+
+HIGH FREQUENCY JET VENTILATION (HFJV)
+ *I'd connect a patient connection tube to the jet ventilation device*
+ *I'd connect an airway pressure tube to the device under the "Proximal" connection*
+ *I'd connect the patient connection tube to a luer connector*
+ *I'd connect the airway pressure tube to the luer lock connector*
+ *I'd press and hold the "start/stop" button on the device*
+ *I'd press the "alarm reset" button*
+ *I'd set oxygen flow to 15LPM*
+
+CONFIRMATION OF PLACEMENT
+ *I'd assess the chest to see if it rises during ventilation*
+ *I'd auscultate the lungs to confirm placement*
+
+END OF PROCEDURE
+################

@@ -1,0 +1,20 @@
+
+START OF PROCEDURE
+##################
+
+NIBP ASSESSMENT
+ *I'd get an aneroid NIBP cuff and a stethoscope*
+ *I'd wrap the NIBP cuff 2cm superior to the antecubital fossa*
+ *I'd manually inflate the cuff*
+ > Ensure that the cuff is tight enough to cause the distension of distal blood vessels
+ *I'd locate and palpate the brachial artery*
+ *I'd place the bell of the stethoscope superficial to the antecubital fossa*
+ *I'd deflate the NIBP cuff*
+ *I'd listen to the phase I korotkoff sounds*
+ *I'd note down the pressure on the gauge as the systolic BP*
+ *I'd listen to the phase IV / V korotkoff sounds*
+ *I'd note down the pressure on the gauge as the diastolic BP*
+ *I'd remove the NIBP cuff*
+
+END OF PROCEDURE
+################

@@ -1,0 +1,18 @@
+
+#######################################
+Primary Patient Assessment | Memory Aid
+#######################################
+
+DRcAcBCDE
+
+D  |  Danger
+R  |  Response
+c  |  Catastrophic Haemorrhage
+A  |  Airway
+c  |  Cervical-Spine
+B  |  Breathing
+C  |  Circulation
+D  |  Disability
+E  |  Exposure
+
+#######################################

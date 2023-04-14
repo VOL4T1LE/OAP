@@ -1,0 +1,68 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+ > For conscious patients, consider analgesia and anxiolysis
+
+PATIENT PREPARATION
+ *I'd ensure the patient was supine*
+ > This implies an axillary approach
+ *I'd draw up 10mg of Morphine Sulphate*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd inject the 10mg of Morphine Sulphate*
+ *I'd remove the patient's shirt*
+ > May be cut with trauma sheers in emergency conditions
+
+CONFIRMATION OF PLEURAL EFFUSION / PNEUMOTHORAX
+ *I'd get an eFAST Ultrasound Device*
+ *I'd apply ultrasound transmission gel to the probe*
+ *I'd apply some gel to the patient's chest*
+ *I'd scan the upper and lower thoracic cavity*
+ > Assess ultrasound scan for the following:
+	> Affected hemithorax
+	> Location and size of effusion
+	> Amount of fluid involved
+	> Location of diaphragm at end-exhalation
+ > The diaphragm is echogenic, and should be easily identifiable via ultrasound
+ > Make sure to select a rib interspace into which the diaphragm does not rise up at end-exhalation
+
+SITE PREPARATION
+ *I'd locate the mid clavicular line*
+ *I'd locate the 2nd intercostal space*
+ *I'd sterilise the area with a 2% Chlorhexidine wipes*
+ *I'd allow the site to dry*
+ *I'd mark the insertion site*
+ > If the patient has loose skin or significant subcutaneous tissue:
+	> Use tape to pull the skin or subcutaneous tissue out of the way
+	> Mark and use an optimised insertion site
+
+LOCAL INFILTRATION
+ *I'd get 20mL of 1% Lidocaine Hydrochloride in a 20mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd guide infiltration via the eFAST point of care ultrasound device*
+ *I'd infiltrate the skin*
+ *I'd infiltrate the subcutaneous tissue*
+ *I'd infiltrate the rib periosteum*
+ *I'd infiltrate the intercostal muscles*
+ *I'd infiltrate the parietal pleura*
+
+NEEDLE THORACOSTOMY
+ *I'd get a catheter with a 14g needle*
+ *I'd advance the catheter through the skin*
+ *I'd advance the catheter over the superior aspect of the rib*
+ *I'd advance until pleural fluid is aspirated*
+ > The neurovascular bundle is at the inferior border of the rib and should be avoided
+ *I'd thread the catheter without advancing the needle*
+ *I'd securely hold the catheter and retract the needle*
+ *I'd dispose of the needle into a sharps container*
+ *I'd fashion a syringe pump and connect it to the catheter*
+ *I'd drain the pleural effusion*
+ > Following completion:
+	> The catheter should be carefully removed
+	> The site should be dressed
+
+END OF PROCEDURE
+################

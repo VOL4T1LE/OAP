@@ -1,0 +1,33 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+
+PATIENT PREPARATION
+ *I'd push 300mcg Ketamine Hydrochloride via pIV*
+ *I'd sterilise the site with a 2% Chlorhexidine wipe*
+ *I'd allow the site to dry*
+ *I'd drape the site with sterile drapes*
+ *I'd apply 5 tubes of tetracaine to the site topically*
+
+THORACIC INCISION
+ *I'd grab a #11 scalpel*
+ *I'd incise the chest wall*
+ *I'd incise from the clavicle bilaterally*
+ *I'd continue the incision to the costal margin of the anterior axillary line*
+ *I'd make sure to avoid any vital structures*
+ *I'd make a transverse incision to join the bilateral incisions*
+ *I'd assess the incision and ensure it was subcostal*
+ *I'd ensure the skin was separated from the subcutaneous fat and the diaphragm*
+ > Gently auscultate the patient's lungs to confirm whether or not bilateral air entry was present
+
+ADDITIONAL CONSIDERATIONS
+ > Consider pre-treatment with an Antimicrobial
+ > Consider the necessity for starting the patient on Oxygen Therapy
+ > Consider further burn management following the escharotomy
+ > Monitor the patient's EtCO2
+
+END OF PROCEDURE
+################

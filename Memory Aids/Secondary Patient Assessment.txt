@@ -1,0 +1,15 @@
+
+#########################################
+Secondary Patient Assessment | Memory Aid
+#########################################
+
+SAMPLE
+
+S  |  Signs & Symptoms
+A  |  Allergies
+M  |  Medication(s) / Prescription(s)
+P  |  Past Medical History (PMHx)
+L  |  Last Intake & Output
+E  |  Events leading up to the incident
+
+#########################################

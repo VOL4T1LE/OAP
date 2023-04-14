@@ -1,0 +1,36 @@
+
+START OF PROCEDURE
+##################
+
+PRERQUISITES
+ > A patent airway, not at immediate risk of compromise
+ > Relevant airway adjuncts as appropriate
+ > Ideally, an Oropharyngeal Airway or Nasopharyngeal Airway should already be in place
+
+PREPARATION
+ *I'd ensure the patient was supine*
+ *I'd retrieve a ZX oxygen cylinder*
+ *I'd get some oxygen tubing*
+ *I'd get a self-inflating bag ventilator*
+ *I'd connect an appropriately sized mask to the self-inflating bag ventilator*
+ *I'd connect the oxygen tubing to the BVM oxygen inlet*
+ *I'd connect the other end to the oxygen cylinder*
+
+MASK SITUATION
+ *I'd place the nasal portion of the mask over the nose*
+ *I'd lower the rest of the BVM mask*
+ *I'd ensure the mask made a proper seal*
+ *I'd extend my fingers underneath the patient's mandible and pull it upwards*
+ > This manoeuvre is similar to the Head-Tilt, Chin-Lift Technique, and further opens the airway
+ > Make sure to only pull up the bony parts of the mandible, as pressure to the soft areas may obstruct the airway
+ *Maintaining this upward traction, I'd press the mask downwards to get a good seal*
+
+OXYGEN THERAPY
+ *I'd set the flow of oxygen from the cylinder to 15LPM*
+ *I'd hold the mask/ventilator with a CE grip*
+ *I'd steadily squeeze the bag over one second per ventilation*
+ *I'd ventilate at a rate of 8 respirations per minute*
+ *I'd ensure the chest rises during each ventilation*
+
+END OF PROCEDURE
+################

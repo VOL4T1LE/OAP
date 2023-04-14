@@ -1,0 +1,69 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+ > supplemental Oxygen Therapy should be underway
+ > The following patient vitals should be monitored on a LIFEPAK 15:
+	> Heart Rhythm
+	> Heart Rate
+	> Capillary Blood Oxygen Saturation
+
+PATIENT POSITIONING
+ *I'd position the patient in a semirecumbent position at a 30 degree angle*
+ > A supine position is an acceptable alternative
+
+MARKING INSERTION SITE & ASEPSIS
+ *I'd identify the xiphoid process*
+ *I'd identify the right and left fifth intercostal spaces*
+ *I'd make a left sternocostal margin as an insertion site*
+ *I'd sterilise the subxiphoid area with a 2% Chlorhexidine wipe*
+ *I'd don a new clean pair of nitrile gloves*
+
+INFILTRATION
+ *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd infiltrate the local anaesthetic at the insertion site*
+ > First create a skin wheal, then infiltrate the subcutaneous fat and deeper tissues
+
+PUNCTURING INSERTION SITE
+ *I'd get a sterile #11 blade scalpel*
+ *I'd puncture the site between the xiphoid process and left sternocostal margin*
+
+NEEDLE PREPARATION
+ *I'd connect a 60mL syringe to a spinal needle*
+ *I'd aspirate 5mL of Normal Saline Solution into the syringe*
+ > While advancing the needle, occasional injection of 1mL of Normal Saline Solution may ensure the needle lumen remains patent
+ > If time permits, connect an alligator clip from the base of the spinal needle to the V1 Lead of the ECG
+
+NEEDLE INSERTION
+ *I'd insert the needle through the skin incision*
+ *I'd direct the needle towards the left shulder*
+ *I'd occasionally inject 1mL of Normal Saline Solution to maintain needle lumen patency*
+ > Maintain the needle at a 45 degree angle to the abdominal wall and 45 degrees off the midline sagittal plane
+ > If time permits it, you should perform this procedure with guidance from an eFAST Ultrasound Device
+
+PENETRATION OF THE MYOCARDIUM
+ *I'd slowly advance the spinal needle to around 5cm deep*
+ *I'd do so while applying negative pressure*
+ > Continue advancing until one of the following criteria is met:
+	> A return of fluid is visualised
+	> Cardiac pulsations are palpable
+	> An abrupt change in the ECG waveform is noticed
+ > If the ECG waveform shows an injury pattern (ST-segment Elevation) then,
+	> Slowly retract the needle until the pattern returns to normal
+	> This pattern suggests that the needle is in direct contact with the myocardium
+
+ASPIRATION OF FLUIDS
+ *I'd withdraw as much fluid as possible*
+ *I'd stabilise the needle against the patient's torso*
+ *I'd remove the fluid-filled syringe and replace it with another 60mL syringe*
+ *I'd attempt to aspirate more pericardial fluid*
+ > Repeat the previous steps depending on how much fluid is in the pericardium
+ *I'd retract the needle and dispose of it into a sharps container*
+ > As more pericardial fluid is aspirated, the needle may move closer to the heart, causing an injury pattern
+	> If this injury pattern is visualised on the ECG, proceed as previously mentioned, by slowly retracting the needle a bit
+
+END OF PROCEDURE
+################

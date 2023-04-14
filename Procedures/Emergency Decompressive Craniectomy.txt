@@ -1,0 +1,72 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+
+INDUCTION OF GENERAL ANAESTHESIA
+ *I'd draw up 200mg of Ketamine Hydrochloride*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd infuse the 200mg of Ketamine Hydrochloride over 60 seconds*
+ > Maintenance of anaesthesia/analgesia with 2mg via pIV infusion every minute
+
+PATIENT PREPARATION
+ *I'd abduct the patient's head*
+ *I'd position the patient's head appropriately*
+ *I'd secure the patient's head in a 3-pin skull clamp*
+ *I'd ensure the patient's head is completely stable*
+
+PREPARATION
+ *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd prepare a #10 scalpel*
+ *I'd prepare some retractors, periosteal elevators, and flap elevators*
+ *I'd prepare some surgical sponges and haemostatic gauze*
+ *I'd get a craniotome*
+ *I'd connect a footplate attachment to a craniotome*
+ *I'd ensure the attachment was securely in place*
+
+CRANIAL PERFORATOR ASSEMBLY
+ *I'd get the perforator handle*
+ *I'd connect the handle to the electrical system*
+ *I'd insert a perforator drill bit*
+ *I'd ensure the bit was securely in place*
+
+CRANIECTOMY
+ > Identify the site of most swelling
+ *I'd select a rough incision site*
+ *I'd shave around the selected incision site*
+ *I'd sterilise the site with a 2% Chlorhexidine wipe*
+ *I'd allow the site to dry*
+ *I'd mark the selected incision site*
+
+INCISION & PERFORATION
+ *I'd infiltrate the skin overlying the incision site*
+ *I'd infiltrate the cranial periosteum with the 5mL of Lidocaine Hydrochloride*
+ *I'd get the #10 scalpel*
+ *I'd incise the skin at the marked site*
+ *I'd retract the skin with a pair of retractors*
+ *I'd extend the incision down to the periosteum*
+ *I'd incise the periosteum and visualise the cranium*
+ *I'd get the periosteal elevators*
+ *I'd retract the periosteum with the periosteal elevators
+ *I'd position the cranial perforator perpendicular to the cranium*
+ *I'd drill a hole with the perforator*
+ *I'd stop advancing the perforator after reaching the dura*
+ *I'd drill two more holes in the same manner*
+ *I'd get the craniotome*
+ *I'd make a smooth cut between all three perforations*
+ *I'd place some flap elevators underneath the bone flap*
+ *I'd remove the bone flap with the flap elevators*
+
+DURA MATER INCISION
+ *I'd get the #10 scalpel*
+ *I'd incise through the dura mater, making a flap*
+ *I'd retract the dura mater with a pair of retractors*
+ > Wait for the swelling to decrease
+ > Avoid causing any injury to the site by all means necessary
+
+END OF PROCEDURE
+################

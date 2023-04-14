@@ -1,0 +1,62 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITIES
+ > Preoxygenation via NRBM, outlined later on
+
+ETTI INDICATIONS
+ > Risk of gastric aspiration
+ > Impending airway compromise
+ > Risk of airway compromise due to constriction
+
+PRE-ETTI CHECKS
+ *I'd ensure the light bulb on the laryngoscope blade is working*
+ *I'd ensure that the patient is connected to all necessary monitoring equipment*
+	> Blood Oxygen Saturation by Pulse Oximetry
+
+EQUIPMENT PREPARATION
+ *I'd connect a laryngscope handle to an appropriately sized blade*
+ *I'd get a 7.5mm endotracheal tube*
+ > ET Tube size may be calculated as follows:
+	> Age of patient, divided by 4
+	> Add 4 to get the size of an uncuffed ETT
+	> Minus 1 half to get the size of a cuffed ETT
+	> Multiply final ETT size by 3 to get the depth
+ *I'd ensure that the ETT cuff doesn't leak*
+ *I'd deflate the ETT's cuff*
+ *I'd prepare a bougie*
+
+PREOXYGENATION
+ *I'd preoxygenate patient with an NRBM*
+ *I'd connect the NRBM to an oxygen tank*
+ *I'd open the valve and set oxygen flow to 12LPM*
+ *I'd preoxygenate for 3-5 minutes whilst drawing up medications*
+ > Preoxygenation via 100% oxygen NRBM is to be done without positive pressure ventilation
+	> Positive pressure ventilation = Air pushed into the lungs [E.g the squeezing of a BVM]
+	> Negative pressure ventilation = Air pulled into the lungs [E.g natural inspiration]
+ > Only preoxygenate via BVM if an SpO2 of >90% cannot be achieved normally
+
+ETT INTUBATION
+ *I'd remove the NRBM*
+ *I'd lift the patient's chin up and tilt their head*
+ *I'd insert the laryngoscope into the right side of the patient's mouth*
+ *I'd sweep the patient's tongue to the left*
+ *I'd visualise the epiglottis and rotate 45 degrees up*
+ *I'd visualise the patient's vocal cords*
+ *I'd advance the bougie past the vocal cords*
+ *I'd advance the bougie into the trachea*
+ *I'd place the ETT over the bougie*
+ *I'd advance the ETT over the bougie and into the trachea*
+ *I'd carefully retract the laryngoscope*
+ *I'd slowly retract the bougie*
+ *I'd inflate the ETT's cuff with a syringe of air*
+
+VENTILATION
+ *I'd connect a bag-valve mask to the ET tube*
+ *I'd begin manually ventilating the patient via the BVM*
+ *I'd auscultate the patient's lungs to verify the presence of bilateral air entry*
+ > Confirm that the ETTI was successful and still allows airflow into the lungs
+
+END OF PROCEDURE
+################

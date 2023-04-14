@@ -1,0 +1,15 @@
+
+START OF PROCEDURE
+##################
+
+CRT ASSESSMENT
+ *I'd abduct the patients arm*
+ *I'd apply pressure to one of the patient's digits*
+ *I'd maintain firm pressure for around ten seconds*
+ > The skin should now appear noticably pale
+ > This colour change occurs due to oxygen-rich blood filling up empty capillaries
+ *I'd release pressure*
+ *I'd time how long the skin takes to revert to its normal colour*
+
+END OF PROCEDURE
+################

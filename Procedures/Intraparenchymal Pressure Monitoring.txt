@@ -1,0 +1,61 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one Peripheral Intravenous Line
+ > Adequate oxygenation
+
+SITE ACQUISITION & PREPARATION
+ > In focal brain injuries, select the most injured side
+ > In multifocal brain injuries (diffuse injuries), select the right (nondominant) hemisphere
+ *I'd select the appropriate hemisphere for the ICP probe*
+ *I'd mark 2-3cm anterior to the coronal suture in a plane with the midpupillary line behind the hairline*
+ *I'd shave around the designated incision site*
+ *I'd sterilise the site with 2% Chlorhexidine*
+ *I'd measure and mark the incision site*
+ *I'd get a #10 scalpel*
+ *I'd get a cranial perforator*
+ *I'd attach a 2.71mm drill bit to the perforator and ensure it is secure*
+ *I'd ensure the perforator's safety stop is functioning*
+
+PRE-TREATMENT
+ *I'd prepare 500mg of Amoxicillin*
+ *I'd ensure there were no impurities present*
+ *I'd connect it to the set and push the 500mg of Amoxicillin*
+
+LOCAL INFILTRATION
+ *I'd get a 3mL syringe with a 25 gauge needle*
+ *I'd prep 3mL of 1% Lidocaine Hydrochloride*
+ *I'd ensure no impurities were present in the solution*
+ *I'd locally infiltrate the anaesthetic around the marked site in a radial fashion*
+ *I'd continue until a wheal is visible*
+
+INCISION
+ *I'd make a linear 0.5cm incision*
+ *I'd extend the incision down through the subcutaneous fat*
+ *I'd use a small skin retractor to widen the incision*
+ *I'd retract the subcutaneous fat*
+ *I'd scrape off the periosteum to expose the cranium*
+
+BONE DRILLING
+ *I'd position the perforator 10 degrees from perpendicular to the incision site*
+ *I'd carefully perforate the skull and retract then device*
+ *I'd irrigate the site with Normal Saline Solution*
+
+MONITOR SETUP
+ *I'd get a #18 Spinal Needle*
+ *I'd carefully perforate the dura with the needle*
+ *I'd manually screw the bolt into the skull*
+ *I'd screw to approximately 1cm of depth*
+ *I'd insert the stylet through the bolt to remove any bone or soft tissue debris*
+ *I'd connect a fibreoptic catheter to an ICP monitor*
+ *I'd zero the fibreoptic catheter*
+ *I'd insert the fibreoptic catheter through the bolt to a depth of 1.5cm*
+ *I'd ensure the catheter was not under pressure against anything*
+ *I'd turn the compression cap clockwise to secure the monitor*
+ *I'd place a Tegaderm*
+ *I'd assess the ICP waveform*
+
+END OF PROCEDURE
+################

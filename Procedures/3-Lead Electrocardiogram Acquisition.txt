@@ -1,0 +1,28 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > Ensure that the skin of the patient's chest is exposed
+ > Shave excess hair follicles in a 2cm diameter around the desired electrode site(s)
+ > Using a 2% Chlorhexidine wipe, abrade desired electrode sites to remove loose skin, body oil, sweat, etc
+ > Allow sites to dry before placing electrodes
+
+LEAD PLACEMENT
+ *I'd remove 3 electrodes connected to an ECG Leadwire from the pack*
+ *I'd ensure all electrodes were still conductive*
+ *I'd identify the suprasternal notch*
+ *I'd place the RA electrode inferior to the right clavicle at the midclavicular line*
+ *I'd place the LA electrode bilaterally to the RA electrode*
+ *I'd ensure both electrodes were in full contact with the skin*
+ *I'd identify the 7th intercostal space*
+ *I'd place the unipolar LL electrode left of the midclavicular line at the 7th ICS*
+ *I'd ensure the electrode is in full contact with the skin*
+
+ECG ACQUISITION & INTERPRETATION
+ *I'd assess bipolar Leads I to III*
+ *I'd assess the morphology of the rhythm displayed*
+ *I'd interpret the ECG measurement*
+
+END OF PROCEDURE
+################

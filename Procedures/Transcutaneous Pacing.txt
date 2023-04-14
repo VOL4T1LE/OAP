@@ -1,0 +1,46 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUESITES
+ > At least one Peripheral Intravenous Line
+ > Monitoring of the following vitals on the LIFEPAK 15:
+	> Heart Rhythm
+	> Heart Rate
+	> Non-Invasive Blood Pressure
+	> Blood Oxygen Saturation by Pulse Oximetry
+
+PATIENT PREPARATION
+ *I'd shave any excess hair at the pacing site*
+ *I'd sterilise the site with 2% Chlorhexidine wipes*
+ *I'd allow the site to dry*
+
+ANAESTHESIA/ANALGESIA
+ *I'd draw up 200mg of Ketamine Hydrochloride*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the pIV line*
+ *I'd infuse the 200mg of Ketamine Hydrochloride over 60 seconds*
+ > Maintenance of anaesthesia/analgesia with 2mg via pIV infusion every minute
+
+ELECTRODE POSITIONING
+ *I'd position the anterior electrode over the cardiac apex*
+ *I'd position the posterior electrode inferior to the scapula*
+ > The black pad is the anterior electrode, and should have a negative polarity
+ > The red pad is the posterior electrode, and should have a positive polarity
+
+PACING SETUP
+ *I'd connect the electrodes to thhe LIFEPAK 15*
+ *I'd set the pacing mode to "demand" on the LIFEPAK 15*
+ > In demand mode, the pacemaker senses the intrinsic impulses and delievrs current only if necessary
+ > If capture cannot be achieved in demand mode, attempt to use fixed mode instead
+ *I'd set the pacing rate to 30BPM above the patient's intrinsic rhythm*
+ > In other words, get the patient's heart rate and add 30BPM
+ *I'd set the current to 70mA*
+
+TRANSCUTANEOUS PACING
+ *I'd begin pacing and increasing the current until pacing rate is captured*
+ *Upon capture, I'd set current to 5mA above threshold*
+ > To prevent interference, electrical devices, including smartphones, should be kept more than 2m away from patients undergoing TCP
+
+END OF PROCEDURE
+################

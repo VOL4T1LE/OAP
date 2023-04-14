@@ -1,0 +1,69 @@
+
+START OF PROCEDURE
+##################
+
+PATIENT PREPARATION
+ *I'd locate the incision site*
+ *I'd sterilise the site with a 2% Chlorhexidine wipe*
+ *I'd allow the site to dry*
+ *I'd get 5mL of 1% Lidocaine Hydrochloride in a 5mL syringe*
+ *I'd ensure no impurities were present in the solution*
+ *I'd infiltrate the local anaesthetic at the insertion site*
+ *I'd ensure that the patient is supine*
+ *I'd put on a clean pair of nitrile gloves*
+
+SITE IDENTIFICATION
+ *I'd identify relevant anatomical sites*
+ *I'd palpate the thyroid cartilage*
+ *I'd palpate the cricoid cartilage*
+ *I'd palpate the cricothyroid membrane*
+ *I'd stabilise the site with my first and third non-dominant digits*
+ *I'd palpate the membrane with my non-dominant index finger*
+
+SURGICAL INCISION AND DILATIOM
+ *I'd get a #11 blade scalpel*
+ *I'd make a midline vertical incision over the cricothyroid membrane*
+ *I'd extend the incision to a length and depth of 3cm*
+ > A midline vertical incision may lead to some venous bleeding
+ > This type of incision however, avoids the laterally located vascalature of the neck
+ *I'd palpate the cricothyroid membrane through the incision using my non-dominant index finger*
+ *I'd make a horizontal incision through the membrane*
+ > A distinct pop will be heard as you pierce the membrane and enter the trachea
+ *I'd keep the scalpel in place until the tracheal hook is inserted*
+ *I'd insert a tracheal hook at the superior end of the incision*
+ *I'd retract the skin and membrane cephalad*
+ > If patient is apnoeic, apply pressure to anterior chest wall to simulate exhalation and thereby produce air bubbles
+ *I'd get the trousseau dilator*
+ *I'd hold it in my non-dominant hand*
+ *I'd dilate the incision vertically*
+
+INTUBATION AND VENTILATION
+ *I'd insert the tracheostomy tube between the two blades of the dilator*
+ *I'd direct the tube to one side of the patient*
+ *I'd advance until the tube is through the membrane*
+ *I'd rotate the tube 90 degrees*
+ *I'd insert the the tube caudally*
+ *I'd remove the tracheostomy tube obturator*
+ *I'd insert the inner cannula into the tracheostomy tube*
+ *I'd lock the inner cannula in place*
+ *I'd inflate the balloon with a 5mL syringe of air*
+ *I'd connect the tube to a BVM*
+ *I'd begin manually ventilating via the BVM*
+
+CONFIRMATION OF PLACEMENT
+ *I'd assess the chest to see if it rises during ventilation*
+ *I'd auscultate the lungs to confirm placement*
+
+CAPNOGRAPHY
+ *I'd briefly stop ventilating*
+ *I'd connect a capnography sensor to the tube*
+ *I'd connect the BVM and continue ventilating*
+ *I'd connect the sensor to the LIFEPAK 15*
+ *I'd assess the patient's End Tidal CO2 waveform*
+
+UPON CONFIRMATION OF CORRECT PLACEMENT
+ *I'd remove the tracheal hook*
+ *I'd secure the tube in place*
+
+END OF PROCEDURE
+################

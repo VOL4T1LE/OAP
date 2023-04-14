@@ -1,0 +1,15 @@
+
+START OF PROCEDURE
+##################
+
+DIGITAL NIBP MEASUREMENT
+ *I'd get a digital sphygmomanometer*
+ *I'd connect an NIBP cuff to the device*
+ *I'd wrap the NIBP cuff 2cm superior to one of the patient's antecubital fossae*
+ *I'd inflate the cuff via the device*
+ *I'd wait for the cuff to deflate*
+ *I'd assess the NIBP calculated by the device*
+ *I'd remove the NIBP cuff*
+
+END OF PROCEDURE
+################

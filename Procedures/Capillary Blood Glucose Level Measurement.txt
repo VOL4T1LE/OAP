@@ -1,0 +1,25 @@
+
+START OF PROCEDURE
+##################
+
+PREPARATION
+ *I'd get a 2% Chlorhexidine wipe*
+ *I'd sterilise the patient's finger with the wipe*
+ *I'd allow the site to dry*
+ *I'd get a glucometer and turn it on*
+ *I'd ensure the device was calibrated*
+ *I'd load a test strip into the glucometer*
+ *I'd get a lancet and remove the protective cap*
+
+BGL MEASUREMENT
+ *I'd prick the side of the patient's finger with the lancet*
+ > Gently squeeze the finger from proximal to distal to produce a droplet of blood
+ *I'd gently touch the test strip with the patients finger*
+ > Ensure that the test strip, inserted in the bottom of the glucometer, absorbs the droplet of blood
+ *I'd apply some gauze to the site and maintain pressure*
+ *I'd discard the lancet into a sharps container*
+ *I'd assess the BGL reading on the glucometer*
+ *I'd discard the used test strip into a clinical waste container*
+
+END OF PROCEDURE
+################
