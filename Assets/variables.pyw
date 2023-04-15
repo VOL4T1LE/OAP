@@ -24,3 +24,6 @@ Service_Name = "London Ambulance Service"
 
 # Define whether or not procedure files should automatically be opened on entry submission (Default: True)
 Auto_Access_Procedures = True
+
+# Define whether or not the exit button should require confirmation before exiting (Default: True)
+Exit_Confirmation_Bool = True
