@@ -1,0 +1,15 @@
+
+############################
+Pain Assessment | Memory Aid
+############################
+
+DRcAcBCDE
+
+O  |  Onset of Pain
+P  |  Provocation & Palliation of Pain
+Q  |  Quality(s) of Pain
+R  |  Region & Radiation of Pain
+S  |  Severity of Pain
+T  |  Time of Pain
+
+############################
