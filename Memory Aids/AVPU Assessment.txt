@@ -1,0 +1,11 @@
+
+############################
+AVPU Assessment | Memory Aid
+############################
+
+A  |  Alert (Responsive to all stimuli)
+V  |  Responsive to Verbal Stimuli
+P  |  Responsive to Painful Stimuli
+U  |  Unresponsive to all stimuli
+
+############################
