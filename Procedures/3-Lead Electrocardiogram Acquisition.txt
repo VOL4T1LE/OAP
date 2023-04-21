@@ -21,7 +21,7 @@ LEAD PLACEMENT
 
 ECG ACQUISITION & INTERPRETATION
  *I'd assess bipolar Leads I to III*
- *I'd assess the morphology of the rhythm displayed*
+ *I'd assess the morphology of the rhythms displayed*
  *I'd interpret the ECG measurement*
 
 END OF PROCEDURE
