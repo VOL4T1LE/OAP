@@ -22,7 +22,7 @@ Procedure_IDs = {
     "20": "Intramuscular Administration",
     "21": "Intraosseous Access",
     "22": "Intraparenchymal Pressure Monitoring",
-    "23": "Manual Non-Invasive Blood Pressure Measurement",
+    "23": "Aneroid Non-Invasive Blood Pressure Measurement",
     "24": "Midline Sternotomy",
     "25": "Needle Cricothyroidotomy (High-Frequency Jet Ventilation Method)",
     "26": "Needle Cricothyroidotomy (Syringe Method)",
@@ -37,7 +37,8 @@ Procedure_IDs = {
     "35": "Transcutaneous Pacing",
     "36": "Yankauer Suction Device",
     "37": "External Jugular Intravenous Access (Landmark Method)",
-    "38": "Endotracheal Tube Intubation"
+    "38": "Endotracheal Tube Intubation",
+    "39": "Chemical Burn Management",
 }
 
 Procedure_Details = {
@@ -173,8 +174,8 @@ Procedure_Details = {
         "Skill": "PHEM Physician",
         "Procedure ID": "22"
     },
-    "Manual Non-Invasive Blood Pressure Measurement": {
-        "File": "Manual Non-Invasive Blood Pressure Measurement.txt",
+    "Aneroid Non-Invasive Blood Pressure Measurement": {
+        "File": "Aneroid Non-Invasive Blood Pressure Measurement.txt",
         "Type": "Patient Assessment",
         "Skill": "Paramedic +",
         "Procedure ID": "23"
@@ -268,5 +269,11 @@ Procedure_Details = {
         "Type": "Basic Airway Management",
         "Skill": "Paramedic +",
         "Procedure ID": "38"
-    }
+    },
+    "Chemical Burn Management": {
+        "File": "Chemical Burn Management.txt",
+        "Type": "Trauma Management",
+        "Skill": "Specialist Paramedic",
+        "Procedure ID": "39"
+    },
 }

@@ -1,0 +1,59 @@
+
+START OF PROCEDURE
+##################
+
+PREQUISITES
+ > Perform a modified Allen's test before utilising the radial artery
+ > Note whether the patient is receiving Oxygen Therapy
+ > Note oxygen flow rate and delivery method if applicable
+
+PREPARATION
+ *I'd position the PT's non-dominant hand at 20-30 degrees with the wrist extended*
+ *I'd palpate the PT's radial artery*
+ *I'd identify a distal site at which the artery is most pulsatile*
+ *I'd wipe the site with a 2% Chlorhexidine wipe*
+ *I'd allow the site to dry*
+ *I'd pre-fill a syringe with Heparin*
+ *I'd connect the pre-Heparinised syringe to an ABG needle*
+ *I'd get a 3mL syringe of 1% Lidocaine Hydrochloride*
+ *I'd ensure no impurities were present in the solution*
+ *I'd anaesthetise the site via local infiltration*
+
+ABG SAMPLE COLLECTION
+ *I'd remove the protective cover from the ABG needle*
+ *I'd hold the needle like a dart*
+ *I'd insert the needle at 3-45 degrees*
+ *I'd advanced until flashback occurs and less resistance is felt*
+ *I'd wait for the syringe to fill in a pulsatile manner*
+ *I'd retract the needle and firmly apply a gauze pad*
+ *I'd secure the gauze with some tape and continue applying pressure*
+ *I'd engage the needle safety device and then remove the needle*
+ *I'd discard the needle into a sharps container*
+ *I'd attach a cap to the ABG sample*
+
+DEVICE SETUP
+ *I'd get the Abbott i-STAT ABG Analyser*
+ *I'd select option 2: "i-STAT cartridge"*
+ *I'd input the operator ID*
+ *I'd input and confirm the patient ID*
+ *I'd scan the cartridge lot number*
+
+POINT OF CARE ABG ASSESSMENT
+ *I'd remove the cartridge from the sealed packaging and open it*
+ *I'd roll the sample vertically and horizontally between the palms of my hands*
+ *I'd take discard the first few drops of the sample*
+ *I'd fill the cartridge with the blood sample until the indicated mark*
+ *I'd close the cartridge*
+ *I'd insert the cartridge through the bottom of the i-STAT analyser*
+
+ANALYSIS PARAMETERS
+ > Blood Acidity (pH)
+ > Partial Pressure of Carbon Dioxide (PCO2 in mmHg)
+ > Partial Pressure of Oxygen (PO2 in mmHg)
+ > Base Excess Extracellular Fluid (BEecf in mmol/L)
+ > Blood Bicarbonate Concentration (HCO3 in mmol/L)
+ > Total Blood Carbon Dioxide (TCO2 in mmol/L)
+ > Arterial Blood Oxygen Saturation (SaO2 in %)
+
+END OF PROCEDURE
+################

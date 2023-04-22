@@ -10,5 +10,5 @@
 
 ### Current Functions
 - Procedure search function available for over 30 procedures of varying clinical scopes of practice
-- Memory aid search function available for a few common patient assessments
+- Memory aid search function available for a few common patient assessments and acronyms/abbreviations
 - Non-functional LIFEPAK-15 option, to be developed some time in the future
