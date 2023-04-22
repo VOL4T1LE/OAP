@@ -39,6 +39,7 @@ Procedure_IDs = {
     "37": "External Jugular Intravenous Access (Landmark Method)",
     "38": "Endotracheal Tube Intubation",
     "39": "Chemical Burn Management",
+    "40": "Emergency Removal of Embedded Objects",
 }
 
 Procedure_Details = {
@@ -275,5 +276,11 @@ Procedure_Details = {
         "Type": "Trauma Management",
         "Skill": "Specialist Paramedic",
         "Procedure ID": "39"
+    },
+    "Emergency Removal of Embedded Objects": {
+        "File": "Emergency Removal of Embedded Objects.txt",
+        "Type": "Trauma Management",
+        "Skill": "Advanced Practitioner +",
+        "Procedure ID": "40"
     },
 }
