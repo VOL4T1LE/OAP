@@ -1,0 +1,44 @@
+
+################################################
+Critical Care Pain Observation Tool | Memory Aid
+################################################
+
+CPOT
+
+Facial Expression
+   0  |  Neutral and relaxed facial expression
+   1  |  Tensed up facial features
+   2  |  Grimacing - Face fully tensed up with eyes tightly shut
+
+Body Movement
+   0  |  Absence of any movement (Does not necessarily indicate a lack of pain)
+   1  |  Slow, cautious, protective movements (E.g. touching / rubbing site of pain)
+   2  |  Restless and/or aggressive and resistive movements (In addition to disobeying commands)
+
+Muscle Tension
+   0  |  Relaxed, with no resistance to passive movements
+   1  |  Tense and rigid, with some resistance to passive movements
+   2  |  Very tense or rigid, with strong resistance to passive movements
+
+Ventilation Compliance (Intubated patients)
+   0  |  Tolerating ventilator or movement - No alarms and easy ventilation
+   1  |  Coughing but tolerating ventilation - Alarms stop spontaneously
+   2  |  Fighting ventilator - Blocking ventilation, alarms activating frequently
+
+Vocalisation (Extubated patients)
+   0  |  Talking in normal voice and tone  or  No sound at all
+   1  |  Sighing or moaning
+   2  |  Crying out or sobbing
+
+Total Pain Score
+   0  |  Absence of any pain, consider future re-evaluation
+ < 2  |  Minimal to no pain present, consider future re-evaluation
+ > 2  |  Moderate pain present
+ > 5  |  Severe pain present to some degree
+   8  |  Severe pain present
+
+* Note that a score decrease of 2 indicates successful pharmacotherapy
+
+
+################################################
+################################################
