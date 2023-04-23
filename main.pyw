@@ -27,7 +27,7 @@ class Root_Window():
 
         # Configure the program's root window
         master.title(f"{vars.Service_Name}  |  {vars.Program_Title}  |  {vars.Program_Version}")
-        master.geometry("550x300+10+10")
+        master.geometry("550x300+5+10")
         master.resizable(False, False)
         master.attributes("-topmost", 1)
         master.configure(background = "#223D29", highlightthickness = 0)
