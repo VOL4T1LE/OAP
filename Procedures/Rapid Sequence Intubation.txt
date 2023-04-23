@@ -41,8 +41,8 @@ PREOXYGENATION
  *I'd open the valve and set oxygen flow to 12LPM*
  *I'd preoxygenate for 3-5 minutes whilst drawing up medications*
  > Preoxygenation via 100% oxygen NRBM is to be done without positive pressure ventilation
-	> Positive pressure ventilation = Air pushed into the lungs [E.g the squeezing of a BVM]
-	> Negative pressure ventilation = Air pulled into the lungs [E.g natural inspiration]
+	> Positive pressure ventilation = Air pushed into the lungs [E.g. The squeezing of a BVM]
+	> Negative pressure ventilation = Air pulled into the lungs [E.g. Natural inspiration]
  > Only preoxygenate via BVM if an SpO2 of >90% cannot be achieved normally
 
 INDUCTION & PARALYSIS (IA + NMBA)

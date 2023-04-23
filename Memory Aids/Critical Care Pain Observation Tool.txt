@@ -12,7 +12,7 @@ Facial Expression
 
 Body Movement
    0  |  Absence of any movement (Does not necessarily indicate a lack of pain)
-   1  |  Slow, cautious, protective movements (E.g. touching / rubbing site of pain)
+   1  |  Slow, cautious, protective movements (E.g. Touching / rubbing site of pain)
    2  |  Restless and/or aggressive and resistive movements (In addition to disobeying commands)
 
 Muscle Tension
