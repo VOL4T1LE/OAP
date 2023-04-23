@@ -9,6 +9,5 @@
 4. Any tampering with the file structure or the files themselves will likely result in undesired behaviour
 
 ### Current Functions
-- Procedure search function available for over 30 procedures of varying clinical scopes of practice
-- Memory aid search function available for a few common patient assessments and acronyms/abbreviations
+- Search functions available for over 40 procedures of varying clinical scopes of practice along with over 10 memory aids
 - Non-functional LIFEPAK-15 option, to be developed some time in the future
