@@ -3,7 +3,7 @@
 Malnutrition Universal Screening Tool | Memory Aid
 ##################################################
 
-MUST
+MUST Tool
 
 Stage 1  |  Body Mass Index ( kg / m^2 )
 > 20     |  0
