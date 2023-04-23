@@ -49,7 +49,7 @@ Memory_Aid_IDs = {
     "3": "Pain Assessment.txt",
     "4": "AVPU Assessnebt.txt",
     "5": "Glasgow Coma Scale.txt",
-    "6": "MUST Tool.txt",
+    "6": "Malnutrition Universal Screening Tool.txt",
     "7": "Beck's Triad.txt",
     "8": "Critical Care Pain Observation Tool.txt",
     "9": "Behavioural Pain Score.txt",
