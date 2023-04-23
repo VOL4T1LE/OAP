@@ -43,6 +43,16 @@ Procedure_IDs = {
     "41": "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae)"
 }
 
+Memory_Aid_IDs = {
+    "1": "Primary Patient Assessment.txt",
+    "2": "Secondary Patient Assessment.txt",
+    "3": "Pain Assessment.txt",
+    "4": "AVPU Assessnebt.txt",
+    "5": "Glasgow Coma Scale.txt",
+    "6": "MUST Tool.txt",
+    "7": "Beck's Triad.txt",
+}
+
 Procedure_Details = {
     "3-Lead Electrocardiogram Acquisition": {
         "File": "3-Lead Electrocardiogram Acquisition.txt",
