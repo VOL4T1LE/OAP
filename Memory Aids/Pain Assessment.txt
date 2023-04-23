@@ -3,7 +3,7 @@
 Pain Assessment | Memory Aid
 ############################
 
-DRcAcBCDE
+OPQRST
 
 O  |  Onset of Pain
 P  |  Provocation & Palliation of Pain
