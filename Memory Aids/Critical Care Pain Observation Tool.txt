@@ -35,8 +35,9 @@ Total Pain Score
  < 2  |  Minimal to no pain present, consider future re-evaluation
  > 2  |  Moderate pain present
  > 5  |  Severe pain present to some degree
-   8  |  Severe pain present
+   8  |  Maximum pain present
 
+* Note that a score above 2 indicates analgesic therapy
 * Note that a score decrease of 2 indicates successful pharmacotherapy
 
 
