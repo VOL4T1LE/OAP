@@ -1,0 +1,96 @@
+
+START OF PROCEDURE
+##################
+
+DISCLAIMER
+ > For the purposes of this procedure, right internal jugular vein cannulation shall be demonstrated
+ > For the purposes of this procedure, cannualtion shall be demonstrated under POCUS guidance
+
+PREREQUISITES
+ > At least one central intravenous line for haemodynamic monitoring and pharmacotherapy
+ > Administration of an induction agent and an NMBA prior to the procedure
+
+CONSIDERATIONS
+ > Femoral vein cannulation is preferred due to:
+    > Ease of access
+    > Ability to ambulate patient if necessary
+ > Internal jugular vein cannulation may be preferred:
+    > Where there are patient positioning complications
+    > Where femoral vein access is not feasible
+
+HEPARIN INFUSION
+ *I'd prepare a bag of unfractioend Heparin*
+ *I'd ensure no impurities were present*
+ *I'd connect the syringe to the extension set*
+ *I'd slowly infuse the Heparin*
+
+PREPARATION
+ *I'd don a sterile pair of nitrile gloves*
+ *I'd ensure the patient was supine*
+ *I'd triangulate for the right internal jugular vein*
+ *I'd palpate the vessel*
+ *I'd sterilise the site with a 2% chlorhexidine wipe*
+ *I'd mark the insertion site*
+ *I'd triangulate for the left internal jugular vein*
+ *I'd palpate the vessel*
+ *I'd sterilise the site with a 2% chlorhexidine wipe*
+ *I'd mark the insertion site*
+ *I'd prep an eFAST point of care ultrasound*
+ *I'd ensure the ECMO circuit was connected, including the pump and gas exchange unit*
+
+LEFT IJV OXIMETRY
+ *I'd get a venous oximeter*
+ *I'd connect the oximeter to the LIFEPAK 15*
+ *I'd get a hollow 20 gauge needle*
+ *I'd insert the needle into the left IJV anteriorly under POCUS guidance*
+ *I'd insert a guidewire through the needle*
+ *I'd carefully withdraw the needle*
+ *I'd discard the needle into a sharps container*
+ *I'd introduce the oximeter over the guidewire*
+ *I'd withdraw the guidewire*
+ *I'd secure the oximeter with some tegaderm*
+ > Using this oximeter, monitor SjVO2 throughout the procedure
+
+RIJV CANNULATION
+ *I'd prepare a 31-French bicaval dual-lumen cannula*
+ *I'd get a hollow 20 gauge needle*
+ *I'd insert the needle into the right IJV anteriorly under POCUS guidance*
+ *I'd insert a guidewire through the needle*
+ *I'd carefully withdraw the needle*
+ *I'd discard the needle into a sharps container*
+ *I'd introduce a cannula over the guidewire*
+ *I'd connect the inflow and outflow ports of the cannula to the relevant lines on the ECMO circuit*
+ *I'd withdraw the guidewire*
+ *I'd slightly advance the cannula*
+ *I'd secure the cannula with adhesive tape*
+
+ECMO INITIATION
+ *I'd turn on the ECMO circuit and prime the circuit with Normal Saline Solution*
+ *I'd activate the ECMO pump and initiate extracorporeal membrane oxygenation*
+ *I'd adjust the flow rate to between 2 and 7 LPM whilst monitoring the patient's SjVO2*
+ *I'd titrate to until a suitable SjVO2 value is achieved*
+ > Following ECMO initiation:
+    > Monitor in case of haemorrhaging at the cannulation site
+    > Monitor heart rate and blood pressure
+    > Monitor jugular venous oxygen saturation (SjVO2)
+    > Perform in vitro haemolytic testing to determine whether the ECMO circuit is inducing haemolysis
+    > Monitor for blood COHb level elevation indicating intravascular haemolysis
+
+
+WEANING & ECMO DISCONTINUATION
+ > Weaning is typically done by decreasing the flow rate by 10-20% every 4-8 hours
+ > Whilst decreasing flow rate, monitor the patient's haemodynamic stability and respiratory status
+ > Consider the need for follow-up mechanical ventilation after ECMO discontinuation
+ *I’d evaluate the patient’s condition and readiness for ECMO discontinuation*
+ *I'd prepare a 4x4 gauze pad and a cotton bandage*
+ *I’d gradually wean the patient off ECMO by decreasing the flow rate and sweep gas flow*
+ *I'd remove the adhesive tape from the cannulation site*
+ *I'd apply some pressure to the cannulation site*
+ *I'd carefully withdraw the cannula under sterile conditions, maintaining pressure to the site*
+ *I'd apply the gauze pad to the former cannulation site*
+ *I'd secure the gauze pad with the cotton bandage*
+ *I'd tie the bandage and cut off an yexcess*
+ > Monitor the patient for any complications or indications of haemodynamic instability
+
+END OF PROCEDURE
+################

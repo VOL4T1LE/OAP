@@ -40,6 +40,7 @@ Procedure_IDs = {
     "38": "Endotracheal Tube Intubation",
     "39": "Chemical Burn Management",
     "40": "Emergency Removal of Embedded Objects",
+    "41": "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae)"
 }
 
 Procedure_Details = {
@@ -282,5 +283,11 @@ Procedure_Details = {
         "Type": "Trauma Management",
         "Skill": "Advanced Practitioner +",
         "Procedure ID": "40"
+    },
+    "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae)": {
+        "File": "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae).txt",
+        "Type": "Extracorporeal Life Support",
+        "Skill": "PHEM Physician",
+        "Procedure ID": "41"
     },
 }
