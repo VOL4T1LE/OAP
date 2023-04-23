@@ -1,0 +1,35 @@
+
+###################################
+Behavioural Pain Score | Memory Aid
+###################################
+
+BPS
+
+Facial Expression
+   1  |  Neutral and relaxed facial expression
+   2  |  Partially tense / tightened (E.g. Brow lowering)
+   3  |  Fully tense / tightened (E.g. Eyelid closing)
+   4  |  Grimacing
+
+Upper Extremities
+   1  |  No movement
+   2  |  Arms partially flexed
+   3  |  Arms fully flexed with finger flexion
+   4  |  Permanently retracted
+
+Ventilation Compliance
+   1  |  Tolerating movement
+   2  |  Coughing, but mostly tolerating ventilation
+   3  |  Fighting ventilator
+   4  |  Unable to control ventilation
+
+Total BPS Score
+   0  |  Absensce of any pain
+ < 3  |  Minimal to no pain present
+ > 4  |  Mild pain present
+ > 6  |  Unacceptable level of pain, indicative of need for analgesic therapy
+  12  |  Maximum pain possible present
+
+
+###################################
+###################################

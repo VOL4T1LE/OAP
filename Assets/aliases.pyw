@@ -211,6 +211,20 @@ Memory_Aid_Aliases = {
     "Critical-care pain observation tool": "Critical Care Pain Observation Tool.txt",
     "Critical-care Pain Observation Tool": "Critical Care Pain Observation Tool.txt",
     "Critical-Care Pain Observation Tool": "Critical Care Pain Observation Tool.txt",
+    "bps": "Behavioural Pain Score.txt",
+    "Bps": "Behavioural Pain Score.txt",
+    "BPS": "Behavioural Pain Score.txt",
+    "bps tool": "Behavioural Pain Score.txt",
+    "Bps tool": "Behavioural Pain Score.txt",
+    "Bps Tool": "Behavioural Pain Score.txt",
+    "BPS tool": "Behavioural Pain Score.txt",
+    "BPS Tool": "Behavioural Pain Score.txt",
+    "behavioural pain score": "Behavioural Pain Score.txt",
+    "Behavioural pain score": "Behavioural Pain Score.txt",
+    "Behavioural Pain Score": "Behavioural Pain Score.txt",
+    "behavioural pain score tool": "Behavioural Pain Score.txt",
+    "Behavioural pain score tool": "Behavioural Pain Score.txt",
+    "Behavioural Pain Score Tool": "Behavioural Pain Score.txt",
 }
 
 Procedure_Aliases = {
