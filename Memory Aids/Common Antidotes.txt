@@ -1,0 +1,52 @@
+
+#############################
+Common Antidotes | Memory Aid
+#############################
+
+List of Common Antidotes (Alphabetical Order)
+
+Substance(s) / Class            Generic Antidote (Trade Name)
+--------------------            -----------------------------
+Acetaminophen               |   N-Acetylcysteine (Mucomyst®)
+Aceylsalicylic Acid         |   Sodium Bicarbonate
+Alcohol Withdrawal          |   Chlordiazepoxide Hydrochloride (Librium®)
+Anticholinergics            |   Physostigmine Salicylate (Antilirium)
+Anticoagulants              |   Vitamin K / Phytomenadione  &  Fresh Frozen Plasma (FFP)
+Benzodiazepines             |   Flumazenil
+Beta Blockers               |   Glucagon
+Calcium-Channel Blockers    |   Glucagon  or  10% Calcium Gluconate  or  Insulin
+Carbamates                  |   Atropine Sulphate (AtroPen®)  and  Pralidoxime (2-PAM Cl)
+Cholinergics                |   Atropine Sulphate (AtroPen®)  and  Pralidoxime (2-PAM Cl)
+Cyanide                     |   25% Sodium Thiosulphate  or  Isopentyl Nitrate
+Digoxin                     |   Digoxin-specific Antibody (DigiFab®)
+Ethanol                     |   Fomepizole
+Ethylene Glycol             |   Fomepizole
+Heparin                     |   Protamine Sulphate
+Insulin                     |   Glucagon  or  Glucose  or  Dextrose
+Magnesium Sulphate          |   Calcium Gluconate
+Methaemoglobin              |   Methylthionium Chloride / Methylene Blue
+Methanol                    |   Fomepizole
+Methotrexate                |   Leucovorin / Folinic Acid / Calcium Folinate
+Novichok Agents             |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Opioids                     |   Naloxone Hydrochloride (Narcan®)
+Organophosphates            |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Polonium Radioisotopes      |   Chelation Therapy via Dimercaprol / British Anti-Lewisite
+Sarin                       |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Tricyclic Antidepressants   |   Sodium Bicarbonate
+VX Nerve Agent              |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Warfarin                    |   Vitamin K / Phytomenadione
+
+
+Additional Considerations
+-------------------------
+~ (Charcoal) Haemoperfusion
+~ Exchange Blood Transfusion
+~ Haemodialysis
+~ Haemofiltration
+~ Gastric Aspiration
+~ Gastric Lavage
+~ Per Os Activated Charcoal
+
+
+#############################
+#############################

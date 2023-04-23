@@ -53,7 +53,8 @@ Memory_Aid_IDs = {
     "7": "Beck's Triad.txt",
     "8": "Critical Care Pain Observation Tool.txt",
     "9": "Behavioural Pain Score.txt",
-    "10": "Glasgow Coma Scale (2018).txt"
+    "10": "Glasgow Coma Scale (2018).txt",
+    "11": "Common Antidotes.txt",
 }
 
 Procedure_Details = {
