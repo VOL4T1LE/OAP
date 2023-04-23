@@ -16,7 +16,7 @@ Service_Name = "London Ambulance Service"
 Auto_Access_Procedures = True
 
 # Define whether or not the exit button should require confirmation before exiting (Default: True)
-Exit_Confirmation_Bool = True
+Exit_Confirmation_Bool = False   #* Variable temporarily set to false for testing purposes!
 
 
 ###########################################################################################################
