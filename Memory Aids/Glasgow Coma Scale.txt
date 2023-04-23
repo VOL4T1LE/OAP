@@ -1,6 +1,6 @@
 
 ###############################
-Glasgow Coma Scale  | Memory Aid
+Glasgow Coma Scale | Memory Aid
 ###############################
 
 GCS Scale
