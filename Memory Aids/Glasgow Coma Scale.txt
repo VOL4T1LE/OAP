@@ -1,36 +1,38 @@
 
 ###############################
-Glasgow Coma Scale | Memory Aid
+Glasgow Coma Scale  | Memory Aid
 ###############################
 
 GCS Scale
 
 Best Eye Opening Response
-4  |  Eyes open spontaneously
-3  |  Eyes open in response to verbal stimuli
-2  |  Eyes open in response to painful stimuli
-1  |  Eyes closed and unresponsive
+   4   |  Eyes open spontaneously
+   3   |  Eyes open in response to verbal stimuli
+   2   |  Eyes open in response to painful stimuli
+   1   |  Eyes closed and unresponsive
 
 Best Verbal Response
-5  |  Oriented in time, place, and identity
-4  |  Responds confused
-3  |  Responds with inappropriate expletives
-2  |  Responds with incomprehensible sounds
-1  |  Doesn't verbally respond
+   5   |  Oriented in time, place, and identity
+   4   |  Responds confused
+   3   |  Responds with inappropriate expletives
+   2   |  Responds with incomprehensible sounds
+   1   |  Doesn't verbally respond
 
 Best Motor Response
-6  |  Obeys verbal commands top move limbs / open eyes
-5  |  Moves limb(s) to localised painful stimulus
-4  |  Flexion / Withdrawal away from site of painful stimulus
-3  |  Abnormal limb flexion (Decorticate Posturing)
-2  |  Abnormal limb extension (Decerebrate Posturing)
-1  |  Doesn't respond to painful stimulus
+   6   |  Obeys verbal commands top move limbs / open eyes
+   5   |  Moves limb(s) to localised painful stimulus
+   4   |  Flexion / Withdrawal away from site of painful stimulus
+   3   |  Abnormal limb flexion (Decorticate Posturing)
+   2   |  Abnormal limb extension (Decerebrate Posturing)
+   1   |  Doesn't respond to painful stimulus
 
 Total GCS Score
-15 |  Ideal GCS score
-14 |  Best patient response
-8  |  Patient is comatose
-3  |  Patient is completely unresponsive
+   15  |  Patient is fully oriented and alert - Ideal GCS Score
+   14  |  Potentially inebriated or impaired (Consider a concussion)
+ > 13  |  Indicative of a mild acute trauamtic brain injury (A.K.A. a "Concussion")
+ > 9   |  Indicative of a moderate acute traumatic brain injury
+ < 8   |  Indicative of a severe traumatic brain injury - Patient's beyond a GCS of 8 are comatose
+   3   |  Patient is deeply comatose or deceased
 
 
 ###############################
