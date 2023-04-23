@@ -72,7 +72,7 @@ class Root_Window():
             borderwidth = 0,
             padx = 5,
             pady = 3,
-            command = self.Create_Memory_Aids
+            command = self.Create_MA_Entry_Field
         )
     
         # Create the 'LIFEPAK 15' selection button for the root window of the program
@@ -181,6 +181,17 @@ class Root_Window():
                     os.startfile(f"{Current_Directory}/procedures/{Entry_Filename}")
                 else:
                     pass
+            elif Entry_Input in alss.Memory_Aid_Aliases:
+                self.First_ProcDesc_Label.config(
+                    font = ("Verdana", 10),
+                    fg = "White"
+                )
+                if len(Entry_Input) < 7:
+                    Procedure_Descriptor_One.set(f"Please try search for '{Entry_Input}' using the 'Memory Aids' search utility instead")
+                else:
+                    Procedure_Descriptor_One.set(f"Please use the 'Memory Aids' search utility to look for:\n\n'{Entry_Input}'")
+                Procedure_Descriptor_Two.set("")
+                Procedure_Descriptor_Three.set("")
             else:
                 self.First_ProcDesc_Label.config(
                     font = ("Verdana Bold", 12),
@@ -262,7 +273,7 @@ class Root_Window():
             y = 150
         )
 
-    def Create_Memory_Aids(self):
+    def Create_MA_Entry_Field(self):
         cmds.Select_Memory_Aids()
         try:
             self.Procedure_Entry_Field.place_forget()
@@ -292,11 +303,25 @@ class Root_Window():
         def On_MA_Entry_Submission(event):
             Entry_Input = MA_Entry_Field_Variable.get()
             if Entry_Input in alss.Memory_Aid_Aliases:
+                self.MemDesc_Label.config(font = ("Verdana Bold", 12))
                 Mem_Descriptor_One.set("")
                 Entry_Filename = alss.Memory_Aid_Aliases[Entry_Input]
                 Current_Directory = os.getcwd()
                 os.startfile(f"{Current_Directory}/Memory Aids/{Entry_Filename}")
+            elif Entry_Input in alss.Procedure_Aliases:
+                self.MemDesc_Label.config(font = ("Verdana", 10))
+                if len(Entry_Input) < 10:
+                    Mem_Descriptor_One.set(f"Please search for '{Entry_Input}' using the 'Procedures' search utility instead")
+                else:
+                    Mem_Descriptor_One.set(f"Please use the 'Procedures' search utility to look for:\n'{Entry_Input}'")
+            elif Entry_Input in proc.Procedure_IDs:
+                self.MemDesc_Label.config(font = ("Verdana", 10))
+                if len(Entry_Input) < 10:
+                    Mem_Descriptor_One.set(f"Please search for '{Entry_Input}' using the 'Procedures' search utility instead")
+                else:
+                    Mem_Descriptor_One.set(f"Please use the 'Procedures' search utility to look for:\n\n'{Entry_Input}'")
             else:
+                self.MemDesc_Label.config(font = ("Verdana Bold", 12))
                 Mem_Descriptor_One.set("Memory Aid Not Found")
 
         # Create the memory aid entry field for the root window, with a specific textvariable
