@@ -6,14 +6,14 @@ Malnutrition Universal Screening Tool | Memory Aid
 MUST Tool
 
 Stage 1  |  Body Mass Index ( kg / m^2 )
-> 20     |  0
-< 20     |  1
-< 18.5   |  2
+ > 20    |  0
+ < 20    |  1
+ < 18.5  |  2
 
 Stage 2  |  Weight Loss Score (Unplanned weight loss %)
-< 5%     |  0
-> 5%     |  1
-> 10%    |  2
+ < 5%    |  0
+ > 5%    |  1
+ > 10%   |  2
 
 Stage 3  |  Acute Disease Effect Score
 If patient is acutely ill, and there has been, or likely
@@ -21,14 +21,14 @@ will not be, any nutritional intake in more than 5 days,
 add a score of 2 to the patient's total score.
 
 Stage 4  |  Overall Risk of Malnutrition (Total score)
-  0      |  Little to no risk of Malnutrition
-  1      |  Medium risk of malnutrition
-> 2      |  High risk of malnutrition
+   0     |  Little to no risk of Malnutrition
+   1     |  Medium risk of malnutrition
+ > 2     |  High risk of malnutrition
 
 Stage 5  |  Management Guidelines
-  0      |  Routine clinial care
-  1      |  Dietary / nutritional observation
-> 2      |  Treat for malnutrition unless detrimental or impractical (E.g. End of Life Care)
+   0     |  Routine clinial care
+   1     |  Dietary / nutritional observation
+ > 2     |  Treat for malnutrition unless detrimental or impractical (E.g. End of Life Care)
 
 
 ##################################################
