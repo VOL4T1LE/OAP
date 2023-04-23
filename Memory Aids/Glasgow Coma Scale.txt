@@ -3,6 +3,7 @@
 Glasgow Coma Scale | Memory Aid
 ###############################
 
+GCS Scale
 
 Best Eye Opening Response
 4  |  Eyes open spontaneously
