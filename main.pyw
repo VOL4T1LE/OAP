@@ -42,6 +42,7 @@ class Root_Window():
     def Create_Widgets(self):
         # Create an exit button for the root window of the program, linked to a specific exit command
         self.Exit_Button = Button(
+            master = self.master,
             text = "Click to exit",
             font = ("Arial Bold", 11),
             fg = "White",
@@ -56,6 +57,7 @@ class Root_Window():
 
         # Create the 'procedure' selection button for the root window of the program
         self.Procedure_Selection_Button = Button(
+            master = self.master,
             text = "Procedures",
             font = ("Arial Bold", 11),
             fg = "White",
@@ -68,6 +70,7 @@ class Root_Window():
 
         # Create the 'Memory Aids' selection button for the root window of the program
         self.Memory_Aid_Selection_Button = Button(
+            master = self.master,
             text = "Memory Aids",
             font = ("Arial Bold", 11),
             fg = "White",
@@ -80,6 +83,7 @@ class Root_Window():
     
         # Create the 'LIFEPAK 15' selection button for the root window of the program
         self.LIFEPAK_Selection_Button = Button(
+            master = self.master,
             text = "LIFEPAK 15",
             font = ("Arial Bold", 11),
             fg = "White",
@@ -121,6 +125,8 @@ class Root_Window():
             self.MA_Entry_Field.place_forget()
             self.MA_Submission_Button.place_forget()
             self.MemDesc_Label.place_forget()
+            self.LIFEPAK_Clock_Label.place_forget()
+            self.Vitals_Frame.place_forget()
         except:
             pass
         else:
@@ -209,6 +215,7 @@ class Root_Window():
 
         # Create the procedure entry field for the root window, with a specific textvariable
         self.Procedure_Entry_Field = Entry(
+            master = self.master,
             takefocus = False,
             textvariable = Procedure_Entry_Field_Variable,
             font = ("Verdana", 11),
@@ -220,6 +227,7 @@ class Root_Window():
 
         # Create the procedure submission button for the root window
         self.Procedure_Submission_Button = Button(
+            master = self.master,
             text = "Submit",
             font = ("Verdana Bold", 10),
             fg = "#162119",
@@ -229,6 +237,7 @@ class Root_Window():
 
         # Create the first procedure descriptor label for the root window
         self.First_ProcDesc_Label = Label(
+            master = self.master,
             textvariable = Procedure_Descriptor_One,
             font = ("Verdana", 11),
             fg = "White",
@@ -237,6 +246,7 @@ class Root_Window():
 
         # Create the second procedure descriptor label for the root window
         self.Second_ProcDesc_Label = Label(
+            master = self.master,
             textvariable = Procedure_Descriptor_Two,
             font = ("Verdana", 11),
             fg = "White",
@@ -245,6 +255,7 @@ class Root_Window():
 
         # Create the third procedure descriptor label for the root window
         self.Third_ProcDesc_Label = Label(
+            master = self.master,
             textvariable = Procedure_Descriptor_Three,
             font = ("Verdana", 11),
             fg = "White",
@@ -287,6 +298,8 @@ class Root_Window():
             self.First_ProcDesc_Label.place_forget()
             self.Second_ProcDesc_Label.place_forget()
             self.Third_ProcDesc_Label.place_forget()
+            self.LIFEPAK_Clock_Label.place_forget()
+            self.Vitals_Frame.place_forget()
         except:
             pass
         else:
@@ -334,6 +347,7 @@ class Root_Window():
 
         # Create the memory aid entry field for the root window, with a specific textvariable
         self.MA_Entry_Field = Entry(
+            master = self.master,
             takefocus = False,
             textvariable = MA_Entry_Field_Variable,
             font = ("Verdana", 11),
@@ -343,6 +357,7 @@ class Root_Window():
             borderwidth = 0
         )
         self.MA_Submission_Button = Button(
+            master = self.master,
             text = "Submit",
             font = ("Verdana Bold", 10),
             fg = "#162119",
@@ -350,6 +365,7 @@ class Root_Window():
             borderwidth = 0
         )
         self.MemDesc_Label = Label(
+            master = self.master,
             textvariable = Mem_Descriptor_One,
             font = ("Verdana Bold", 12),
             fg = "White",
@@ -402,12 +418,13 @@ class Root_Window():
 
         # Define the clock update function
         def Update_Clock():
-            Current_Time = datetime.now().strftime("%H:%M:%S")
+            Current_Time = datetime.now().strftime("%H : %M : %S")
             LIFEPAK_Clock_Variable.set(Current_Time)
             self.master.after(500, Update_Clock)
 
-        # Create a 'PULSE' label
+        # Create a label for the LIFEPAK 15's clock string variable
         self.LIFEPAK_Clock_Label = Label(
+            master = self.master,
             textvariable = LIFEPAK_Clock_Variable,
             font = ("System", 14),
             fg = "#02F78D",
@@ -422,6 +439,18 @@ class Root_Window():
 
         # Call the clock update function to update the LIFEPAK 15's current time
         Update_Clock()
+
+        # Create the 'HR' label on the LIFEPAK 15 display
+        self.Vitals_Frame = Frame(
+            master = self.master,
+            bg = "#0A0A0A",
+            height = 200,
+            width = 200
+        )
+        self.Vitals_Frame.place(
+            x = 0,
+            y = 62
+        )
 
 
 
