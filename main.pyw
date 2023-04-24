@@ -120,7 +120,6 @@ class Root_Window():
         )
 
     def Create_Procedure_Entry_Field(self):
-        cmds.Select_Procedures()
         try:
             self.MA_Entry_Field.place_forget()
             self.MA_Submission_Button.place_forget()
@@ -291,7 +290,6 @@ class Root_Window():
         )
 
     def Create_MA_Entry_Field(self):
-        cmds.Select_Memory_Aids()
         try:
             self.Procedure_Entry_Field.place_forget()
             self.Procedure_Submission_Button.place_forget()
@@ -393,7 +391,6 @@ class Root_Window():
         )
 
     def Create_LIFEPAK_15_Window(self):
-        cmds.Select_LIFEPAK_15()
         try:
             self.Procedure_Entry_Field.place_forget()
             self.Procedure_Submission_Button.place_forget()
@@ -428,7 +425,7 @@ class Root_Window():
             textvariable = LIFEPAK_Clock_Variable,
             font = ("System", 14),
             fg = "#02F78D",
-            bg = "#303030",
+            bg = "#041636",
             pady = 5,
             width = 82
         )
@@ -443,14 +440,19 @@ class Root_Window():
         # Create the 'HR' label on the LIFEPAK 15 display
         self.Vitals_Frame = Frame(
             master = self.master,
-            bg = "#0A0A0A",
+            bg = "#041636",
             height = 338,
-            width = 190
+            width = 170
         )
         self.Vitals_Frame.place(
             x = 0,
             y = 62
         )
+        self.text = Label(
+            master = self.Vitals_Frame,
+            text = "Test"
+        )
+        self.text.place(x=5, y = 25)
 
 
 

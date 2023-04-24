@@ -29,16 +29,3 @@ def Exit_Root_Window():
             pass
     else:
         exit()
-
-
-# Define the command called when the 'Procedure' option is selected via the button on the root window
-def Select_Procedures():
-    print("'Procedures' Selected")
-
-# Define the command called when the 'LIFEPAK_15' option is selected via the button on the root window
-def Select_LIFEPAK_15():
-    print("'LIFEPAK 15' Selected")
-
-# Define the command called when the 'LIFEPAK_15' option is selected via the button on the root window
-def Select_Memory_Aids():
-    print("'Memory Aids' Selected")

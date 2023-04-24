@@ -9,5 +9,5 @@
 4. Any tampering with the file structure or the files themselves will likely result in undesired behaviour
 
 ### Current Functions
-- Search functions available for over 40 procedures of varying clinical scopes of practice along with over 10 memory aids
-- Non-functional LIFEPAK-15 option, to be developed some time in the future
+- Two search utilities available for over 40 procedures of varying clinical scopes of practice along with over 10 memory aids
+- A work-in-progress LIFEPAK 15 option, designed to somewhat emulate a patient vital sign monitor (To be developed some time in the future)
