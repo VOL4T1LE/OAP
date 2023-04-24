@@ -444,8 +444,8 @@ class Root_Window():
         self.Vitals_Frame = Frame(
             master = self.master,
             bg = "#0A0A0A",
-            height = 200,
-            width = 200
+            height = 338,
+            width = 190
         )
         self.Vitals_Frame.place(
             x = 0,
