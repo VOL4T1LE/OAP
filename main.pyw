@@ -17,6 +17,9 @@ from tkinter import *
 # Import the 'os' module to handle file-pathing
 import os
 
+# Import the 'datetime' module to handle the LIFEPAK 15's clock
+from datetime import datetime
+
 
 
 
@@ -122,6 +125,9 @@ class Root_Window():
             pass
         else:
             pass
+        self.master.configure(background = "#223D29")
+        self.master.geometry("550x300+5+10")
+
         # Create the procedure entry field variable, to be used later on
         Procedure_Entry_Field_Variable = StringVar()
         Procedure_Entry_Field_Variable.set(" Enter the name of the procedure")
@@ -285,6 +291,8 @@ class Root_Window():
             pass
         else:
             pass
+        self.master.configure(background = "#223D29")
+        self.master.geometry("550x300+5+10")
         MA_Entry_Field_Variable = StringVar()
         MA_Entry_Field_Variable.set(" What do you need help with?")
         Mem_Descriptor_One = StringVar()
@@ -383,7 +391,38 @@ class Root_Window():
             pass
         else:
             pass
-        pass
+
+        # Configure the main window
+        self.master.configure(background = "Black")
+        self.master.geometry("650x400+5+10")
+
+        # Creation of the LIFEPAK clock variable
+        LIFEPAK_Clock_Variable = StringVar()
+        LIFEPAK_Clock_Variable.set("TIME")
+
+        # Define the clock update function
+        def Update_Clock():
+            Current_Time = datetime.now().strftime("%H:%M:%S")
+            LIFEPAK_Clock_Variable.set(Current_Time)
+            self.master.after(500, Update_Clock)
+
+        # Create a 'PULSE' label
+        self.LIFEPAK_Clock_Label = Label(
+            textvariable = LIFEPAK_Clock_Variable,
+            font = ("System", 14),
+            fg = "#02F78D",
+            bg = "#303030",
+            pady = 5,
+            width = 82
+        )
+        self.LIFEPAK_Clock_Label.place(
+            x = 0,
+            y = 32
+        )
+
+        # Call the clock update function to update the LIFEPAK 15's current time
+        Update_Clock()
+
 
 
 
