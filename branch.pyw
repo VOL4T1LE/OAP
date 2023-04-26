@@ -361,6 +361,14 @@ class Root_Window():
             bg = "#041636"
         )
 
+        # Create a frame to hold the Pulse vital entry field for the 'LIFEPAK 15' page
+        self.Pulse_Vitals_Frame = Frame(
+            master = self.Vitals_Frame,
+            bg = "Black",
+            height = 80,
+            width = 166
+        )
+
         # Bind certain procedure entry field key / button actions to commands
         self.Procedure_Entry_Field.bind("<Button-1>", Procedure_Entry_Field_Click)
         self.Procedure_Entry_Field.bind("<FocusIn>", Procedure_Entry_Field_Click)
@@ -385,6 +393,7 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.LIFEPAK_15_Clock_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
         self.LIFEPAK_15_Page_Widgets.append(self.HR_Header_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.Pulse_Vitals_Frame)
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
@@ -448,7 +457,8 @@ class Root_Window():
             [
             (self.LIFEPAK_15_Clock_Label, 0, 32),
             (self.Vitals_Frame, 0, 62),
-            (self.HR_Header_Label, 5, 25)
+            (self.HR_Header_Label, 2, 0),
+            (self.Pulse_Vitals_Frame, 2, 25)
             ]
         )
 
