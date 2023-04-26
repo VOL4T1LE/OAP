@@ -344,6 +344,16 @@ class Root_Window():
             width = 82
         )
 
+
+        # Create a 'HR' header label for the 'LIFEPAK 15' page
+        self.HR_Header_Label = Label(
+            master = self.master,
+            text = "HR",
+            font = ("Arial Bold", 11),
+            fg = "#02F78D",
+            bg = "#041636"
+        )
+
         # Create a frame to hold all of the vital sign displays for the 'LIFEPAK 15' page
         self.Vitals_Frame = Frame(
             master = self.master,
@@ -352,20 +362,28 @@ class Root_Window():
             width = 170
         )
 
-        # Create a 'HR' header label for the 'LIFEPAK 15' page
-        self.HR_Header_Label = Label(
-            master = self.Vitals_Frame,
-            text = "HR",
-            font = ("Arial Bold", 11),
-            fg = "#02F78D",
-            bg = "#041636"
-        )
-
         # Create a frame to hold the Pulse vital entry field for the 'LIFEPAK 15' page
         self.Pulse_Vitals_Frame = Frame(
             master = self.Vitals_Frame,
             bg = "Black",
-            height = 80,
+            height = 100,
+            width = 166
+        )
+
+        # Create a 'SpO2' header label for the 'LIFEPAK 15' page
+        self.SpO2_Header_Label = Label(
+            master = self.Vitals_Frame,
+            text = "SpO2",
+            font = ("Arial Bold", 11),
+            fg = "#03BAFC",
+            bg = "#041636"
+        )
+
+        # Create a frame to hold the SpO2 vital entry field for the 'LIFEPAK 15' page
+        self.SpO2_Vitals_Frame = Frame(
+            master = self.Vitals_Frame,
+            bg = "Black",
+            height = 100,
             width = 166
         )
 
@@ -391,9 +409,11 @@ class Root_Window():
         self.Memory_Aids_Page_Widgets.append(self.Memory_Aids_Submission_Button)
         self.Memory_Aids_Page_Widgets.append(self.Memory_Aids_Descriptor_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.LIFEPAK_15_Clock_Label)
-        self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
         self.LIFEPAK_15_Page_Widgets.append(self.HR_Header_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
         self.LIFEPAK_15_Page_Widgets.append(self.Pulse_Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Header_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Vitals_Frame)
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
@@ -456,9 +476,11 @@ class Root_Window():
         self.Show_Current_Page_Widgets(
             [
             (self.LIFEPAK_15_Clock_Label, 0, 32),
+            (self.HR_Header_Label, 2, 36),
             (self.Vitals_Frame, 0, 62),
-            (self.HR_Header_Label, 2, 0),
-            (self.Pulse_Vitals_Frame, 2, 25)
+            (self.Pulse_Vitals_Frame, 2, 0),
+            (self.SpO2_Header_Label, 2, 100),
+            (self.SpO2_Vitals_Frame, 2, 123)
             ]
         )
 
