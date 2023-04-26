@@ -352,6 +352,15 @@ class Root_Window():
             width = 170
         )
 
+        # Create a 'HR' header label for the 'LIFEPAK 15' page
+        self.HR_Header_Label = Label(
+            master = self.Vitals_Frame,
+            text = "HR",
+            font = ("Arial Bold", 11),
+            fg = "#02F78D",
+            bg = "#041636"
+        )
+
         # Bind certain procedure entry field key / button actions to commands
         self.Procedure_Entry_Field.bind("<Button-1>", Procedure_Entry_Field_Click)
         self.Procedure_Entry_Field.bind("<FocusIn>", Procedure_Entry_Field_Click)
@@ -375,6 +384,7 @@ class Root_Window():
         self.Memory_Aids_Page_Widgets.append(self.Memory_Aids_Descriptor_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.LIFEPAK_15_Clock_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.HR_Header_Label)
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
@@ -437,7 +447,8 @@ class Root_Window():
         self.Show_Current_Page_Widgets(
             [
             (self.LIFEPAK_15_Clock_Label, 0, 32),
-            (self.Vitals_Frame, 0, 62)
+            (self.Vitals_Frame, 0, 62),
+            (self.HR_Header_Label, 5, 25)
             ]
         )
 
