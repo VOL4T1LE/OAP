@@ -24,24 +24,159 @@ from datetime import datetime
 
 
 
+# Create a class (Blueprint) for all future instances of the op-aid program
 class Root_Window():
+
+    # Define all initialisations of each OAP instance
     def __init__(self, master):
+
+        # Define the __init__ method's parent as 'master'
         self.master = master
 
-        # Configure the program's root window
+        # Configure the properties of the root window
         master.title(f"{vars.Service_Name}  |  {vars.Program_Title}  |  {vars.Program_Version}")
         master.geometry("550x300+5+10")
         master.resizable(False, False)
         master.attributes("-topmost", 1)
         master.configure(background = "#223D29", highlightthickness = 0)
-        # master.iconbitmap("./Assets/logo.ico")
-        self.Create_Widgets()
-        self.Position_Widgets()
+
+        # Set the focus on the OAP following initialisation
         master.focus
 
+        # Create empty arrays for each set of widgets for future appendment
+        self.Current_Page_Widgets = []
+        self.Procedure_Page_Widgets = []
+        self.Memory_Aids_Page_Widgets = []
+        self.LIFEPAK_15_Page_Widgets = []
+
+        # Define all the necessary string variables for the OAP
+        self.Procedure_Entry_Field_Variable = StringVar()
+        self.Procedure_Entry_Field_Variable.set(" Please enter the name of the desired procedure")
+        self.Procedure_Descriptor_One = StringVar()
+        self.Procedure_Descriptor_One.set("")
+        self.Procedure_Descriptor_Two = StringVar()
+        self.Procedure_Descriptor_Two.set("")
+        self.Procedure_Descriptor_Three = StringVar()
+        self.Procedure_Descriptor_Three.set("")
+        self.Memory_Aids_Entry_Field_Variable = StringVar()
+        self.Memory_Aids_Entry_Field_Variable.set(" What do you need help with?")
+        self.Memory_Aids_Descriptor_Variable = StringVar()
+        self.Memory_Aids_Descriptor_Variable.set("")
+        self.LIFEPAK_15_Clock_Variable = StringVar()
+        self.LIFEPAK_15_Clock_Variable.set("TIME PLACEHOLDER")
+
+        # Call the defined 'Create_Widgets' function to create all of the OAPs widgets
+        self.Create_Widgets()
+
+    # Define a function to create all of the OAP's widgets
     def Create_Widgets(self):
-        # Create an exit button for the root window of the program, linked to a specific exit command
-        self.Exit_Button = Button(
+
+        # Define the event function called when a user click's the procedure entry field
+        def Procedure_Entry_Field_Click(event):
+            self.Procedure_Entry_Field_Variable.set("")
+
+        # Define the event function called when a user modifies their procedure entry input with the Control + Backspace key combination
+        def Procedure_Control_Backspace_Event(event):
+            End_Index = self.Procedure_Entry_Field.index(tk.INSERT)
+            Start_Index = self.Procedure_Entry_Field.get().rfind(" ", None, End_Index)
+            self.Procedure_Entry_Field.selection_range(Start_Index, End_Index)
+
+        # Define the event function called when a user submits their procedure entry
+        def Procedure_Entry_Submit(event):
+            Entry_Input = self.Procedure_Entry_Field_Variable.get()
+            if Entry_Input in alss.Procedure_Aliases:
+                self.First_Procedure_Desc_Label.config(
+                    font = ("Verdana", 11),
+                    fg = "White"
+                )
+                Entry_Alias = alss.Procedure_Aliases[Entry_Input]
+                Entry_Filename = proc.Procedure_Details[Entry_Alias]["File"]
+                Entry_Type = proc.Procedure_Details[Entry_Alias]["Type"]
+                Entry_Clinical_Level = proc.Procedure_Details[Entry_Alias]["Skill"]
+                Entry_Procedure_ID = proc.Procedure_Details[Entry_Alias]["Procedure ID"]
+                self.Procedure_Descriptor_One.set(f"Type of Procedure:   {Entry_Type}")
+                self.Procedure_Descriptor_Two.set(f"Clinical Level:   {Entry_Clinical_Level}")
+                self.Procedure_Descriptor_Three.set(f"Procedure ID:   {Entry_Procedure_ID}")
+                Current_Directory = os.getcwd()
+                if vars.Auto_Access_Procedures == True:
+                    os.startfile(f"{Current_Directory}/Procedures/{Entry_Filename}")
+                else:
+                    pass
+            elif Entry_Input in proc.Procedure_IDs:
+                self.First_Procedure_Desc_Label.config(
+                    font = ("Verdana", 11),
+                    fg = "White"
+                )
+                Procedure_Linked_To_ID = proc.Procedure_IDs[Entry_Input]
+                Entry_Filename = proc.Procedure_Details[Procedure_Linked_To_ID]["File"]
+                Entry_Type = proc.Procedure_Details[Procedure_Linked_To_ID]["Type"]
+                Entry_Clinical_Level = proc.Procedure_Details[Procedure_Linked_To_ID]["Skill"]
+                Entry_Procedure_ID = Entry_Input
+                self.Procedure_Descriptor_One.set(f"Type of Procedure:   {Entry_Type}")
+                self.Procedure_Descriptor_Two.set(f"Clinical Level:   {Entry_Clinical_Level}")
+                self.Procedure_Descriptor_Three.set(f"Procedure ID:   {Entry_Procedure_ID}")
+                Current_Directory = os.getcwd()
+                if vars.Auto_Access_Procedures == True:
+                    os.startfile(f"{Current_Directory}/procedures/{Entry_Filename}")
+                else:
+                    pass
+            elif Entry_Input in alss.Memory_Aid_Aliases:
+                self.First_Procedure_Desc_Label.config(
+                    font = ("Verdana", 10),
+                    fg = "White"
+                )
+                if len(Entry_Input) < 7:
+                    self.Procedure_Descriptor_One.set(f"Please try search for '{Entry_Input}' using the 'Memory Aids' search utility instead")
+                else:
+                    self.Procedure_Descriptor_One.set(f"Please use the 'Memory Aids' search utility to look for:\n\n'{Entry_Input}'")
+                self.Procedure_Descriptor_Two.set("")
+                self.Procedure_Descriptor_Three.set("")
+            else:
+                self.First_Procedure_Desc_Label.config(
+                    font = ("Verdana Bold", 12),
+                    fg = "White"
+                )
+                self.Procedure_Descriptor_One.set("Procedure Not Found.")
+                self.Procedure_Descriptor_Two.set("")
+                self.Procedure_Descriptor_Three.set("")
+
+        # Define the event function called when a user click's the memory aids entry field
+        def Memory_Aids_Entry_Field_Click(event):
+            self.Memory_Aids_Entry_Field_Variable.set("")
+
+        # Define the event function called when a user modifies their memory aids entry input with the Control + Backspace key combination
+        def MA_Control_Backspace_Event(event):
+            End_Index = self.Memory_Aids_Entry_Field.index(tk.INSERT)
+            Start_Index = self.Memory_Aids_Entry_Field.get().rfind(" ", None, End_Index)
+            self.Memory_Aids_Entry_Field.selection_range(Start_Index, End_Index)
+
+        # Define the event function called when a user submits their previous entry
+        def Memory_Aids_Entry_Submit(event):
+            Entry_Input = self.Memory_Aids_Entry_Field_Variable.get()
+            if Entry_Input in alss.Memory_Aid_Aliases:
+                self.Memory_Aids_Descriptor_Label.config(font = ("Verdana Bold", 12))
+                self.Memory_Aids_Descriptor_Variable.set("")
+                Entry_Filename = alss.Memory_Aid_Aliases[Entry_Input]
+                Current_Directory = os.getcwd()
+                os.startfile(f"{Current_Directory}/Memory Aids/{Entry_Filename}")
+            elif Entry_Input in alss.Procedure_Aliases:
+                self.Memory_Aids_Descriptor_Label.config(font = ("Verdana", 10))
+                if len(Entry_Input) < 10:
+                    self.Memory_Aids_Descriptor_Variable.set(f"Please search for '{Entry_Input}' using the 'Procedures' search utility instead")
+                else:
+                    self.Memory_Aids_Descriptor_Variable.set(f"Please use the 'Procedures' search utility to look for:\n'{Entry_Input}'")
+            elif Entry_Input in proc.Procedure_IDs:
+                self.Memory_Aids_Descriptor_Label.config(font = ("Verdana", 10))
+                if len(Entry_Input) < 10:
+                    self.Memory_Aids_Descriptor_Variable.set(f"Please search for '{Entry_Input}' using the 'Procedures' search utility instead")
+                else:
+                    self.Memory_Aids_Descriptor_Variable.set(f"Please use the 'Procedures' search utility to look for:\n\n'{Entry_Input}'")
+            else:
+                self.Memory_Aids_Descriptor_Label.config(font = ("Verdana Bold", 12))
+                self.Memory_Aids_Descriptor_Variable.set("Memory Aid Not Found")
+
+        # Create a custom exit button linked to an exit command, modified by the 'variables' custom module
+        self.Window_Exit_Button = Button(
             master = self.master,
             text = "Click to exit",
             font = ("Arial Bold", 11),
@@ -55,7 +190,7 @@ class Root_Window():
             command = cmds.Exit_Root_Window
         )
 
-        # Create the 'procedure' selection button for the root window of the program
+        # Create a selection button for the 'Procedures' page of the OAP, linked to a page selection command
         self.Procedure_Selection_Button = Button(
             master = self.master,
             text = "Procedures",
@@ -65,11 +200,11 @@ class Root_Window():
             borderwidth = 0,
             padx = 5,
             pady = 3,
-            command = self.Create_Procedure_Entry_Field
+            command = self.Show_Procedure_Page
         )
 
-        # Create the 'Memory Aids' selection button for the root window of the program
-        self.Memory_Aid_Selection_Button = Button(
+        # Create a selection button for the 'Memory Aid' page of the OAP, linked to a page selection command
+        self.Memory_Aids_Selection_Button = Button(
             master = self.master,
             text = "Memory Aids",
             font = ("Arial Bold", 11),
@@ -78,11 +213,11 @@ class Root_Window():
             borderwidth = 0,
             padx = 5,
             pady = 3,
-            command = self.Create_MA_Entry_Field
+            command = self.Show_Memory_Aids_Page
         )
-    
-        # Create the 'LIFEPAK 15' selection button for the root window of the program
-        self.LIFEPAK_Selection_Button = Button(
+
+        # Create a selection button for the 'LIFEPAK 15' page of the OAP, linked to a page selection command
+        self.LIFEPAK_15_Selection_Button = Button(
             master = self.master,
             text = "LIFEPAK 15",
             font = ("Arial Bold", 11),
@@ -91,132 +226,38 @@ class Root_Window():
             borderwidth = 0,
             padx = 5,
             pady = 3,
-            command = self.Create_LIFEPAK_15_Window
+            command = self.Show_LIFEPAK_15_Page
         )
 
-    def Position_Widgets(self):
-        # Position the 'Procedure' selection button aligned with the other selection buttons
+        # Position the 'Procedures' selection button at the top left of the root window
         self.Procedure_Selection_Button.pack(
             anchor = N,
             side = LEFT
         )
 
-        # Position the 'Memory Aids' selection button aligned with the other selection buttons
-        self.Memory_Aid_Selection_Button.pack(
+        # Position the 'Memory Aids' selection button to the left of the 'Procedures' button
+        self.Memory_Aids_Selection_Button.pack(
             anchor = N,
             side = LEFT
         )
 
-        # Position the 'LIFEPAK 15' selection button aligned with the other selection buttons
-        self.LIFEPAK_Selection_Button.pack(
+        # Position the 'LIFEPAK 15' selection button to the left of the 'Memory Aids' button
+        self.LIFEPAK_15_Selection_Button.pack(
             anchor = N,
             side = LEFT
         )
 
-        # Position the root window's exit button aligned with the selection buttons at the top of the root window
-        self.Exit_Button.pack(
-            fill = X,
-            side = TOP
+        # Position the custom exit button at the top left of the root window
+        self.Window_Exit_Button.pack(
+            anchor = N,
+            fill = X
         )
 
-    def Create_Procedure_Entry_Field(self):
-        try:
-            self.MA_Entry_Field.place_forget()
-            self.MA_Submission_Button.place_forget()
-            self.MemDesc_Label.place_forget()
-            self.LIFEPAK_Clock_Label.place_forget()
-            self.Vitals_Frame.place_forget()
-        except:
-            pass
-        else:
-            pass
-        self.master.configure(background = "#223D29")
-        self.master.geometry("550x300+5+10")
-
-        # Create the procedure entry field variable, to be used later on
-        Procedure_Entry_Field_Variable = StringVar()
-        Procedure_Entry_Field_Variable.set(" Enter the name of the procedure")
-        Procedure_Descriptor_One = StringVar()
-        Procedure_Descriptor_One.set("")
-        Procedure_Descriptor_Two = StringVar()
-        Procedure_Descriptor_Two.set("")
-        Procedure_Descriptor_Three = StringVar()
-        Procedure_Descriptor_Three.set("")
-
-        # Set the procedure entry field variable to nothing each time the entry field is clicked
-        def On_Procedure_Entry_Field_Click(event):
-            Procedure_Entry_Field_Variable.set("")
-
-        # Define the control backspace event when modifying the text inside the procedure entry field
-        def Control_Backspace_Event(event):
-            End_Index = self.Procedure_Entry_Field.index(tk.INSERT)
-            Start_Index = self.Procedure_Entry_Field.get().rfind(" ", None, End_Index)
-            self.Procedure_Entry_Field.selection_range(Start_Index, End_Index)
-
-        # Define the procedure submission event
-        def On_Procedure_Submission(event):
-            Entry_Input = Procedure_Entry_Field_Variable.get()
-            if Entry_Input in alss.Procedure_Aliases:
-                self.First_ProcDesc_Label.config(
-                    font = ("Verdana", 11),
-                    fg = "White"
-                )
-                Entry_Alias = alss.Procedure_Aliases[Entry_Input]
-                Entry_Filename = proc.Procedure_Details[Entry_Alias]["File"]
-                Entry_Type = proc.Procedure_Details[Entry_Alias]["Type"]
-                Entry_Clinical_Level = proc.Procedure_Details[Entry_Alias]["Skill"]
-                Entry_Procedure_ID = proc.Procedure_Details[Entry_Alias]["Procedure ID"]
-                Procedure_Descriptor_One.set(f"Type of Procedure:   {Entry_Type}")
-                Procedure_Descriptor_Two.set(f"Clinical Level:   {Entry_Clinical_Level}")
-                Procedure_Descriptor_Three.set(f"Procedure ID:   {Entry_Procedure_ID}")
-                Current_Directory = os.getcwd()
-                if vars.Auto_Access_Procedures == True:
-                    os.startfile(f"{Current_Directory}/Procedures/{Entry_Filename}")
-                else:
-                    pass
-            elif Entry_Input in proc.Procedure_IDs:
-                self.First_ProcDesc_Label.config(
-                    font = ("Verdana", 11),
-                    fg = "White"
-                )
-                Procedure_Linked_To_ID = proc.Procedure_IDs[Entry_Input]
-                Entry_Filename = proc.Procedure_Details[Procedure_Linked_To_ID]["File"]
-                Entry_Type = proc.Procedure_Details[Procedure_Linked_To_ID]["Type"]
-                Entry_Clinical_Level = proc.Procedure_Details[Procedure_Linked_To_ID]["Skill"]
-                Entry_Procedure_ID = Entry_Input
-                Procedure_Descriptor_One.set(f"Type of Procedure:   {Entry_Type}")
-                Procedure_Descriptor_Two.set(f"Clinical Level:   {Entry_Clinical_Level}")
-                Procedure_Descriptor_Three.set(f"Procedure ID:   {Entry_Procedure_ID}")
-                Current_Directory = os.getcwd()
-                if vars.Auto_Access_Procedures == True:
-                    os.startfile(f"{Current_Directory}/procedures/{Entry_Filename}")
-                else:
-                    pass
-            elif Entry_Input in alss.Memory_Aid_Aliases:
-                self.First_ProcDesc_Label.config(
-                    font = ("Verdana", 10),
-                    fg = "White"
-                )
-                if len(Entry_Input) < 7:
-                    Procedure_Descriptor_One.set(f"Please try search for '{Entry_Input}' using the 'Memory Aids' search utility instead")
-                else:
-                    Procedure_Descriptor_One.set(f"Please use the 'Memory Aids' search utility to look for:\n\n'{Entry_Input}'")
-                Procedure_Descriptor_Two.set("")
-                Procedure_Descriptor_Three.set("")
-            else:
-                self.First_ProcDesc_Label.config(
-                    font = ("Verdana Bold", 12),
-                    fg = "White"
-                )
-                Procedure_Descriptor_One.set("Procedure Not Found.")
-                Procedure_Descriptor_Two.set("")
-                Procedure_Descriptor_Three.set("")
-
-        # Create the procedure entry field for the root window, with a specific textvariable
+        # Create an entry field for the 'Procedures' page
         self.Procedure_Entry_Field = Entry(
             master = self.master,
             takefocus = False,
-            textvariable = Procedure_Entry_Field_Variable,
+            textvariable = self.Procedure_Entry_Field_Variable,
             font = ("Verdana", 11),
             width = 41,
             fg = "#162119",
@@ -224,7 +265,7 @@ class Root_Window():
             borderwidth = 0
         )
 
-        # Create the procedure submission button for the root window
+        # Create a submission button for the 'Procedures' page, bound to a command later on
         self.Procedure_Submission_Button = Button(
             master = self.master,
             text = "Submit",
@@ -234,127 +275,47 @@ class Root_Window():
             borderwidth = 0
         )
 
-        # Create the first procedure descriptor label for the root window
-        self.First_ProcDesc_Label = Label(
+        # Create the first (top) descriptor label for the 'Procedures' page
+        self.First_Procedure_Desc_Label = Label(
             master = self.master,
-            textvariable = Procedure_Descriptor_One,
+            textvariable = self.Procedure_Descriptor_One,
             font = ("Verdana", 11),
             fg = "White",
             bg = "#223D29"
         )
 
-        # Create the second procedure descriptor label for the root window
-        self.Second_ProcDesc_Label = Label(
+        # Create the second (middle) descriptor label for the 'Procedures' page
+        self.Second_Procedure_Desc_Label = Label(
             master = self.master,
-            textvariable = Procedure_Descriptor_Two,
+            textvariable = self.Procedure_Descriptor_Two,
             font = ("Verdana", 11),
             fg = "White",
             bg = "#223D29"
         )
 
-        # Create the third procedure descriptor label for the root window
-        self.Third_ProcDesc_Label = Label(
+        # Create the final (bottom) descriptor label for the 'Procedures' page
+        self.Third_Procedure_Desc_Label = Label(
             master = self.master,
-            textvariable = Procedure_Descriptor_Three,
+            textvariable = self.Procedure_Descriptor_Three,
             font = ("Verdana", 11),
             fg = "White",
             bg = "#223D29"
         )
 
-        # Bind certain procedure entry field button presses / button combinations to specific methods
-        self.Procedure_Entry_Field.bind("<Button-1>", On_Procedure_Entry_Field_Click)
-        self.Procedure_Entry_Field.bind("<Control-BackSpace>", Control_Backspace_Event)
-        self.Procedure_Entry_Field.bind("<Return>", On_Procedure_Submission)
-        self.Procedure_Submission_Button.bind("<Button-1>", On_Procedure_Submission)
-
-        # Position widgets associated with the 'Procedures' selection
-        self.Procedure_Entry_Field.place(
-            x = 5,
-            y = 60
-        )
-        self.Procedure_Submission_Button.place(
-            x = 430,
-            y = 60
-        )
-        self.First_ProcDesc_Label.place(
-            x = 6,
-            y = 90
-        )
-        self.Second_ProcDesc_Label.place(
-            x = 6,
-            y = 120
-        )
-        self.Third_ProcDesc_Label.place(
-            x = 6,
-            y = 150
-        )
-
-    def Create_MA_Entry_Field(self):
-        try:
-            self.Procedure_Entry_Field.place_forget()
-            self.Procedure_Submission_Button.place_forget()
-            self.First_ProcDesc_Label.place_forget()
-            self.Second_ProcDesc_Label.place_forget()
-            self.Third_ProcDesc_Label.place_forget()
-            self.LIFEPAK_Clock_Label.place_forget()
-            self.Vitals_Frame.place_forget()
-        except:
-            pass
-        else:
-            pass
-        self.master.configure(background = "#223D29")
-        self.master.geometry("550x300+5+10")
-        MA_Entry_Field_Variable = StringVar()
-        MA_Entry_Field_Variable.set(" What do you need help with?")
-        Mem_Descriptor_One = StringVar()
-        Mem_Descriptor_One.set("")
-
-        # Set the procedure entry field variable to nothing each time the entry field is clicked
-        def On_MA_Entry_Field_Click(event):
-            MA_Entry_Field_Variable.set("")
-
-        # Define the control backspace event when modifying the text inside the procedure entry field
-        def Control_Backspace_Event(event):
-            End_Index = self.MA_Entry_Field.index(tk.INSERT)
-            Start_Index = self.MA_Entry_Field.get().rfind(" ", None, End_Index)
-            self.MA_Entry_Field.selection_range(Start_Index, End_Index)
-
-        def On_MA_Entry_Submission(event):
-            Entry_Input = MA_Entry_Field_Variable.get()
-            if Entry_Input in alss.Memory_Aid_Aliases:
-                self.MemDesc_Label.config(font = ("Verdana Bold", 12))
-                Mem_Descriptor_One.set("")
-                Entry_Filename = alss.Memory_Aid_Aliases[Entry_Input]
-                Current_Directory = os.getcwd()
-                os.startfile(f"{Current_Directory}/Memory Aids/{Entry_Filename}")
-            elif Entry_Input in alss.Procedure_Aliases:
-                self.MemDesc_Label.config(font = ("Verdana", 10))
-                if len(Entry_Input) < 10:
-                    Mem_Descriptor_One.set(f"Please search for '{Entry_Input}' using the 'Procedures' search utility instead")
-                else:
-                    Mem_Descriptor_One.set(f"Please use the 'Procedures' search utility to look for:\n'{Entry_Input}'")
-            elif Entry_Input in proc.Procedure_IDs:
-                self.MemDesc_Label.config(font = ("Verdana", 10))
-                if len(Entry_Input) < 10:
-                    Mem_Descriptor_One.set(f"Please search for '{Entry_Input}' using the 'Procedures' search utility instead")
-                else:
-                    Mem_Descriptor_One.set(f"Please use the 'Procedures' search utility to look for:\n\n'{Entry_Input}'")
-            else:
-                self.MemDesc_Label.config(font = ("Verdana Bold", 12))
-                Mem_Descriptor_One.set("Memory Aid Not Found")
-
-        # Create the memory aid entry field for the root window, with a specific textvariable
-        self.MA_Entry_Field = Entry(
+        # Create an entry field for the 'Memory Aids' page
+        self.Memory_Aids_Entry_Field = Entry(
             master = self.master,
             takefocus = False,
-            textvariable = MA_Entry_Field_Variable,
+            textvariable = self.Memory_Aids_Entry_Field_Variable,
             font = ("Verdana", 11),
             width = 41,
             fg = "#162119",
             bg = "#78BF8B",
             borderwidth = 0
         )
-        self.MA_Submission_Button = Button(
+
+        # Create a submission button for the 'Memory Aids' page, bound to a command later on
+        self.Memory_Aids_Submission_Button = Button(
             master = self.master,
             text = "Submit",
             font = ("Verdana Bold", 10),
@@ -362,97 +323,161 @@ class Root_Window():
             bg = "#78BF8B",
             borderwidth = 0
         )
-        self.MemDesc_Label = Label(
+
+        # Create a descriptor label for the 'Memory Aids' page
+        self.Memory_Aids_Descriptor_Label = Label(
             master = self.master,
-            textvariable = Mem_Descriptor_One,
+            textvariable = self.Memory_Aids_Descriptor_Variable,
             font = ("Verdana Bold", 12),
             fg = "White",
             bg = "#223D29"
         )
 
-        # Bind certain memory aid entry field button presses / button combinations to specific methods
-        self.MA_Entry_Field.bind("<Button-1>", On_MA_Entry_Field_Click)
-        self.MA_Entry_Field.bind("<Control-BackSpace>", Control_Backspace_Event)
-        self.MA_Entry_Field.bind("<Return>", On_MA_Entry_Submission)
-        self.MA_Submission_Button.bind("<Button-1>", On_MA_Entry_Submission)
-
-        # Position the widgets associated with the 'Memory Aids' selection
-        self.MA_Entry_Field.place(
-            x = 5,
-            y = 60
-        )
-        self.MemDesc_Label.place(
-            x = 6,
-            y = 90
-        )
-        self.MA_Submission_Button.place(
-            x = 430,
-            y = 60
-        )
-
-    def Create_LIFEPAK_15_Window(self):
-        try:
-            self.Procedure_Entry_Field.place_forget()
-            self.Procedure_Submission_Button.place_forget()
-            self.First_ProcDesc_Label.place_forget()
-            self.Second_ProcDesc_Label.place_forget()
-            self.Third_ProcDesc_Label.place_forget()
-            self.MA_Entry_Field.place_forget()
-            self.MA_Submission_Button.place_forget()
-            self.MemDesc_Label.place_forget()
-        except:
-            pass
-        else:
-            pass
-
-        # Configure the main window
-        self.master.configure(background = "Black")
-        self.master.geometry("650x400+5+10")
-
-        # Creation of the LIFEPAK clock variable
-        LIFEPAK_Clock_Variable = StringVar()
-        LIFEPAK_Clock_Variable.set("TIME")
-
-        # Define the clock update function
-        def Update_Clock():
-            Current_Time = datetime.now().strftime("%H : %M : %S")
-            LIFEPAK_Clock_Variable.set(Current_Time)
-            self.master.after(500, Update_Clock)
-
-        # Create a label for the LIFEPAK 15's clock string variable
-        self.LIFEPAK_Clock_Label = Label(
+        # Create a label with a textvariable to act as a clock for the 'LIFEPAK 15' page
+        self.LIFEPAK_15_Clock_Label = Label(
             master = self.master,
-            textvariable = LIFEPAK_Clock_Variable,
+            textvariable = self.LIFEPAK_15_Clock_Variable,
             font = ("System", 14),
             fg = "#02F78D",
             bg = "#041636",
             pady = 5,
             width = 82
         )
-        self.LIFEPAK_Clock_Label.place(
-            x = 0,
-            y = 32
-        )
 
-        # Call the clock update function to update the LIFEPAK 15's current time
-        Update_Clock()
-
-        # Create the 'HR' label on the LIFEPAK 15 display
+        # Create a frame to hold all of the vital sign displays for the 'LIFEPAK 15' page
         self.Vitals_Frame = Frame(
             master = self.master,
             bg = "#041636",
             height = 338,
             width = 170
         )
-        self.Vitals_Frame.place(
-            x = 0,
-            y = 62
-        )
-        self.text = Label(
+
+        # Create a 'HR' header label for the 'LIFEPAK 15' page
+        self.HR_Header_Label = Label(
             master = self.Vitals_Frame,
-            text = "Test"
+            text = "HR",
+            font = ("Arial Bold", 11),
+            fg = "#02F78D",
+            bg = "#041636"
         )
-        self.text.place(x=5, y = 25)
+
+        # Create a frame to hold the Pulse vital entry field for the 'LIFEPAK 15' page
+        self.Pulse_Vitals_Frame = Frame(
+            master = self.Vitals_Frame,
+            bg = "Black",
+            height = 80,
+            width = 166
+        )
+
+        # Bind certain procedure entry field key / button actions to commands
+        self.Procedure_Entry_Field.bind("<Button-1>", Procedure_Entry_Field_Click)
+        self.Procedure_Entry_Field.bind("<FocusIn>", Procedure_Entry_Field_Click)
+        self.Procedure_Entry_Field.bind("<Return>", Procedure_Entry_Submit)
+        self.Procedure_Entry_Field.bind("<Control-BackSpace>", Procedure_Control_Backspace_Event)
+        self.Procedure_Submission_Button.bind("<Button-1>", Procedure_Entry_Submit)
+        self.Memory_Aids_Entry_Field.bind("<Button-1>", Memory_Aids_Entry_Field_Click)
+        self.Memory_Aids_Entry_Field.bind("<FocusIn>", Memory_Aids_Entry_Field_Click)
+        self.Memory_Aids_Entry_Field.bind("<Return>", Memory_Aids_Entry_Submit)
+        self.Memory_Aids_Entry_Field.bind("<Control-BackSpace>", MA_Control_Backspace_Event)
+        self.Memory_Aids_Submission_Button.bind("<Button-1>", Memory_Aids_Entry_Submit)
+
+        # Append all necessary widgets to their respective arrays
+        self.Procedure_Page_Widgets.append(self.Procedure_Entry_Field)
+        self.Procedure_Page_Widgets.append(self.Procedure_Submission_Button)
+        self.Procedure_Page_Widgets.append(self.First_Procedure_Desc_Label)
+        self.Procedure_Page_Widgets.append(self.Second_Procedure_Desc_Label)
+        self.Procedure_Page_Widgets.append(self.Third_Procedure_Desc_Label)
+        self.Memory_Aids_Page_Widgets.append(self.Memory_Aids_Entry_Field)
+        self.Memory_Aids_Page_Widgets.append(self.Memory_Aids_Submission_Button)
+        self.Memory_Aids_Page_Widgets.append(self.Memory_Aids_Descriptor_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.LIFEPAK_15_Clock_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.HR_Header_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.Pulse_Vitals_Frame)
+
+    # Define a custom function to update the LIFEPAK 15's clock widget
+    def Update_Clock(self):
+        self.Current_Time = datetime.now().strftime("%H : %M : %S")
+        self.LIFEPAK_15_Clock_Variable.set(self.Current_Time)
+        self.master.after(500, self.Update_Clock)
+
+    # Define the function called when the 'Procedures' page selection button is clicked
+    def Show_Procedure_Page(self):
+
+        # Ensure that the correct widgets are displayed in accordance with the user's selection
+        if self.Current_Page_Widgets != self.Procedure_Page_Widgets:
+            self.Hide_Current_Page_Widgets()
+        self.Current_Page_Widgets = self.Procedure_Page_Widgets
+        self.Show_Current_Page_Widgets(
+            [
+            (self.Procedure_Entry_Field, 5, 60),
+            (self.Procedure_Submission_Button, 430, 60),
+            (self.First_Procedure_Desc_Label, 6, 90),
+            (self.Second_Procedure_Desc_Label, 6, 120),
+            (self.Third_Procedure_Desc_Label, 6, 150)
+            ]
+        )
+
+        # Ensure that the window is correctly configured in accordance with the user's selection
+        self.master.configure(background = "#223D29")
+        self.master.geometry("550x300+5+10")
+
+        # Ensure that the entry field variable is reset
+        self.Procedure_Entry_Field_Variable.set(" Please enter the name of the desired procedure")
+        self.Procedure_Descriptor_One.set("")
+        self.Procedure_Descriptor_Two.set("")
+        self.Procedure_Descriptor_Three.set("")
+
+    # Define the function called when the 'Memory Aids' page selection button is clicked
+    def Show_Memory_Aids_Page(self):
+        if self.Current_Page_Widgets != self.Memory_Aids_Page_Widgets:
+            self.Hide_Current_Page_Widgets()
+        self.Current_Page_Widgets = self.Memory_Aids_Page_Widgets
+        self.Show_Current_Page_Widgets(
+            [
+            (self.Memory_Aids_Entry_Field, 5, 60),
+            (self.Memory_Aids_Submission_Button, 430, 60),
+            (self.Memory_Aids_Descriptor_Label, 6, 90)
+            ]
+        )
+
+        # Ensure that the window is correctly configured in accordance with the user's selection
+        self.master.configure(background = "#223D29")
+        self.master.geometry("550x300+5+10")
+
+        # Ensure that the entry field variable is reset
+        self.Memory_Aids_Entry_Field_Variable.set(" What do you need help with?")
+
+    # Define the function called when the 'LIFEPAK 15' page selection button is clicked
+    def Show_LIFEPAK_15_Page(self):
+        if self.Current_Page_Widgets != self.LIFEPAK_15_Page_Widgets:
+            self.Hide_Current_Page_Widgets()
+        self.Current_Page_Widgets = self.LIFEPAK_15_Page_Widgets
+        self.Show_Current_Page_Widgets(
+            [
+            (self.LIFEPAK_15_Clock_Label, 0, 32),
+            (self.Vitals_Frame, 0, 62),
+            (self.HR_Header_Label, 2, 0),
+            (self.Pulse_Vitals_Frame, 2, 25)
+            ]
+        )
+
+        # Ensure that the window is correctly configured in accordance with the user's selection
+        self.master.configure(background = "Black")
+        self.master.geometry("650x400+5+10")
+
+        # Call the clock update function to update the LIFEPAK 15's current time
+        self.Update_Clock()
+
+    # Define the function called to hide all the currently displayed widgets
+    def Hide_Current_Page_Widgets(self):
+        for widget in self.Current_Page_Widgets:
+            widget.place_forget()
+
+    # Define the function called to show all the currently displayed widgets
+    def Show_Current_Page_Widgets(self, Widget_Coordinates):
+        for widget, x, y in Widget_Coordinates:
+            widget.place(x = x, y = y)
 
 
 
