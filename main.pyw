@@ -340,16 +340,15 @@ class Root_Window():
             font = ("System", 14),
             fg = "#02F78D",
             bg = "#041636",
-            pady = 5,
+            pady = 1,
             width = 82
         )
-
 
         # Create a 'HR' header label for the 'LIFEPAK 15' page
         self.HR_Header_Label = Label(
             master = self.master,
             text = "HR",
-            font = ("Arial Bold", 11),
+            font = ("Consolas Bold", 11),
             fg = "#02F78D",
             bg = "#041636"
         )
@@ -358,7 +357,7 @@ class Root_Window():
         self.Vitals_Frame = Frame(
             master = self.master,
             bg = "#041636",
-            height = 338,
+            height = 349,
             width = 170
         )
 
@@ -367,15 +366,24 @@ class Root_Window():
             master = self.Vitals_Frame,
             bg = "Black",
             height = 100,
-            width = 166
+            width = 164
         )
 
         # Create a 'SpO2' header label for the 'LIFEPAK 15' page
         self.SpO2_Header_Label = Label(
             master = self.Vitals_Frame,
             text = "SpO2",
-            font = ("Arial Bold", 11),
-            fg = "#03BAFC",
+            font = ("Consolas Bold", 11),
+            fg = "#02A3FA",
+            bg = "#041636"
+        )
+
+        # Create a second header detailing the SpO2 reading's unit of measurement for the 'LIFEPAK 15' page
+        self.SpO2_Unit_Label = Label(
+            master = self.Vitals_Frame,
+            text = "%",
+            font = ("Consolas", 10),
+            fg = "#02A3FA",
             bg = "#041636"
         )
 
@@ -384,7 +392,33 @@ class Root_Window():
             master = self.Vitals_Frame,
             bg = "Black",
             height = 100,
-            width = 166
+            width = 164
+        )
+
+        # Create a 'NIBP' header label for the 'LIFEPAK 15' page
+        self.NIBP_Header_Label = Label(
+            master = self.Vitals_Frame,
+            text = "NIBP",
+            font = ("Consolas Bold", 11),
+            fg = "#03F4FC",
+            bg = "#041636"
+        )
+
+        # Create a second header detailing the NIBP reading's unit of measurement for the 'LIFEPAK 15' page
+        self.NIBP_Unit_Label = Label(
+            master = self.Vitals_Frame,
+            text = "mmHg",
+            font = ("Consolas", 10),
+            fg = "#03F4FC",
+            bg = "#041636"
+        )
+
+        # Create a frame to hold the NIBP vital entry fields and MAP for the 'LIFEPAK 15' page
+        self.NIBP_Vitals_Frame = Frame(
+            master = self.Vitals_Frame,
+            bg = "Black",
+            height = 100,
+            width = 164
         )
 
         # Bind certain procedure entry field key / button actions to commands
@@ -413,7 +447,11 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
         self.LIFEPAK_15_Page_Widgets.append(self.Pulse_Vitals_Frame)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Header_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Unit_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.NIBP_Header_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.NIBP_Unit_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.NIBP_Vitals_Frame)
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
@@ -476,17 +514,21 @@ class Root_Window():
         self.Show_Current_Page_Widgets(
             [
             (self.LIFEPAK_15_Clock_Label, 0, 32),
-            (self.HR_Header_Label, 2, 36),
-            (self.Vitals_Frame, 0, 62),
-            (self.Pulse_Vitals_Frame, 2, 0),
+            (self.HR_Header_Label, 2, 32),
+            (self.Vitals_Frame, 0, 54),
+            (self.Pulse_Vitals_Frame, 3, 0),
             (self.SpO2_Header_Label, 2, 100),
-            (self.SpO2_Vitals_Frame, 2, 123)
+            (self.SpO2_Unit_Label, 155, 101),
+            (self.SpO2_Vitals_Frame, 3, 123),
+            (self.NIBP_Header_Label, 2, 223),
+            (self.NIBP_Unit_Label, 135, 223),
+            (self.NIBP_Vitals_Frame, 3, 245)
             ]
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
         self.master.configure(background = "Black")
-        self.master.geometry("650x400+5+10")
+        self.master.geometry("650x403+5+10")
 
         # Call the clock update function to update the LIFEPAK 15's current time
         self.Update_Clock()
