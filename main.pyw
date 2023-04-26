@@ -65,6 +65,8 @@ class Root_Window():
         self.Memory_Aids_Descriptor_Variable.set("")
         self.LIFEPAK_15_Clock_Variable = StringVar()
         self.LIFEPAK_15_Clock_Variable.set("TIME PLACEHOLDER")
+        self.Heart_Rate_Variable = StringVar()
+        self.Heart_Rate_Variable.set("---")
 
         # Call the defined 'Create_Widgets' function to create all of the OAPs widgets
         self.Create_Widgets()
@@ -175,6 +177,10 @@ class Root_Window():
             else:
                 self.Memory_Aids_Descriptor_Label.config(font = ("Verdana Bold", 12))
                 self.Memory_Aids_Descriptor_Variable.set("Memory Aid Not Found")
+
+        # Define the event called when a user clicks the heart rate entry field
+        def Heart_Rate_Entry_Field_Click(event):
+            self.Heart_Rate_Variable.set("")
 
         # Create a custom exit button linked to an exit command, modified by the 'variables' custom module
         self.Window_Exit_Button = Button(
@@ -362,12 +368,25 @@ class Root_Window():
             width = 170
         )
 
-        # Create a frame to hold the Pulse vital entry field for the 'LIFEPAK 15' page
-        self.Pulse_Vitals_Frame = Frame(
+        # Create a frame to hold the 'Heart Rate' vitals entry field for the 'LIFEPAK 15' page
+        self.Heart_Rate_Vitals_Frame = Frame(
             master = self.Vitals_Frame,
             bg = "Black",
             height = 100,
             width = 164
+        )
+
+        # Create a vitals entry field for users to input a 'Heart Rate' value for the 'LIFEPAK 15' page
+        self.Heart_Rate_Entry_Field = Entry(
+            master = self.Heart_Rate_Vitals_Frame,
+            textvariable = self.Heart_Rate_Variable,
+            font = ("Consolas Bold", 42),
+            fg = "#02F78D",
+            bg = "Black",
+            borderwidth = 0,
+            width = 3,
+            justify = "right",
+            validate = "key"
         )
 
         # Create a 'SpO2' header label for the 'LIFEPAK 15' page
@@ -433,6 +452,10 @@ class Root_Window():
         self.Memory_Aids_Entry_Field.bind("<Return>", Memory_Aids_Entry_Submit)
         self.Memory_Aids_Entry_Field.bind("<Control-BackSpace>", MA_Control_Backspace_Event)
         self.Memory_Aids_Submission_Button.bind("<Button-1>", Memory_Aids_Entry_Submit)
+        self.Heart_Rate_Entry_Field.bind("<Button-1>", Heart_Rate_Entry_Field_Click)
+
+        # Associate certain entry fields to their respective validate commands
+        self.Heart_Rate_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_Heart_Rate_Input), "%P"))
 
         # Append all necessary widgets to their respective arrays
         self.Procedure_Page_Widgets.append(self.Procedure_Entry_Field)
@@ -446,7 +469,8 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.LIFEPAK_15_Clock_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.HR_Header_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.Vitals_Frame)
-        self.LIFEPAK_15_Page_Widgets.append(self.Pulse_Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.Heart_Rate_Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.Heart_Rate_Entry_Field)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Header_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Unit_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Vitals_Frame)
@@ -459,6 +483,21 @@ class Root_Window():
         self.Current_Time = datetime.now().strftime("%H : %M : %S")
         self.LIFEPAK_15_Clock_Variable.set(self.Current_Time)
         self.master.after(500, self.Update_Clock)
+
+    # Define a custom valdiation function to ensure numeric user inputs
+    def Validate_Heart_Rate_Input(self, Proposed_Value):
+        if Proposed_Value.strip() == "":
+            return True
+        try:
+            float(Proposed_Value)
+            return True
+        except ValueError:
+            return False
+
+    # Define a custom function to calculate Mean Arterial Pressure via systolic/diastolic NIBP entries
+    def Calculate_MAP(self):
+        #! Temporary placeholder
+        pass
 
     # Define the function called when the 'Procedures' page selection button is clicked
     def Show_Procedure_Page(self):
@@ -478,7 +517,7 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.geometry("550x300+5+10")
+        self.master.geometry("550x300")
         self.master.iconbitmap("./Media/LAS Logo.ico")
         self.master.configure(background = "#223D29")
 
@@ -502,7 +541,7 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.geometry("550x300+5+10")
+        self.master.geometry("550x300")
         self.master.iconbitmap("./Media/LAS Logo.ico")
         self.master.configure(background = "#223D29")
 
@@ -519,7 +558,8 @@ class Root_Window():
             (self.LIFEPAK_15_Clock_Label, 0, 32),
             (self.HR_Header_Label, 2, 32),
             (self.Vitals_Frame, 0, 54),
-            (self.Pulse_Vitals_Frame, 3, 0),
+            (self.Heart_Rate_Vitals_Frame, 3, 0),
+            (self.Heart_Rate_Entry_Field, 55, 2),
             (self.SpO2_Header_Label, 2, 100),
             (self.SpO2_Unit_Label, 155, 101),
             (self.SpO2_Vitals_Frame, 3, 123),
@@ -530,7 +570,7 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.geometry("650x403+5+10")
+        self.master.geometry("650x403")
         self.master.iconbitmap("./Media/PhysioControl Logo.ico")
         self.master.configure(background = "Black")
 
