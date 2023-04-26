@@ -38,6 +38,7 @@ class Root_Window():
         master.geometry("550x300+5+10")
         master.resizable(False, False)
         master.attributes("-topmost", 1)
+        master.iconbitmap("./Media/LAS Logo.ico")
         master.configure(background = "#223D29", highlightthickness = 0)
 
         # Set the focus on the OAP following initialisation
@@ -477,8 +478,9 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.configure(background = "#223D29")
         self.master.geometry("550x300+5+10")
+        self.master.iconbitmap("./Media/LAS Logo.ico")
+        self.master.configure(background = "#223D29")
 
         # Ensure that the entry field variable is reset
         self.Procedure_Entry_Field_Variable.set(" Please enter the name of the desired procedure")
@@ -500,8 +502,9 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.configure(background = "#223D29")
         self.master.geometry("550x300+5+10")
+        self.master.iconbitmap("./Media/LAS Logo.ico")
+        self.master.configure(background = "#223D29")
 
         # Ensure that the entry field variable is reset
         self.Memory_Aids_Entry_Field_Variable.set(" What do you need help with?")
@@ -527,8 +530,9 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.configure(background = "Black")
         self.master.geometry("650x403+5+10")
+        self.master.iconbitmap("./Media/PhysioControl Logo.ico")
+        self.master.configure(background = "Black")
 
         # Call the clock update function to update the LIFEPAK 15's current time
         self.Update_Clock()
