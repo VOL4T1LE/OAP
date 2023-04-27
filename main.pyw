@@ -584,8 +584,11 @@ class Root_Window():
         if len(self.Heart_Rate_Entry_Field.get()) >= 3:
             return False
         try:
-            float(Proposed_Value)
-            return True
+            X = float(Proposed_Value)
+            if X > 600:
+                return False
+            else:
+                return True
         except ValueError:
             return False
         
