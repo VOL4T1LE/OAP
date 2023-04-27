@@ -596,8 +596,11 @@ class Root_Window():
         if len(self.SpO2_Entry_Field.get()) >= 3:
             return False
         try:
-            float(Proposed_Value)
-            return True
+            X = float(Proposed_Value)
+            if X > 100:
+                return False
+            else:
+                return True
         except ValueError:
             return False
         
@@ -655,6 +658,8 @@ class Root_Window():
 
     # Define the function called when the 'Memory Aids' page selection button is clicked
     def Show_Memory_Aids_Page(self):
+
+        # Ensure that the correct widgets are displayed in accordance with the user's selection
         if self.Current_Page_Widgets != self.Memory_Aids_Page_Widgets:
             self.Hide_Current_Page_Widgets()
         self.Current_Page_Widgets = self.Memory_Aids_Page_Widgets
@@ -676,6 +681,8 @@ class Root_Window():
 
     # Define the function called when the 'LIFEPAK 15' page selection button is clicked
     def Show_LIFEPAK_15_Page(self):
+
+        # Ensure that the correct widgets are displayed in accordance with the user's selection
         if self.Current_Page_Widgets != self.LIFEPAK_15_Page_Widgets:
             self.Hide_Current_Page_Widgets()
         self.Current_Page_Widgets = self.LIFEPAK_15_Page_Widgets
@@ -695,7 +702,7 @@ class Root_Window():
             (self.NIBP_Vitals_Frame, 3, 245),
             (self.Systolic_NIBP_Entry_Field, 85, 0),
             (self.Diastolic_NIBP_Entry_Field, 85, 45),
-            (self.Calculated_MAP_Display_Label, 5, 50)
+            (self.Calculated_MAP_Display_Label, 5, 60)
             ]
         )
 
