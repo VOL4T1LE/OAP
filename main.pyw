@@ -67,6 +67,14 @@ class Root_Window():
         self.LIFEPAK_15_Clock_Variable.set("TIME PLACEHOLDER")
         self.Heart_Rate_Variable = StringVar()
         self.Heart_Rate_Variable.set("---")
+        self.SpO2_Variable = StringVar()
+        self.SpO2_Variable.set("---")
+        self.Systolic_NIBP_Variable = StringVar()
+        self.Systolic_NIBP_Variable.set("---")
+        self.Diastolic_NIBP_Variable = StringVar()
+        self.Diastolic_NIBP_Variable.set("---")
+        self.Mean_Arterial_Pressure_Variable = StringVar()
+        self.Mean_Arterial_Pressure_Variable.set("")
 
         # Call the defined 'Create_Widgets' function to create all of the OAPs widgets
         self.Create_Widgets()
@@ -178,9 +186,21 @@ class Root_Window():
                 self.Memory_Aids_Descriptor_Label.config(font = ("Verdana Bold", 12))
                 self.Memory_Aids_Descriptor_Variable.set("Memory Aid Not Found")
 
-        # Define the event called when a user clicks the heart rate entry field
+        # Define the event called when a user clicks the Heart Rate entry field
         def Heart_Rate_Entry_Field_Click(event):
             self.Heart_Rate_Variable.set("")
+
+        # Define the event called when a user clicks the SpO2 entry field
+        def SpO2_Entry_Field_Click(event):
+            self.SpO2_Variable.set("")
+
+        # Define the event called when a user clicks the Systolic NIBP entry field
+        def Systolic_NIBP_Entry_Field_Click(event):
+            self.Systolic_NIBP_Variable.set("")
+
+        # Define the event called when a user clicks the Diastolic NIBP entry field
+        def Diastolic_NIBP_Entry_Field_Click(event):
+            self.Diastolic_NIBP_Variable.set("")
 
         # Create a custom exit button linked to an exit command, modified by the 'variables' custom module
         self.Window_Exit_Button = Button(
@@ -415,6 +435,19 @@ class Root_Window():
             width = 164
         )
 
+        # Create a vitals entry field for users to input a 'SpO2' value for the 'LIFEPAK 15' page
+        self.SpO2_Entry_Field = Entry(
+            master = self.SpO2_Vitals_Frame,
+            textvariable = self.SpO2_Variable,
+            font = ("Consolas Bold", 38),
+            fg = "#02A3FA",
+            bg = "Black",
+            borderwidth = 0,
+            width = 3,
+            justify = "right",
+            validate = "key"
+        )
+
         # Create a 'NIBP' header label for the 'LIFEPAK 15' page
         self.NIBP_Header_Label = Label(
             master = self.Vitals_Frame,
@@ -441,6 +474,41 @@ class Root_Window():
             width = 164
         )
 
+        # Create a vitals entry field for users to input a 'Systolic NIBP' value for the 'LIFEPAK 15' page
+        self.Systolic_NIBP_Entry_Field = Entry(
+            master = self.NIBP_Vitals_Frame,
+            textvariable = self.Systolic_NIBP_Variable,
+            font = ("Consolas Bold", 32),
+            fg = "#03F4FC",
+            bg = "Black",
+            borderwidth = 0,
+            width = 3,
+            justify = "right",
+            validate = "key"
+        )
+
+        # Create a vitals entry field for users to input a 'Diastolic NIBP' value for the 'LIFEPAK 15' page
+        self.Diastolic_NIBP_Entry_Field = Entry(
+            master = self.NIBP_Vitals_Frame,
+            textvariable = self.Diastolic_NIBP_Variable,
+            font = ("Consolas Bold", 32),
+            fg = "#03F4FC",
+            bg = "Black",
+            borderwidth = 0,
+            width = 3,
+            justify = "right",
+            validate = "key"
+        )
+
+        # Create a label to display the calculated Mean Arterial Pressure on the 'LIFEPAK 15' page
+        self.Calculated_MAP_Display_Label = Label(
+            master = self.NIBP_Vitals_Frame,
+            textvariable = self.Mean_Arterial_Pressure_Variable,
+            font = ("Consolas Bold", 18),
+            fg = "#03F4FC",
+            bg = "Black"
+        )
+
         # Bind certain procedure entry field key / button actions to commands
         self.Procedure_Entry_Field.bind("<Button-1>", Procedure_Entry_Field_Click)
         self.Procedure_Entry_Field.bind("<FocusIn>", Procedure_Entry_Field_Click)
@@ -453,9 +521,19 @@ class Root_Window():
         self.Memory_Aids_Entry_Field.bind("<Control-BackSpace>", MA_Control_Backspace_Event)
         self.Memory_Aids_Submission_Button.bind("<Button-1>", Memory_Aids_Entry_Submit)
         self.Heart_Rate_Entry_Field.bind("<Button-1>", Heart_Rate_Entry_Field_Click)
+        self.Heart_Rate_Entry_Field.bind("<FocusIn>", Heart_Rate_Entry_Field_Click)
+        self.SpO2_Entry_Field.bind("<Button-1>", SpO2_Entry_Field_Click)
+        self.SpO2_Entry_Field.bind("<FocusIn>", SpO2_Entry_Field_Click)
+        self.Systolic_NIBP_Entry_Field.bind("<Button-1>", Systolic_NIBP_Entry_Field_Click)
+        self.Systolic_NIBP_Entry_Field.bind("<FocusIn>", Systolic_NIBP_Entry_Field_Click)
+        self.Diastolic_NIBP_Entry_Field.bind("<Button-1>", Diastolic_NIBP_Entry_Field_Click)
+        self.Diastolic_NIBP_Entry_Field.bind("<FocusIn>", Diastolic_NIBP_Entry_Field_Click)
 
         # Associate certain entry fields to their respective validate commands
         self.Heart_Rate_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_Heart_Rate_Input), "%P"))
+        self.SpO2_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_SpO2_Input), "%P"))
+        self.Systolic_NIBP_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_Systolic_Input), "%P"))
+        self.Diastolic_NIBP_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_Diastolic_Input), "%P"))
 
         # Append all necessary widgets to their respective arrays
         self.Procedure_Page_Widgets.append(self.Procedure_Entry_Field)
@@ -474,9 +552,13 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Header_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Unit_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.SpO2_Entry_Field)
         self.LIFEPAK_15_Page_Widgets.append(self.NIBP_Header_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.NIBP_Unit_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.NIBP_Vitals_Frame)
+        self.LIFEPAK_15_Page_Widgets.append(self.Systolic_NIBP_Entry_Field)
+        self.LIFEPAK_15_Page_Widgets.append(self.Diastolic_NIBP_Entry_Field)
+        self.LIFEPAK_15_Page_Widgets.append(self.Calculated_MAP_Display_Label)
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
@@ -484,20 +566,64 @@ class Root_Window():
         self.LIFEPAK_15_Clock_Variable.set(self.Current_Time)
         self.master.after(500, self.Update_Clock)
 
-    # Define a custom valdiation function to ensure numeric user inputs
+    # Define a custom function to calculate and update the MAP value displayed on the 'LIFEPAK 15' page
+    def Calculate_MAP(self):
+        try:
+            Systolic_Value = int(self.Systolic_NIBP_Entry_Field.get())
+            Diastolic_Value = int(self.Diastolic_NIBP_Entry_Field.get())
+            self.Calculated_MAP_Value = ((Systolic_Value + (2 * Diastolic_Value)) // 3)
+            self.Mean_Arterial_Pressure_Variable.set(self.Calculated_MAP_Value)
+        except:
+            pass
+        self.master.after(4000, self.Calculate_MAP)
+
+    # Define a custom validation function to ensure numeric user inputs
     def Validate_Heart_Rate_Input(self, Proposed_Value):
         if Proposed_Value.strip() == "":
             return True
+        if len(self.Heart_Rate_Entry_Field.get()) >= 3:
+            return False
         try:
             float(Proposed_Value)
             return True
         except ValueError:
             return False
-
-    # Define a custom function to calculate Mean Arterial Pressure via systolic/diastolic NIBP entries
-    def Calculate_MAP(self):
-        #! Temporary placeholder
-        pass
+        
+    # Define a custom validation function to ensure numeric user inputs
+    def Validate_SpO2_Input(self, Proposed_Value):
+        if Proposed_Value.strip() == "":
+            return True
+        if len(self.SpO2_Entry_Field.get()) >= 3:
+            return False
+        try:
+            float(Proposed_Value)
+            return True
+        except ValueError:
+            return False
+        
+    # Define a custom validation function to ensure numeric user inputs
+    def Validate_Systolic_Input(self, Proposed_Value):
+        if Proposed_Value.strip() == "":
+            return True
+        if len(self.Systolic_NIBP_Entry_Field.get()) >= 3:
+            return False
+        try:
+            float(Proposed_Value)
+            return True
+        except ValueError:
+            return False
+    
+    # Define a custom validation function to ensure numeric user inputs
+    def Validate_Diastolic_Input(self, Proposed_Value):
+        if Proposed_Value.strip() == "":
+            return True
+        if len(self.Diastolic_NIBP_Entry_Field.get()) >= 3:
+            return False
+        try:
+            float(Proposed_Value)
+            return True
+        except ValueError:
+            return False
 
     # Define the function called when the 'Procedures' page selection button is clicked
     def Show_Procedure_Page(self):
@@ -559,13 +685,17 @@ class Root_Window():
             (self.HR_Header_Label, 2, 32),
             (self.Vitals_Frame, 0, 54),
             (self.Heart_Rate_Vitals_Frame, 3, 0),
-            (self.Heart_Rate_Entry_Field, 55, 2),
+            (self.Heart_Rate_Entry_Field, 62, 0),
             (self.SpO2_Header_Label, 2, 100),
             (self.SpO2_Unit_Label, 155, 101),
             (self.SpO2_Vitals_Frame, 3, 123),
+            (self.SpO2_Entry_Field, 70, 0),
             (self.NIBP_Header_Label, 2, 223),
             (self.NIBP_Unit_Label, 135, 223),
-            (self.NIBP_Vitals_Frame, 3, 245)
+            (self.NIBP_Vitals_Frame, 3, 245),
+            (self.Systolic_NIBP_Entry_Field, 85, 0),
+            (self.Diastolic_NIBP_Entry_Field, 85, 45),
+            (self.Calculated_MAP_Display_Label, 5, 50)
             ]
         )
 
@@ -576,6 +706,19 @@ class Root_Window():
 
         # Call the clock update function to update the LIFEPAK 15's current time
         self.Update_Clock()
+
+        # Call the function in charge of calculating and updating the MAP strign variable
+        self.Calculate_MAP()
+
+        # Correct any blank entry fields to display their appropriate strings
+        if self.Heart_Rate_Entry_Field.get() == "":
+            self.Heart_Rate_Variable.set("---")
+        if self.SpO2_Entry_Field.get() == "":
+            self.SpO2_Variable.set("---")
+        if self.Systolic_NIBP_Entry_Field.get() == "":
+            self.Systolic_NIBP_Variable.set("---")
+        if self.Diastolic_NIBP_Entry_Field.get() == "":
+            self.Diastolic_NIBP_Variable.set("---")
 
     # Define the function called to hide all the currently displayed widgets
     def Hide_Current_Page_Widgets(self):
