@@ -9,6 +9,7 @@ from Assets import variables as vars
 from Assets import commands as cmds
 from Assets import aliases as alss
 from Assets import procedures as proc
+from ecg_data import data_generator as ecg_dgn
 
 # Import the 'tkinter' module to facilitate the creation of an application window
 import tkinter as tk
@@ -509,6 +510,17 @@ class Root_Window():
             bg = "Black"
         )
 
+        # Create a canvas widget to facilitate the graphical plotting of an ECG tracing on the 'LIFEPAK 15' page
+        self.ECG_Tracing_Canvas = Canvas(
+            self.master,
+            width = 475,
+            height = 95,
+            background = "Black",
+            borderwidth = 0,
+            highlightbackground = "Yellow",
+            highlightthickness = 0
+        )
+
         # Bind certain procedure entry field key / button actions to commands
         self.Procedure_Entry_Field.bind("<Button-1>", Procedure_Entry_Field_Click)
         self.Procedure_Entry_Field.bind("<FocusIn>", Procedure_Entry_Field_Click)
@@ -524,7 +536,7 @@ class Root_Window():
         self.Heart_Rate_Entry_Field.bind("<FocusIn>", Heart_Rate_Entry_Field_Click)
         self.SpO2_Entry_Field.bind("<Button-1>", SpO2_Entry_Field_Click)
         self.SpO2_Entry_Field.bind("<FocusIn>", SpO2_Entry_Field_Click)
-        self.Systolic_NIBP_Entry_Field.bind("<Button-1>", Systolic_NIBP_Entry_Field_Click)
+        self.Systolic_NIBP_Entry_Field.bind("<Button-1>", self.Generate_ECG_Tracing)
         self.Systolic_NIBP_Entry_Field.bind("<FocusIn>", Systolic_NIBP_Entry_Field_Click)
         self.Diastolic_NIBP_Entry_Field.bind("<Button-1>", Diastolic_NIBP_Entry_Field_Click)
         self.Diastolic_NIBP_Entry_Field.bind("<FocusIn>", Diastolic_NIBP_Entry_Field_Click)
@@ -559,6 +571,16 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.Systolic_NIBP_Entry_Field)
         self.LIFEPAK_15_Page_Widgets.append(self.Diastolic_NIBP_Entry_Field)
         self.LIFEPAK_15_Page_Widgets.append(self.Calculated_MAP_Display_Label)
+        self.LIFEPAK_15_Page_Widgets.append(self.ECG_Tracing_Canvas)
+
+    def Generate_ECG_Tracing(self, event):
+        Heart_Rate = int(self.Heart_Rate_Entry_Field.get())
+        t, ecg = ecg_dgn.generate_ecg_data(heart_rate = Heart_Rate, duration = 6)
+        self.ECG_Tracing_Canvas.delete("all")
+        x_scale = 475 / len(ecg)
+        y_scale = 47.5
+        coords = [(i * x_scale, (ecg[i] - ecg.min()) * y_scale) for i in range(len(ecg))]
+        self.ECG_Tracing_Canvas.create_line(coords, fill = "Yellow")
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
@@ -711,7 +733,8 @@ class Root_Window():
             (self.NIBP_Vitals_Frame, 3, 245),
             (self.Systolic_NIBP_Entry_Field, 85, 0),
             (self.Diastolic_NIBP_Entry_Field, 85, 45),
-            (self.Calculated_MAP_Display_Label, 5, 60)
+            (self.Calculated_MAP_Display_Label, 5, 60),
+            (self.ECG_Tracing_Canvas, 171, 55)
             ]
         )
 
