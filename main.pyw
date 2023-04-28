@@ -9,7 +9,6 @@ from Assets import variables as vars
 from Assets import commands as cmds
 from Assets import aliases as alss
 from Assets import procedures as proc
-from ecg_data import data_generator as ecg_dgn
 
 # Import the 'tkinter' module to facilitate the creation of an application window
 import tkinter as tk
@@ -572,15 +571,6 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.Diastolic_NIBP_Entry_Field)
         self.LIFEPAK_15_Page_Widgets.append(self.Calculated_MAP_Display_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.ECG_Tracing_Canvas)
-
-    def Generate_ECG_Tracing(self, event):
-        Heart_Rate = int(self.Heart_Rate_Entry_Field.get())
-        t, ecg = ecg_dgn.generate_ecg_data(heart_rate = Heart_Rate, duration = 6)
-        self.ECG_Tracing_Canvas.delete("all")
-        x_scale = 475 / len(ecg)
-        y_scale = 47.5
-        coords = [(i * x_scale, (ecg[i] - ecg.min()) * y_scale) for i in range(len(ecg))]
-        self.ECG_Tracing_Canvas.create_line(coords, fill = "Yellow")
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
