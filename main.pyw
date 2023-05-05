@@ -9,6 +9,7 @@ from Assets import variables as vars
 from Assets import commands as cmds
 from Assets import aliases as alss
 from Assets import procedures as proc
+from ecg_data import nsr_data
 
 # Import the 'tkinter' module to facilitate the creation of an application window
 import tkinter as tk
@@ -19,6 +20,10 @@ import os
 
 # Import the 'datetime' module to handle the LIFEPAK 15's clock
 from datetime import datetime
+
+# Import the 'math' and 'random' modules
+import math
+import random
 
 
 
@@ -532,13 +537,9 @@ class Root_Window():
         self.Memory_Aids_Entry_Field.bind("<Control-BackSpace>", MA_Control_Backspace_Event)
         self.Memory_Aids_Submission_Button.bind("<Button-1>", Memory_Aids_Entry_Submit)
         self.Heart_Rate_Entry_Field.bind("<Button-1>", Heart_Rate_Entry_Field_Click)
-        self.Heart_Rate_Entry_Field.bind("<FocusIn>", Heart_Rate_Entry_Field_Click)
         self.SpO2_Entry_Field.bind("<Button-1>", SpO2_Entry_Field_Click)
-        self.SpO2_Entry_Field.bind("<FocusIn>", SpO2_Entry_Field_Click)
-        self.Systolic_NIBP_Entry_Field.bind("<Button-1>", self.Generate_ECG_Tracing)
-        self.Systolic_NIBP_Entry_Field.bind("<FocusIn>", Systolic_NIBP_Entry_Field_Click)
+        self.Systolic_NIBP_Entry_Field.bind("<Button-1>", Systolic_NIBP_Entry_Field_Click)
         self.Diastolic_NIBP_Entry_Field.bind("<Button-1>", Diastolic_NIBP_Entry_Field_Click)
-        self.Diastolic_NIBP_Entry_Field.bind("<FocusIn>", Diastolic_NIBP_Entry_Field_Click)
 
         # Associate certain entry fields to their respective validate commands
         self.Heart_Rate_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_Heart_Rate_Input), "%P"))
@@ -572,6 +573,107 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.Calculated_MAP_Display_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.ECG_Tracing_Canvas)
 
+    # Define a custom function to handle ECG tracing updates
+    def Update_ECG_Tracing(self):
+
+        # Clear any previous ECG tracings
+        self.ECG_Tracing_Canvas.delete("all")
+
+        # Get the current value input into the Heart Rate vitals entry field
+        Heart_Rate = self.Heart_Rate_Entry_Field.get()
+        
+        # Specify canvas dimensions
+        Canvas_Length = 475
+        Canvas_Centre_Height = 47.5
+
+        # Draw a flat isoelectric line under relevant conditions
+        if not Heart_Rate or Heart_Rate == "---" or int(Heart_Rate) == 0:
+
+            # Draw a flat isoelectric line on the ECG tracing canvas widget
+            self.ECG_Tracing_Canvas.create_line(0, Canvas_Centre_Height, Canvas_Length, Canvas_Centre_Height, fill = "Yellow")
+        else:
+
+            # Specify initial tracing coordinates
+            x = random.uniform(0, 60)
+            y = 47.5
+
+            # Clear any previous ECG tracings
+            self.ECG_Tracing_Canvas.delete("all")
+
+            # Create an array to store the final coordinates of each PQRST complex
+            Final_Coords = [(x, y)]
+
+            # Calculate the number of PQRST complexes to be displayed
+            Number_Of_Complexes = int(Heart_Rate) // 6
+
+            # Create for loop to iterate through heart rate and create appropriate amount of ECG complexes
+            if Number_Of_Complexes == 0:
+                self.ECG_Tracing_Canvas.delete("all")
+                self.ECG_Tracing_Canvas.create_line(0, Canvas_Centre_Height, Canvas_Length, Canvas_Centre_Height, fill = "Yellow")
+            else:
+                for i in range(Number_Of_Complexes):
+
+                    # Define a random uniform length for each TP interval
+                    TPL = random.uniform(60, 100)
+
+                    if i == 0:
+                        pass
+                    else:
+
+                        # Define a random length for each TP interval
+                        if i == 0:
+                            TPL = random.uniform(60, 100)
+                        else:
+                            TPL = random.uniform(60, 120)
+
+                        if i == 0:
+                            # Prevent gap at start of ECG trace
+                            x += TPL
+                        else:
+                            # Set starting coordinates to end of next PQRST complex
+                            x, y = Final_Coords[- 1]
+
+                        # Create PQRST data array
+                        ECG_Deflection_Data = []
+
+                        # Construct P wave and a PR segment
+                        ECG_Deflection_Data.append(
+                            [
+                                x + 0, y - 0,       # End of TP interval
+                                x + 7, y - 0,       # Start of P wave deflection
+                                x + 9, y - 2,
+                                x + 11, y - 3,      # Peak of P wave deflection
+                                x + 13, y - 2,
+                                x + 15, y - 0,      # End of P wave deflection, beginning of PR segment
+                                x + 19, y - 0       # End of PR segment
+                            ]
+                        )
+
+                        # Construct a QRS complex followed by a T wave
+                        ECG_Deflection_Data.append(
+                            [
+                                x + 22, y + 8,      # Q deflection
+                                x + 25, y - 29,     # R deflection
+                                x + 27, y + 14,     # S deflection
+                                x + 30, y + 1,      # J point
+                                x + 35, y - 1,      # ST segment
+                                x + 37, y - 4,
+                                x + 40, y - 6,      # Peak of T wave deflection
+                                x + 43, y - 4,
+                                x + 45, y - 0,      # End of T wave deflection, beginning of TP interval
+                                x + TPL, y - 0,     # End of PQRST complex (TP interval included)
+                            ]
+                        )
+
+                        # Create ECG tracing using wave deflection data provided
+                        self.ECG_Tracing_Canvas.create_line(ECG_Deflection_Data, fill = "Yellow", width = 1)
+                        
+                        # Append final coords to appropriate array, to be used as starting point of next complex
+                        Final_Coords.append((x + 45, y))
+
+        # Begin an infinite loop, facilitating constant updating of the ECG tracing
+        self.master.after(500, self.Update_ECG_Tracing)
+
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
         self.Current_Time = datetime.now().strftime("%H : %M : %S")
@@ -593,6 +695,8 @@ class Root_Window():
     def Validate_Heart_Rate_Input(self, Proposed_Value):
         if Proposed_Value.strip() == "":
             return True
+        if "." in Proposed_Value:
+            return False
         if len(self.Heart_Rate_Entry_Field.get()) >= 3:
             return False
         try:
@@ -608,6 +712,8 @@ class Root_Window():
     def Validate_SpO2_Input(self, Proposed_Value):
         if Proposed_Value.strip() == "":
             return True
+        if "." in Proposed_Value:
+            return False
         if len(self.SpO2_Entry_Field.get()) >= 3:
             return False
         try:
@@ -623,6 +729,8 @@ class Root_Window():
     def Validate_Systolic_Input(self, Proposed_Value):
         if Proposed_Value.strip() == "":
             return True
+        if "." in Proposed_Value:
+            return False
         if len(self.Systolic_NIBP_Entry_Field.get()) >= 3:
             return False
         try:
@@ -638,6 +746,8 @@ class Root_Window():
     def Validate_Diastolic_Input(self, Proposed_Value):
         if Proposed_Value.strip() == "":
             return True
+        if "." in Proposed_Value:
+            return False
         if len(self.Diastolic_NIBP_Entry_Field.get()) >= 3:
             return False
         try:
@@ -738,6 +848,9 @@ class Root_Window():
 
         # Call the function in charge of calculating and updating the MAP strign variable
         self.Calculate_MAP()
+
+        # Call the ECG trace update function to draw a flat isoelectric line and begin an update loop
+        self.Update_ECG_Tracing()
 
         # Correct any blank entry fields to display their appropriate strings
         if self.Heart_Rate_Entry_Field.get() == "":
