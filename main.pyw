@@ -9,7 +9,6 @@ from Assets import variables as vars
 from Assets import commands as cmds
 from Assets import aliases as alss
 from Assets import procedures as proc
-from ecg_data import nsr_data
 
 # Import the 'tkinter' module to facilitate the creation of an application window
 import tkinter as tk
