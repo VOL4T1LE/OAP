@@ -1,0 +1,51 @@
+
+START OF PROCEDURE
+##################
+
+PREREQUISITES
+ > At least one available large-bore (16-18 gauge) Peripheral Intravenous Line
+ > Ensure the availability of universal donor, or patient-compatible blood products
+ > Active monitoring of cardiac vital signs via a LIFEPAK 15 monitor
+
+PATIENT PREPARATION
+ > Assess the patient for any indications of haemodynamic instability or active haemorrhaging
+ *I'd expose the patient's arm for blood transfusion*
+ *I'd place a proximal tourniquet round the patient's arm*
+ > This is done to promote venous distension
+ *I'd select an appropriate site for venipuncutre*
+ > This is typically:
+    > The Antecubital Fossa
+    > The Dorsal Vein
+ *I'd sterilise the chosen insertion site with a 2% chlorhexidine wipe*
+ *I'd allow the site to dry*
+
+PROCEDURE PREPARATION
+ *I'd get a pack of O- blood product*
+ *I'd inspect the pack for any impurities*
+ > These would include:
+    > Discolouration
+    > Clots
+    > Any other abnormalities
+ *I'd label the blood product with the patient's name, blood group, and the expiration time of the pack*
+ *I'd get a blood administration set with a filter*
+ *I'd remove the protective cover from the spike*
+ *I'd ensure the clamp on the blood transfusion tubing is closed*
+ *I'd spike the blood product pack's access port*
+ *I'd prime the administration set with Normal Saline solution*
+ *I'd ensure no air bubbles were present in the blood transfusion tubing*
+
+CONSIDERATIONS
+ > Remember that Saline is the only solution that can be transfused with blood products
+ > Therefore, consider the necessity of another Peripheral Intravenous Line for concomitant pharmacotherapy
+
+BLOOD TRANSFUSION
+ *I'd connect the blood transfusion tubing to the pIV line hub*
+ *I'd ensure the BTT was securely connected to the hub*
+ *I'd open the clamp on the administration set to initiate blood transfusion*
+ > Observe the initial few millilitres of blood for indications of transfusion reactions, for example:
+    > Haemolysis
+    > Gas bubbles
+ *I'd adjust the flow rate of blood transfusion appropriately*
+
+END OF PROCEDURE
+################
