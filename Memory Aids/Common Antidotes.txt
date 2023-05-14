@@ -6,7 +6,7 @@ Common Antidotes | Memory Aid
 List of Common Antidotes (Alphabetical Order)
 
 Substance(s) / Class            Generic Antidote (Trade Name)
---------------------            -----------------------------
+-------------------------------------------------------------
 Acetaminophen               |   N-Acetylcysteine (Mucomyst®)
 Aceylsalicylic Acid         |   Sodium Bicarbonate
 Alcohol Withdrawal          |   Chlordiazepoxide Hydrochloride (Librium®)
@@ -15,8 +15,8 @@ Anticoagulants              |   Vitamin K / Phytomenadione  &  Fresh Frozen Plas
 Benzodiazepines             |   Flumazenil
 Beta Blockers               |   Glucagon
 Calcium-Channel Blockers    |   Glucagon  or  10% Calcium Gluconate  or  Insulin
-Carbamates                  |   Atropine Sulphate (AtroPen®)  and  Pralidoxime (2-PAM Cl)
-Cholinergics                |   Atropine Sulphate (AtroPen®)  and  Pralidoxime (2-PAM Cl)
+Carbamates                  |   DuoDote® (Atropine + Pralidoxime Combination)
+Cholinergics                |   DuoDote® (Atropine + Pralidoxime Combination)
 Cyanide                     |   25% Sodium Thiosulphate  or  Isopentyl Nitrate
 Digoxin                     |   Digoxin-specific Antibody (DigiFab®)
 Ethanol                     |   Fomepizole
@@ -27,13 +27,13 @@ Magnesium Sulphate          |   Calcium Gluconate
 Methaemoglobin              |   Methylthionium Chloride / Methylene Blue
 Methanol                    |   Fomepizole
 Methotrexate                |   Leucovorin / Folinic Acid / Calcium Folinate
-Novichok Agents             |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Novichok Agents             |   DuoDote® (Atropine + Pralidoxime Combination)
 Opioids                     |   Naloxone Hydrochloride (Narcan®)
-Organophosphates            |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Organophosphates            |   DuoDote® (Atropine + Pralidoxime Combination)
 Polonium Radioisotopes      |   Chelation Therapy via Dimercaprol / British Anti-Lewisite
-Sarin                       |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+Sarin                       |   ADuoDote® (Atropine + Pralidoxime Combination)
 Tricyclic Antidepressants   |   Sodium Bicarbonate
-VX Nerve Agent              |   Atropine Sulphate (AtroPen®)  then  Pralidoxime (2-PAM Cl)  and  Diazepam  or  Midazolam
+VX Nerve Agent              |   DuoDote® (Atropine + Pralidoxime Combination)
 Warfarin                    |   Vitamin K / Phytomenadione
 
 
