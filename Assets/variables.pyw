@@ -39,10 +39,10 @@ PID_Total_String = "42"
 PID_Total_Integer = 42
 
 # Number of MAID's stored as a string
-MAID_Total_String = "11"
+MAID_Total_String = "12"
 
 # Number of MAID's stored as an integer
-MAID_Total_Integer = 11
+MAID_Total_Integer = 12
 
 
 ###########################################################################################################

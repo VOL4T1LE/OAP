@@ -1,0 +1,19 @@
+
+##########################################
+Nerve Agent Exposure Mnemonic | Memory Aid
+##########################################
+
+SLUDGEM, a mnemonic for the indications of
+exposure to a nerve agent.
+
+S  |  Salivation (Drooling)
+L  |  Lacrimation (Tearing up)
+U  |  Urination
+D  |  Defecation (Excretion)
+G  |  Gastrointestinal Upset
+E  |  Emesis (Vomiting)
+M  |  Miosis (Pupillary constriction)
+
+
+##########################################
+##########################################

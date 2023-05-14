@@ -56,6 +56,7 @@ Memory_Aid_IDs = {
     "9": "Behavioural Pain Score.txt",
     "10": "Glasgow Coma Scale (2018).txt",
     "11": "Common Antidotes.txt",
+    "12": "Nerve Agent Exposure Mnemonic.txt",
 }
 
 Procedure_Details = {
