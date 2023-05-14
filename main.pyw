@@ -593,7 +593,7 @@ class Root_Window():
         else:
 
             # Specify initial tracing coordinates
-            x = random.uniform(0, 60)
+            x = random.uniform(-60, 0)
             y = 47.5
 
             # Clear any previous ECG tracings
@@ -609,28 +609,85 @@ class Root_Window():
             if Number_Of_Complexes == 0:
                 self.ECG_Tracing_Canvas.delete("all")
                 self.ECG_Tracing_Canvas.create_line(0, Canvas_Centre_Height, Canvas_Length, Canvas_Centre_Height, fill = "Yellow")
+            elif Number_Of_Complexes == 1:
+                self.ECG_Tracing_Canvas.delete("all")
+                self.ECG_Tracing_Canvas.create_line(0, Canvas_Centre_Height, Canvas_Length, Canvas_Centre_Height, fill = "Yellow")
+            elif Number_Of_Complexes == 2:
+                # Set starting coordinates to end of next PQRST complex
+                x, y = Final_Coords[- 1]
+
+                # Define a random integer to modify the x-axis of each single-complex tracing
+                RI = random.uniform(60, 400)
+
+                # Define a modified random integer to modify the x-axis followign the PQRST complex
+                MRI = RI * 6.2
+
+                # Create PQRST data array
+                ECG_Deflection_Data = []
+
+                # Construct P wave and a PR segment
+                ECG_Deflection_Data.append(
+                    [
+                        x + 0, y - 0,       # End of TP interval
+                        x + RI + 7, y - 0,       # Start of P wave deflection
+                        x + RI + 9, y - 2,
+                        x + RI + 11, y - 3,      # Peak of P wave deflection
+                        x + RI + 13, y - 2,
+                        x + RI + 15, y - 0,      # End of P wave deflection, beginning of PR segment
+                        x + RI + 19, y - 0       # End of PR segment
+                    ]
+                )
+
+                # Construct a QRS complex followed by a T wave
+                ECG_Deflection_Data.append(
+                    [
+                        x + RI + 22, y + 8,      # Q deflection
+                        x + RI + 25, y - 29,     # R deflection
+                        x + RI + 27, y + 14,     # S deflection
+                        x + RI + 30, y + 1,      # J point
+                        x + RI + 35, y - 1,      # ST segment
+                        x + RI + 37, y - 4,
+                        x + RI + 40, y - 6,      # Peak of T wave deflection
+                        x + RI + 43, y - 4,
+                        x + RI + 45, y - 0,      # End of T wave deflection, beginning of TP interval
+                        x + MRI, y - 0
+                    ]
+                )
+
+                # Create ECG tracing using wave deflection data provided
+                self.ECG_Tracing_Canvas.create_line(ECG_Deflection_Data, fill = "Yellow", width = 1)
+                
+                # Append final coords to appropriate array, to be used as starting point of next complex
+                Final_Coords.append((x + MRI, y))
             else:
                 for i in range(Number_Of_Complexes):
-
-                    # Define a random uniform length for each TP interval
-                    TPL = random.uniform(60, 100)
 
                     if i == 0:
                         pass
                     else:
 
-                        # Define a random length for each TP interval
-                        if i == 0:
-                            TPL = random.uniform(60, 100)
-                        else:
-                            TPL = random.uniform(60, 120)
+                        # Set starting coordinates to end of next PQRST complex
+                        x, y = Final_Coords[- 1]
 
-                        if i == 0:
-                            # Prevent gap at start of ECG trace
-                            x += TPL
+                        # Define TP interval length
+                        TPL = random.uniform(15, 80)
+
+                        if Number_Of_Complexes < 10:
+                            TPL = random.uniform(60, 180) + x
+
+                        # Define a scaling factor for each PQRST complex
+                        if Number_Of_Complexes > 40:
+                            SF = 0.6
+                            TPL = TPL * -0.2
+                        elif Number_Of_Complexes > 20:
+                            SF = 0.7
+                            TPL = TPL * 0.01
+                        elif Number_Of_Complexes <= 20:
+                            SF = 1.0
+                        elif Number_Of_Complexes < 10:
+                            SF = 1.8
                         else:
-                            # Set starting coordinates to end of next PQRST complex
-                            x, y = Final_Coords[- 1]
+                            SF = 1.2
 
                         # Create PQRST data array
                         ECG_Deflection_Data = []
@@ -638,40 +695,40 @@ class Root_Window():
                         # Construct P wave and a PR segment
                         ECG_Deflection_Data.append(
                             [
-                                x + 0, y - 0,       # End of TP interval
-                                x + 7, y - 0,       # Start of P wave deflection
-                                x + 9, y - 2,
-                                x + 11, y - 3,      # Peak of P wave deflection
-                                x + 13, y - 2,
-                                x + 15, y - 0,      # End of P wave deflection, beginning of PR segment
-                                x + 19, y - 0       # End of PR segment
+                                x + 0 * SF, y - 0,       # End of TP interval
+                                x + 7 * SF, y - 0,       # Start of P wave deflection
+                                x + 9 * SF, y - 2,
+                                x + 11 * SF, y - 3,      # Peak of P wave deflection
+                                x + 13 * SF, y - 2,
+                                x + 15 * SF, y - 0,      # End of P wave deflection, beginning of PR segment
+                                x + 19 * SF, y - 0       # End of PR segment
                             ]
                         )
 
                         # Construct a QRS complex followed by a T wave
                         ECG_Deflection_Data.append(
                             [
-                                x + 22, y + 8,      # Q deflection
-                                x + 25, y - 29,     # R deflection
-                                x + 27, y + 14,     # S deflection
-                                x + 30, y + 1,      # J point
-                                x + 35, y - 1,      # ST segment
-                                x + 37, y - 4,
-                                x + 40, y - 6,      # Peak of T wave deflection
-                                x + 43, y - 4,
-                                x + 45, y - 0,      # End of T wave deflection, beginning of TP interval
-                                x + TPL, y - 0,     # End of PQRST complex (TP interval included)
+                                x + 22 * SF, y + 8,      # Q deflection
+                                x + 25 * SF, y - 29,     # R deflection
+                                x + 27 * SF, y + 14,     # S deflection
+                                x + 30 * SF, y + 1,      # J point
+                                x + 35 * SF, y - 1,      # ST segment
+                                x + 37 * SF, y - 4,
+                                x + 40 * SF, y - 6,      # Peak of T wave deflection
+                                x + 43 * SF, y - 4,
+                                x + 45 * SF, y - 0,      # End of T wave deflection, beginning of TP interval
+                                x + 45 + TPL, y - 0
                             ]
                         )
 
                         # Create ECG tracing using wave deflection data provided
                         self.ECG_Tracing_Canvas.create_line(ECG_Deflection_Data, fill = "Yellow", width = 1)
-                        
+                            
                         # Append final coords to appropriate array, to be used as starting point of next complex
-                        Final_Coords.append((x + 45, y))
+                        Final_Coords.append((x + 45 + TPL, y))
 
         # Begin an infinite loop, facilitating constant updating of the ECG tracing
-        self.master.after(500, self.Update_ECG_Tracing)
+        self.master.after(2000, self.Update_ECG_Tracing)
 
     # Define a custom function to update the LIFEPAK 15's clock widget
     def Update_Clock(self):
