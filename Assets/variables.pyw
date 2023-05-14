@@ -33,10 +33,10 @@ Program_Version = "V0.3.0"
 Version_Integer = "0.3.0"
 
 # Number of PID's stored as a string
-PID_Total_String = "41"
+PID_Total_String = "42"
 
 # Number of PID's stored as an integer
-PID_Total_Integer = 41
+PID_Total_Integer = 42
 
 # Number of MAID's stored as a string
 MAID_Total_String = "11"
