@@ -10,4 +10,4 @@
 
 ### Current Functions
 - Two search utilities available for over 40 procedures of varying clinical scopes of practice along with over 10 memory aids
-- A work-in-progress LIFEPAK 15 option, designed to somewhat emulate a patient vital sign monitor (To be developed some time in the future)
+- A rudimentary LIFEPAK 15 option, designed to emulate the basic aspects of the aforementioned patient monitor
