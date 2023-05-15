@@ -17,6 +17,7 @@ CONTRAINDICATIONS
 
 FORMULATION
  > Gas for Inhalation
+ > Medical oxygen of variable cocnentration and flow rate
 
 FLOW RATE
  > 1 to 15 Litres Per Minute as appropriate
