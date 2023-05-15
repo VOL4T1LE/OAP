@@ -330,8 +330,6 @@ Memory_Aid_Aliases = {
 Medication_Aliases = {
     "c01ca24": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "C01CA24": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
-    "epi": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
-    "Epi": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "epipen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Epipen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "EpiPen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
@@ -341,6 +339,17 @@ Medication_Aliases = {
     "epi pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Epi pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Epi Pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "epi injector": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "Epi injector": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "Epi Injector": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "im epi": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "Im epi": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "IM epi": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "IM Epi": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "im epinephrine": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "Im epinephrine": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "IM epinephrine": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "IM Epinephrine": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "epinephrine ai": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Epinephrine ai": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Epinephrine AI": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
@@ -387,6 +396,9 @@ Medication_Aliases = {
     "Adrenaline auto-injector": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Adrenaline Auto-injector": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Adrenaline Auto-Injector": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "adrenaline pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "Adrenaline pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "Adrenaline Pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
 }
 
 Procedure_Aliases = {
