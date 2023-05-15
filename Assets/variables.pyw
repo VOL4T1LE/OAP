@@ -45,10 +45,10 @@ MAID_Total_String = "12"
 MAID_Total_Integer = 12
 
 # Number of FSID's stored as a string
-FSID_Total_String = "1"
+FSID_Total_String = "2"
 
 # Numebr of FSID's stored as an integer
-FSID_Total_String = 1
+FSID_Total_String = 2
 
 
 ###########################################################################################################

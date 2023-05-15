@@ -399,6 +399,21 @@ Medication_Aliases = {
     "adrenaline pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Adrenaline pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
     "Adrenaline Pen": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+    "v03an01": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "V03AN01": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "oxy": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "Oxy": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "oxygen": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "Oxygen": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "o2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "O2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "conc o2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "Conc o2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "conc O2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "Conc O2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "concentrated oxygen": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "Concentrated oxygen": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "Concentrated Oxygen": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
 }
 
 Procedure_Aliases = {

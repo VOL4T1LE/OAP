@@ -1,0 +1,36 @@
+
+##################################################
+V03AN01  |  Medical Oxygen (10-100% Concentration)
+##################################################
+
+INDICATIONS
+ > COPD exacerbations
+ > Dyspnoea
+ > Hypoxaemia / Hypoxia
+ > Prophylaxis in cases of significant haemorrhaging
+
+CONTRAINDICATIONS
+ > Carbon dioxide narcosis with COPD
+ > Oxygen toxicity
+ > Paraquat poisoning (Unless SpO2 < 90%)
+ > Administration near an open flame or electrical source
+
+FORMULATION
+ > Gas for Inhalation
+
+FLOW RATE
+ > 1 to 15 Litres Per Minute as appropriate
+
+MAXIMUM DOSAGE  |  24 Hours
+ > No maximal dosage, use as required
+ > Avoid extended administration of oxygen at a high FiO2 ( > 60%) to avoid oxygen toxicity
+
+ROUTE OF ADMINISTRATION
+ > Inhalation via Oxygen Therapy Device
+
+THERAPEUTIC CLASSIFICATION
+ > Medical Gas
+
+
+##################################################
+##################################################
