@@ -1,3 +1,6 @@
 
 # Ignore all python cache files in GitHub commissions
 */__pycache__
+
+# Ignore all dev folder contents in GitHub commissions
+*/Dev
