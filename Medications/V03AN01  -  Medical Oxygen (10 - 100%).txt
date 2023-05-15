@@ -26,7 +26,7 @@ MAXIMUM DOSAGE  |  24 Hours
  > No maximal dosage, use as required
  > Avoid extended administration of oxygen at a high FiO2 ( > 60%) to avoid oxygen toxicity
 
-ROUTE OF ADMINISTRATION
+ROUTE(S) OF ADMINISTRATION
  > Inhalation via Oxygen Therapy Device
 
 THERAPEUTIC CLASSIFICATION
