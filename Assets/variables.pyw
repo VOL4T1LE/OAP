@@ -27,10 +27,10 @@ Exit_Confirmation_Bool = False   #* Variable temporarily set to false for testin
 Program_Title = "Operational Aid Program"
 
 # Define the current version of the program
-Program_Version = "V0.3.0"
+Program_Version = "V0.4.0"
 
-# Define the current version of the program as an integer (stored as a string)
-Version_Integer = "0.3.0"
+# Define the current version number of the program (stored as a string)
+Version_Number = "0.4.0"
 
 # Number of PID's stored as a string
 PID_Total_String = "42"
@@ -43,6 +43,12 @@ MAID_Total_String = "12"
 
 # Number of MAID's stored as an integer
 MAID_Total_Integer = 12
+
+# Number of FSID's stored as a string
+FSID_Total_String = "1"
+
+# Numebr of FSID's stored as an integer
+FSID_Total_String = 1
 
 
 ###########################################################################################################

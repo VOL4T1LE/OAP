@@ -53,6 +53,7 @@ class Root_Window():
         self.Procedure_Page_Widgets = []
         self.Memory_Aids_Page_Widgets = []
         self.LIFEPAK_15_Page_Widgets = []
+        self.Formulary_Page_Widgets = []
 
         # Define all the necessary string variables for the OAP
         self.Procedure_Entry_Field_Variable = StringVar()
@@ -79,6 +80,10 @@ class Root_Window():
         self.Diastolic_NIBP_Variable.set("---")
         self.Mean_Arterial_Pressure_Variable = StringVar()
         self.Mean_Arterial_Pressure_Variable.set("")
+        self.Medication_Entry_Field_Variable = StringVar()
+        self.Medication_Entry_Field_Variable.set(" Search for a medical substance")
+        self.Medication_Descriptor_Variable = StringVar()
+        self.Medication_Descriptor_Variable.set("")
 
         # Call the defined 'Create_Widgets' function to create all of the OAPs widgets
         self.Create_Widgets()
@@ -96,7 +101,7 @@ class Root_Window():
             Start_Index = self.Procedure_Entry_Field.get().rfind(" ", None, End_Index)
             self.Procedure_Entry_Field.selection_range(Start_Index, End_Index)
 
-        # Define the event function called when a user submits their procedure entry
+        # Define the event function called when a user submits their procedure entry input
         def Procedure_Entry_Submit(event):
             Entry_Input = self.Procedure_Entry_Field_Variable.get()
             if Entry_Input in alss.Procedure_Aliases:
@@ -165,7 +170,7 @@ class Root_Window():
             Start_Index = self.Memory_Aids_Entry_Field.get().rfind(" ", None, End_Index)
             self.Memory_Aids_Entry_Field.selection_range(Start_Index, End_Index)
 
-        # Define the event function called when a user submits their previous entry
+        # Define the event function called when a user submits their memory aids entry input
         def Memory_Aids_Entry_Submit(event):
             Entry_Input = self.Memory_Aids_Entry_Field_Variable.get()
             if Entry_Input in alss.Memory_Aid_Aliases:
@@ -205,6 +210,27 @@ class Root_Window():
         # Define the event called when a user clicks the Diastolic NIBP entry field
         def Diastolic_NIBP_Entry_Field_Click(event):
             self.Diastolic_NIBP_Variable.set("")
+
+        # Defien the event called when a user clicks the Medication entry field
+        def Medication_Entry_Field_Click(event):
+            self.Medication_Entry_Field_Variable.set("")
+
+        # Define the event function called when a user modifies their medication entry input with the Control + Backspace key combination
+        def Medication_Control_Backspace_Event(event):
+            End_Index = self.Medication_Entry_Field.index(tk.INSERT)
+            Start_Index = self.Medication_Entry_Field.get().rfind(" ", None, End_Index)
+            self.Medication_Entry_Field.selection_range(Start_Index, End_Index)
+
+        # Define the event function called when a user submits their medication entry input
+        def Medication_Entry_Submit(event):
+            Entry_Input = self.Medication_Entry_Field.get()
+            if Entry_Input in alss.Medication_Aliases:
+                self.Medication_Descriptor_Variable.set("")
+                Entry_Filename = alss.Medication_Aliases[Entry_Input]
+                Current_Directory = os.getcwd()
+                os.startfile(f"{Current_Directory}/Medications/{Entry_Filename}")
+            else:
+                self.Medication_Descriptor_Variable.set("No such substance could be found in the local formulary")
 
         # Create a custom exit button linked to an exit command, modified by the 'variables' custom module
         self.Window_Exit_Button = Button(
@@ -260,6 +286,19 @@ class Root_Window():
             command = self.Show_LIFEPAK_15_Page
         )
 
+        # Create a selection button for the 'Formulary' page of the OAP, linked to a page selection command
+        self.Formulary_Selection_Button = Button(
+            master = self.master,
+            text = "Formulary",
+            font = ("Arial Bold", 11),
+            fg = "White",
+            bg = "#162119",
+            borderwidth = 0,
+            padx = 5,
+            pady = 3,
+            command = self.Show_Formulary_Page
+        )
+
         # Position the 'Procedures' selection button at the top left of the root window
         self.Procedure_Selection_Button.pack(
             anchor = N,
@@ -274,6 +313,12 @@ class Root_Window():
 
         # Position the 'LIFEPAK 15' selection button to the left of the 'Memory Aids' button
         self.LIFEPAK_15_Selection_Button.pack(
+            anchor = N,
+            side = LEFT
+        )
+
+        # Position the 'Formulary' selection button to the left of the 'LIFEPAK 15' button
+        self.Formulary_Selection_Button.pack(
             anchor = N,
             side = LEFT
         )
@@ -524,6 +569,37 @@ class Root_Window():
             highlightthickness = 0
         )
 
+        # Create an entry field for users to input the 'Medication Name' value for the 'Formulary' page
+        self.Medication_Entry_Field = Entry(
+            master = self.master,
+            takefocus = False,
+            textvariable = self.Medication_Entry_Field_Variable,
+            font = ("Verdana", 11),
+            width = 41,
+            fg = "#162119",
+            bg = "#78BF8B",
+            borderwidth = 0
+        )
+
+        # Create a submission button for the 'Formulary' page, bound to a command later on
+        self.Medication_Submission_Button = Button(
+            master = self.master,
+            text = "Submit",
+            font = ("Verdana Bold", 10),
+            fg = "#162119",
+            bg = "#78BF8B",
+            borderwidth = 0
+        )
+
+        # Create a descriptor label for the 'Formulary' page
+        self.Medication_Descriptor_Label = Label(
+            master = self.master,
+            textvariable = self.Medication_Descriptor_Variable,
+            font = ("Verdana Bold", 11),
+            fg = "White",
+            bg = "#223D29"
+        )
+
         # Bind certain procedure entry field key / button actions to commands
         self.Procedure_Entry_Field.bind("<Button-1>", Procedure_Entry_Field_Click)
         self.Procedure_Entry_Field.bind("<FocusIn>", Procedure_Entry_Field_Click)
@@ -539,6 +615,11 @@ class Root_Window():
         self.SpO2_Entry_Field.bind("<Button-1>", SpO2_Entry_Field_Click)
         self.Systolic_NIBP_Entry_Field.bind("<Button-1>", Systolic_NIBP_Entry_Field_Click)
         self.Diastolic_NIBP_Entry_Field.bind("<Button-1>", Diastolic_NIBP_Entry_Field_Click)
+        self.Medication_Entry_Field.bind("<Button-1>", Medication_Entry_Field_Click)
+        self.Medication_Entry_Field.bind("<FocusIn>", Medication_Entry_Field_Click)
+        self.Medication_Entry_Field.bind("<Return>", Medication_Entry_Submit)
+        self.Medication_Entry_Field.bind("<Control-BackSpace>", Medication_Control_Backspace_Event)
+        self.Medication_Submission_Button.bind("<Button-1>", Medication_Entry_Submit)
 
         # Associate certain entry fields to their respective validate commands
         self.Heart_Rate_Entry_Field.configure(validatecommand = (self.master.register(self.Validate_Heart_Rate_Input), "%P"))
@@ -571,6 +652,9 @@ class Root_Window():
         self.LIFEPAK_15_Page_Widgets.append(self.Diastolic_NIBP_Entry_Field)
         self.LIFEPAK_15_Page_Widgets.append(self.Calculated_MAP_Display_Label)
         self.LIFEPAK_15_Page_Widgets.append(self.ECG_Tracing_Canvas)
+        self.Formulary_Page_Widgets.append(self.Medication_Entry_Field)
+        self.Formulary_Page_Widgets.append(self.Medication_Submission_Button)
+        self.Formulary_Page_Widgets.append(self.Medication_Descriptor_Label)
 
     # Define a custom function to handle ECG tracing updates
     def Update_ECG_Tracing(self):
@@ -865,6 +949,7 @@ class Root_Window():
 
         # Ensure that the entry field variable is reset
         self.Memory_Aids_Entry_Field_Variable.set(" What do you need help with?")
+        self.Memory_Aids_Descriptor_Variable.set("")
 
     # Define the function called when the 'LIFEPAK 15' page selection button is clicked
     def Show_LIFEPAK_15_Page(self):
@@ -917,6 +1002,28 @@ class Root_Window():
             self.Systolic_NIBP_Variable.set("---")
         if self.Diastolic_NIBP_Entry_Field.get() == "":
             self.Diastolic_NIBP_Variable.set("---")
+
+    # Define the function called when the 'Formulary' page selection button is clicked
+    def Show_Formulary_Page(self):
+        if self.Current_Page_Widgets != self.Formulary_Page_Widgets:
+            self.Hide_Current_Page_Widgets()
+        self.Current_Page_Widgets = self.Formulary_Page_Widgets
+        self.Show_Current_Page_Widgets(
+            [
+            (self.Medication_Entry_Field, 5, 60),
+            (self.Medication_Submission_Button, 430, 60),
+            (self.Medication_Descriptor_Label, 6, 90)
+            ]
+        )
+
+        # Ensure that the window is correctly configured in accordance with the user's selection
+        self.master.geometry("550x300")
+        self.master.iconbitmap("./Media/LAS Logo.ico")
+        self.master.configure(background = "#223D29")
+
+        # Ensure that the entry field variable is reset
+        self.Medication_Entry_Field_Variable.set(" Search for a medical substance")
+        self.Medication_Descriptor_Variable.set("")
 
     # Define the function called to hide all the currently displayed widgets
     def Hide_Current_Page_Widgets(self):

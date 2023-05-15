@@ -1,0 +1,44 @@
+
+#################################################
+CO1CA24  |  Epinephrine (1 : 1,000 Concentration)
+#################################################
+
+INDICATIONS
+ > Allergy-induced airway constriction
+ > Anaphylaxis / Anaphylactic shock
+ > Severe acute asthma
+
+CONTRAINDICATIONS
+ > Active Catecholaminergic Polymorphic Tachycardia
+ > Active STEMI / NSTEMI
+ > States of shock other than anaphylactic
+
+FORMULATION
+ > Pre-Filled Injection Device
+ > 500mcg of Epinephrine administered per injection
+
+INITIAL DOSAGE
+ > One injection (500mcg of Epinephrine)
+
+REPEAT DOSAGES
+ > Multiple injections (500mcg of Epinephrine each)
+
+MAXIMUM DOSAGE  |  24 Hours
+ > Not to exceed 3 milligrams
+ > Calculates to a maximum of 6 injections
+
+ROUTE OF ADMINISTRATION
+ > Intramuscular Injection
+
+ONSET OF ACTION
+ > 1 to 2 Minutes
+
+DURATION OF ACTION
+ > 2 to 10 Minutes
+
+THERAPEUTIC CLASSIFICATION
+ > Sympathomimetic Agent
+
+
+#################################################
+#################################################

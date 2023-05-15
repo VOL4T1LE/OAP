@@ -59,6 +59,10 @@ Memory_Aid_IDs = {
     "12": "Nerve Agent Exposure Mnemonic.txt",
 }
 
+Formulary_Substance_IDs = {
+    "1": "CO1CA24  -  Epinephrine (1 ; 1,000).txt",
+}
+
 Procedure_Details = {
     "3-Lead Electrocardiogram Acquisition": {
         "File": "3-Lead Electrocardiogram Acquisition.txt",
