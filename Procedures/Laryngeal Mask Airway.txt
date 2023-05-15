@@ -1,0 +1,36 @@
+
+START OF PROCEDURE
+##################
+
+PATIENT PREPARATION
+ *I'd ensure the patient was in a supine position*
+ *I'd position the patient's head and neck in a neutral position*
+ > Ensure that the patient's airway is clear of any secretions or obstructions
+
+LMA PREPARATION
+ *I'd select an appropriately-sized Larynegal Mask Airway*
+ > This is based on a patient's:
+    > Age
+    > Weight
+    > Gender
+ *I'd ensure that the LMA cuff is fully inflated*
+ *I'd ensure that the pilot balloon isn't leaking*
+ *I'd deflate the cuff entirely using a 60cc syringe*
+ *I'd lubricate the LMA cuff with a water-soluble lubricant*
+
+LMA INSERTION
+ *I'd hold the LMA with my dominant hand*
+ *I'd open the patient's mouth with my non-dominant hand*
+ *I'd ensure the concave surface of the LMA is facing downwards*
+ *I'd insert the LMA and direct it towards the glottis*
+ *I'd advance slowly until resistance is felt*
+ *I'd inflate the LMA cuff with a syringe of air*
+
+CONFIRMATION OF PLACEMENT
+ *I'd get a laryngoscope blade and connect it to a handle*
+ *I'd insert the laryngoscope into the patient's mouth*
+ *I'd ensure the LMA was placed correctly in the hypopharynx*
+ *I'd ensure that the LMA isn't obstructing the glottis*
+
+END OF PROCEDURE
+################

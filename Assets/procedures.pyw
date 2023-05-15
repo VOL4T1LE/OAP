@@ -42,6 +42,7 @@ Procedure_IDs = {
     "40": "Emergency Removal of Embedded Objects",
     "41": "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae)",
     "42": "Simple Blood Transfusion",
+    "43": "Laryngeal Mask Airway",
 }
 
 Memory_Aid_IDs = {
@@ -316,5 +317,11 @@ Procedure_Details = {
         "Type": "Trauma Management",
         "Skill": "Advanced Practitioner +",
         "Procedure ID": "42"
+    },
+    "Laryngeal Mask Airway": {
+        "File": "Laryngeal Mask Airway.txt",
+        "Type": "Basic Airway Management",
+        "Skill": "Paramedic +",
+        "Procedure ID": "43"
     },
 }
