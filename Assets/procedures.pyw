@@ -326,4 +326,10 @@ Procedure_Details = {
         "Skill": "Paramedic +",
         "Procedure ID": "43"
     },
+    "Oropharyngeal Airway": {
+        "File": "Oropharyngeal Airway.txt",
+        "Type": "Basic Airway Management",
+        "Skill": "Paramedic +",
+        "Procedure ID": "44"
+    },
 }
