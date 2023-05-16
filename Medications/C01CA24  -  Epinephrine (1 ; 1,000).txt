@@ -12,6 +12,7 @@ CONTRAINDICATIONS
  > Active Catecholaminergic Polymorphic Tachycardia
  > Active STEMI / NSTEMI
  > States of shock other than anaphylactic
+ > Hyperglycaemia
 
 FORMULATION
  > Pre-Filled Injection Device
