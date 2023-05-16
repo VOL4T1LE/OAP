@@ -292,7 +292,7 @@ Procedure_Details = {
     },
     "Endotracheal Tube Intubation": {
         "File": "Endotracheal Tube Intubation.txt",
-        "Type": "Basic Airway Management",
+        "Type": "Advanced Airway Management",
         "Skill": "Paramedic +",
         "Procedure ID": "38"
     },
@@ -314,8 +314,8 @@ Procedure_Details = {
         "Skill": "PHEM Physician",
         "Procedure ID": "41"
     },
-    "Simple Blood Transfusion": {
-        "File": "Simple Blood Transfusion.txt",
+    "Whole Blood Transfusion": {
+        "File": "Whole Blood Transfusion.txt",
         "Type": "Trauma Management",
         "Skill": "Advanced Practitioner +",
         "Procedure ID": "42"
