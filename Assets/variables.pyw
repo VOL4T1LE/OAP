@@ -42,7 +42,7 @@ PID_Total_Integer = 43
 MAID_Total_String = "14"
 
 # Number of MAID's stored as an integer
-MAID_Total_Integer = 14`
+MAID_Total_Integer = 14
 
 # Number of FSID's stored as a string
 FSID_Total_String = "2"
