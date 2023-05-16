@@ -43,6 +43,7 @@ Procedure_IDs = {
     "41": "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae)",
     "42": "Whole Blood Transfusion",
     "43": "Laryngeal Mask Airway",
+    "44": "Oropharyngeal Airway",
 }
 
 Memory_Aid_IDs = {
