@@ -1,4 +1,7 @@
 
+# Copyright © 2023, V0L4T1LE
+# All rights reserved.
+
 #? NOTICE
 #? This file uses the "Better Comments" extension for Visual Studio Code.
 

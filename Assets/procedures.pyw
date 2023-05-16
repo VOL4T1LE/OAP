@@ -1,4 +1,8 @@
 
+# Copyright © 2023, V0L4T1LE
+# All rights reserved.
+
+
 Procedure_IDs = {
     "1": "3-Lead Electrocardiogram Acquisition",
     "2": "12-Lead Electrocardiogram Acquisition",

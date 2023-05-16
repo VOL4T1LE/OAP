@@ -14,3 +14,6 @@
 
 ### Planned Functions
 - New option designed to aid in the declaration and event logging of major or significant incidents
+
+###### Copyright © 2023, V0L4T1LE
+###### All Rights Reserved.

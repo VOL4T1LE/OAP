@@ -1,4 +1,8 @@
 
+# Copyright © 2023, V0L4T1LE
+# All rights reserved.
+
+
 Memory_Aid_Aliases = {
     "prim surv": "Primary Patient Assessment.txt",
     "Prim surv": "Primary Patient Assessment.txt",
