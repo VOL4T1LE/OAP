@@ -6,7 +6,7 @@ PREREQUISITES
  > At least one Peripheral Intravenous Line
 
 PATIENT PREPARATION
- *I'd ensure the patient is supine*
+ *I'd ensure that the patient was in a supine position*
  > Elevating the patient lessens the risk of diaphragm elevation
  > This decreases the risk of consequently misplacing the chest tube into the abdominal space
  *I'd abduct the arm on the affected side*

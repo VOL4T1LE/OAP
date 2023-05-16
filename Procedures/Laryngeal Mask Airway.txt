@@ -3,7 +3,7 @@ START OF PROCEDURE
 ##################
 
 PATIENT PREPARATION
- *I'd ensure the patient was in a supine position*
+ *I'd ensure that the patient was in a supine position*
  *I'd position the patient's head and neck in a neutral position*
  > Ensure that the patient's airway is clear of any secretions or obstructions
 

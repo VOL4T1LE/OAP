@@ -8,7 +8,7 @@ PRERQUISITES
  > Ideally, an Oropharyngeal Airway or Nasopharyngeal Airway should already be in place
 
 PREPARATION
- *I'd ensure the patient was supine*
+ *I'd ensure that the patient was in a supine position*
  *I'd retrieve a ZX oxygen cylinder*
  *I'd get some oxygen tubing*
  *I'd get a self-inflating bag ventilator*
