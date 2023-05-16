@@ -1,0 +1,48 @@
+
+##################################################
+CO1CA24  |  Epinephrine (1 : 10,000 Concentration)
+##################################################
+
+INDICATIONS
+ > Asystole
+ > Bradyarrhythmias
+ > Ventricular arrythmias
+
+CONTRAINDICATIONS
+ > Active Catecholaminergic Polymorphic Tachycardia
+ > Active STEMI / NSTEMI
+ > States of shock other than anaphylactic
+
+FORMULATION
+ > Pre-Filled Syringe
+ > 1mg of Epinephrine in a 10mL syringe
+
+INITIAL DOSAGE
+ > One syringe dose (1mg of Epinephrine per syringe)
+
+REPEAT DOSAGES
+ > One syringe dose (1mg of Epinephrine per syringe)
+
+MAXIMUM DOSAGE  |  24 Hours
+ > Not to exceed 10 milligrams
+ > Calculates to a maximum of 10 syringe doses
+
+ROUTE(S) OF ADMINISTRATION
+ > Intramuscular Injection
+ > Intraosseous Injection
+ > Intravenous Infusion
+ > Intravenous Injection
+ > Subcutaneous Injection
+
+ONSET OF ACTION
+ > 1 to 5 Minutes
+
+DURATION OF ACTION
+ > 2 to 10 Minutes
+
+THERAPEUTIC CLASSIFICATION
+ > Sympathomimetic Agent
+
+
+##################################################
+##################################################

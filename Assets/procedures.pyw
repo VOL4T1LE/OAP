@@ -66,6 +66,7 @@ Memory_Aid_IDs = {
 Formulary_Substance_IDs = {
     "1": "C01CA24  -  Epinephrine (1 ; 1,000).txt",
     "2": "V03AN01  -  Medical Oxygen (10 - 100%).txt",
+    "3": "C01CA24  -  Epinephrine (1 ; 10,000).txt",
 }
 
 Procedure_Details = {
