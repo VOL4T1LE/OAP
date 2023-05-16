@@ -11,3 +11,6 @@
 ### Current Functions
 - Three search utilities available for over 40 different procedures, over 10 memory aids, and 3 medical substances
 - A rudimentary LIFEPAK 15 option, designed to somewhat emulate the display of the aforementioned patient vital sign monitor
+
+### Planned Functions
+- New option designed to aid in the declaration and event logging of major or significant incidents
