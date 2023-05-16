@@ -9,5 +9,5 @@
 4. Any tampering with the file structure or the files themselves will likely result in undesired behaviour
 
 ### Current Functions
-- Three search utilities available for over 40 different procedures, over 10 memory aids, and 2 medical substances
+- Three search utilities available for over 40 different procedures, over 10 memory aids, and 3 medical substances
 - A rudimentary LIFEPAK 15 option, designed to somewhat emulate the display of the aforementioned patient vital sign monitor
