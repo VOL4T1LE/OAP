@@ -58,6 +58,7 @@ Memory_Aid_IDs = {
     "10": "Glasgow Coma Scale (2018).txt",
     "11": "Common Antidotes.txt",
     "12": "Nerve Agent Exposure Mnemonic.txt",
+    "13": "Neurovascular Assessment.txt",
 }
 
 Formulary_Substance_IDs = {

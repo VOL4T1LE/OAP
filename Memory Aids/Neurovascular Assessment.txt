@@ -1,0 +1,15 @@
+
+#####################################
+Neurovascular Assessment | Memory Aid
+#####################################
+
+The 5 P's
+
+  P  |  Pulse (Assess patients' pulse's consistency around the wound)
+  P  |  Perfusion (DCRT, Pallor / Cyanosis, etc)
+  P  |  Paraesthesia (Numbness, tingling, or burning sensation)
+  P  |  Paralysis (Inability to move the limb)
+  P  |  Pain (Assess with patient pain assessment)
+
+#####################################
+#####################################
