@@ -41,7 +41,7 @@ Procedure_IDs = {
     "39": "Chemical Burn Management",
     "40": "Emergency Removal of Embedded Objects",
     "41": "Veno-Venous Extracorporeal Membrane Oxygenation (Dual-Lumen Cannulae)",
-    "42": "Simple Blood Transfusion",
+    "42": "Whole Blood Transfusion",
     "43": "Laryngeal Mask Airway",
 }
 

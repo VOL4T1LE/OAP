@@ -4,7 +4,7 @@ START OF PROCEDURE
 
 PREREQUISITES
  > At least one Peripheral Intravenous Line
- > Necessary staff and equipment to perform a simple blood transfusion
+ > Necessary staff and equipment to perform a Whole Blood Transfusion
 
 PREREQUISITE CRITERIA
  > Ensure that most if not all the necessary criteria for emergency amputation are met:
@@ -70,7 +70,7 @@ HAEMORRHAGE CONTROL
  *I'd apply a sterile 4x4 gauze pad to the site*
  *I'd wrap the site with a sterile Kerlix gauze bandage roll*
  > Consider the necessity of applying a clotting agent
- > Consider the need for a Simple Blood Transfusion
+ > Consider the need for a Whole Blood Transfusion
 
 END OF PROCEDURE
 ################
