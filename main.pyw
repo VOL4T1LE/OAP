@@ -42,7 +42,7 @@ class Root_Window():
 
         # Configure the properties of the root window
         master.title(f"{vars.Service_Name}  |  {vars.Program_Title}  |  {vars.Program_Version}")
-        master.geometry("550x300+5+10")
+        master.geometry("600x300+5+10")
         master.resizable(False, False)
         master.attributes("-topmost", 1)
         master.iconbitmap("./Media/LAS Logo.ico")
@@ -297,7 +297,7 @@ class Root_Window():
             fg = "White",
             bg = "#162119",
             borderwidth = 0,
-            padx = 5,
+            padx = 10,
             pady = 3,
             command = self.Show_Formulary_Page
         )
@@ -920,7 +920,7 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.geometry("550x300")
+        self.master.geometry("600x300")
         self.master.iconbitmap("./Media/LAS Logo.ico")
         self.master.configure(background = "#223D29")
 
@@ -946,7 +946,7 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.geometry("550x300")
+        self.master.geometry("600x300")
         self.master.iconbitmap("./Media/LAS Logo.ico")
         self.master.configure(background = "#223D29")
 
@@ -1020,7 +1020,7 @@ class Root_Window():
         )
 
         # Ensure that the window is correctly configured in accordance with the user's selection
-        self.master.geometry("550x300")
+        self.master.geometry("600x300")
         self.master.iconbitmap("./Media/LAS Logo.ico")
         self.master.configure(background = "#223D29")
 
