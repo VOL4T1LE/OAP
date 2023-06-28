@@ -53,7 +53,7 @@ Procedure_IDs = {
 Memory_Aid_IDs = {
     "1": "Primary Patient Assessment.txt",
     "2": "Secondary Patient Assessment.txt",
-    "3": "Pain Assessment.txt",
+    "3": "Pre-Hospital Pain Assessment.txt",
     "4": "AVPU Assessnebt.txt",
     "5": "Glasgow Coma Scale.txt",
     "6": "Malnutrition Universal Screening Tool.txt",
@@ -65,6 +65,7 @@ Memory_Aid_IDs = {
     "12": "Nerve Agent Exposure Mnemonic.txt",
     "13": "Neurovascular Assessment.txt",
     "14": "Types of Fracture.txt",
+    "15": "In-Hospital Pain Assessment.txt",
 }
 
 Formulary_Substance_IDs = {

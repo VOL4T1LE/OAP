@@ -1,0 +1,19 @@
+
+########################################
+In-Hospital Pain Assessment | Memory Aid
+########################################
+
+SOCRATES
+
+S  |  Site of Pain
+O  |  Onset of Pain
+C  |  Character of Pain
+R  |  Region & Radiation of Pain
+A  |  Associated Symptoms
+T  |  Time / Duration of Pain
+E  |  Exacerbating / Palliating Factors
+S  |  Severity of Pain
+
+
+########################################
+########################################
