@@ -1,0 +1,17 @@
+
+#############################
+ASHICE Pre-Alert | Memory Aid
+#############################
+
+Hospital Pre-Alert
+
+A  |  Age of Patient
+S  |  Sex of Patient
+H  |  History of Incident
+I  |  Injury(s) / Illness(es)
+C  |  Condition of Patient
+E  |  Estimated Time of Arrival at A&E
+
+
+#############################
+#############################
