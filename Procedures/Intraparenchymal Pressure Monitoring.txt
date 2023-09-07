@@ -10,6 +10,7 @@ SITE ACQUISITION & PREPARATION
  > In focal brain injuries, select the most injured side
  > In multifocal brain injuries (diffuse injuries), select the right (nondominant) hemisphere
  *I'd select the appropriate hemisphere for the ICP probe*
+ *I'd ensure a LIFEPAK 15 patient monitor was set up for ICP monitoring on one of the two channels*
  *I'd mark 2-3cm anterior to the coronal suture in a plane with the midpupillary line behind the hairline*
  *I'd shave around the designated incision site*
  *I'd sterilise the site with 2% Chlorhexidine*
@@ -49,11 +50,11 @@ MONITOR SETUP
  *I'd manually screw the bolt into the skull*
  *I'd screw to approximately 1cm of depth*
  *I'd insert the stylet through the bolt to remove any bone or soft tissue debris*
- *I'd connect a fibreoptic catheter to an ICP monitor*
+ *I'd connect a fibreoptic catheter to the LIFEPAK 15*
  *I'd zero the fibreoptic catheter*
  *I'd insert the fibreoptic catheter through the bolt to a depth of 1.5cm*
  *I'd ensure the catheter was not under pressure against anything*
- *I'd turn the compression cap clockwise to secure the monitor*
+ *I'd turn the compression cap clockwise to secure*
  *I'd place a Tegaderm*
  *I'd assess the ICP waveform*
 
